@@ -51,7 +51,7 @@ send_packet(6,"play h"+random(1,5)+".ogg "+players[i2].x+" "+players[i2].y+" "+p
 }
 for (uint i2=0; i2<ais.length(); i2++)
 {
-if (ais[i2].map.name==map.name and get_3d_distance(x,y,z,ais[i2].x,ais[i2].y,ais[i2].z)<=30)
+if (ais[i2].map.name==map.name and get_3d_distance(x,y,z,ais[i2].x,ais[i2].y,ais[i2].z)<=10)
 {
 ais[i2].health-=random(30000, 150000);
 ais[i2].hitby=owner.name+"'s grenade";
