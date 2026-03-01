@@ -1,0 +1,85 @@
+void cfu(bool frommainmenu=false)
+{
+string latest=url_get("http://mahdiabedi.com/dl/dlv.txt");
+double lv=string_to_number(latest);
+string description=url_get("http://mahdiabedi.com/dl/dld.txt");
+string[] yourversion=string_split(version," ",true);
+double yv=string_to_number(yourversion[0]);
+if (yv>=lv and frommainmenu==true)
+{
+lbcfu(true);
+}
+else if (yv<lv)
+{
+sound updatefound;
+updatefound.load("update.ogg");
+updatefound.play_wait();
+int updateask=question("Update available!","a new version is available! Your version is: "+version+" The latest version is: "+latest+". Description of the update: "+description+". Would you like to download the update now?");
+if(updateask==1)
+{
+speak("Updating...");
+string status;
+string webdir="http://mahdiabedi.com/dl";
+string mode=url_get(webdir+"/cfumode.txt");
+if(mode!="r"&&mode!="z"&&mode!="e") return;
+if(mode=="r")
+{
+status=dl_file("http://mahdiabedi.com/dl.rar","dl.rar",false,"Downloading daily life version "+lv+"...");
+}
+else if(mode=="z")
+{
+status=dl_file("http://mahdiabedi.com/dl.zip","dl.zip",false,"Downloading daily life version "+lv+"...");
+}
+else if(mode=="e")
+{
+status=dl_file("http://mahdiabedi.com/dl.exe","dl.exe",false,"Downloading daily life version "+lv+"...");
+}
+if(status=="finished")
+{
+sound updatemus;
+updatemus.stop();
+sound updatedone;
+updatedone.load("updated.ogg");
+updatedone.play_wait();
+if(mode=="r")
+{
+bool result=run("libraries/unzip.exe","-o -qq dl.rar",true,true);
+if(result==true)
+{
+dlg("daily life has been downloaded successfully. Press enter to continue");
+file_delete("dl.rar");
+run("c:\\windows\\explorer.exe","\""+self_file()+"\"",false,false);
+exit();
+}
+else
+{
+dlg("daily life has been downloaded successfully. Please extract dl.rar. Press enter to continue");
+exit();
+}
+}
+else if(mode=="z")
+{
+bool result=run("libraries/unzip.exe","-o -qq dl.zip",true,true);
+if(result==true)
+{
+dlg("daily life has been downloaded successfully. Press enter to continue");
+file_delete("dl.zip");
+run("c:\\windows\\explorer.exe","\""+self_file()+"\"",false,false);
+exit();
+}
+else
+{
+dlg("daily life has been downloaded successfully. Please extract dl.zip. Press enter to continue");
+exit();
+}
+}
+else if(mode=="e")
+{
+dlg("daily life has been downloaded successfully. Press enter to continue");
+run("c:\\windows\\explorer.exe","\""+self_file()+"\"",false,false);
+exit();
+}
+}
+}
+}
+}

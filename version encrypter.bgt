@@ -1,0 +1,16 @@
+void main()
+{
+string version=input_box("version", "please enter the version here");
+if(version=="")
+exit();
+string dir=input_box("directory", "please enter the directory name here");
+if(dir=="")
+exit();
+show_game_window("version decrypter. By mahdi productions");
+file f;
+f.open(dir+"/version.dat", "wb");
+f.write(string_encrypt(version,"y3U/@/IJho6L4X%_2)CcDhCjGTxRH(on3Nmw4z!UFfrDpD$Q)GlMqnKyN^0$,WIae8XSX<.2VNInTB<ml=wbFkP_64^Ay*BDYf6SQ1tJD)v`spO`cZFGS((7*U&>Z$n@>!1&*%Jf4+QNCTV?yCX7d*qeNAHw1p+<kl6l6ZVGYeSU/gG/Tv?m!,pfb&XKFbZVzHP?%4f&fQWR!._$T,p6DHsSwW($??Ok+2SEnb76zYhz0lSIFv)8ISM`4~N.yvSa=Y3bnzk<%rF%<%Zf%9Z5)C53EADs4$E?%Uh1nVi)goFn,s5Sbp*#/P~&F2)B+aczw)XQHq!=P5M236@a%M7KY%w^~pHKTRbRGBp8^EAdjl!+CXn9jXiMzl"));
+f.close();
+alert("done",""+version+" written in version.dat of the "+dir+" directory");
+exit();
+}

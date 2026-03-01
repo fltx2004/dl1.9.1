@@ -1,0 +1,10 @@
+Daily life rules document created on January 03, 2020, last modified on April 05, 2021 by Mahdi Abedi
+Each player should agree to this rules. If you have problems with these rules or if you think there's something that should be changed, please contact us. Our contact info can be found at the readme witch is located at the readme folder
+1. No spamming. Sending messages that either crash screen readers, lag the game, or repeatedly sending messages of the same thing is considered spam.
+2. Respect is the basis of everything. Whoever is in the game, be they players, builders, language channel managers, administrators, managers or developers, must be respected. The lack of respect can lead to the limitation of the chat / pm channel, depending on where the affair took place.
+3.  Politeness is the third fundamental pillar of our game. Yes, because without it nothing is concluded. Therefore, insults to other players, builders, language channel managers, admins, managers and developers are not allowed.
+4. Another thing to distinguish is the roles of people who are in  the  game: if a developer, manager, admin, or language channel manager gives a directive, as it is not possible to do everything of his own will, it is required to respect what is saying.
+5. Since combat is added to our game, it is ABSOLUTELY not allowed to turn off the pvp or disconnect while you are fighting.
+6.  If you see that there is a bug in the game, which can simplify obtaining items etc, you are obliged to report it to admins by sending admin tell
+7. No cheating or hacking the game. You will not, edit variables, intercept the data going back and forth across the server, modify packets, decrypt sounds, dynamic link libraries, steal credentials such as configuration files stored by the game, usernames, passwords, etc. Doing this will result in a permanent ban.
+8. Killing yourself to get items over and over is not allowed

@@ -1,0 +1,12 @@
+void main()
+{
+string[] s=string_split(clipboard_read_text(), "\r\n", false);
+string a="";
+for(uint i=0; i<s.length(); i++)
+{
+sound ss;
+ss.load("sounds/"+s[i]+"reload.ogg");
+a+="if(weaponname=="+s[i]+")\r\nreturn "+ss.length+";";
+}
+clipboard_copy_text(a);
+}

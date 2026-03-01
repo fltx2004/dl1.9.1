@@ -1,0 +1,44 @@
+logs
+sounds.dat
+profile.log
+packets.log
+inventory backups
+logs
+maps
+packs
+smart phone audio files
+sounds
+upsounds
+voices
+web
+
+server/!old dlserver
+server/air_conditioners
+server/ais
+server/beehives
+server/fans
+server/fridges
+server/houses
+server/inv_backups
+server/lockers
+server/logs
+server/map_backups
+server/maps
+server/maps old
+server/microwaves
+server/playerstores
+server/steams
+server/teams
+server/vehicles
+server/Errors.log
+server/chars
+logs
+sounds.dat
+profile.log
+packets.log
+server/packets.log
+server/profile.log
+server/compchars.log
+server/prefs/server_state.dat
+server/prefs/server_state.dat
+server/tkserver.zip

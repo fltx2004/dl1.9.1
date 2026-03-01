@@ -1,0 +1,1937 @@
+New in version 1.9
+Fixed home appliances compartment thanks to russian lcm angel of love for the bug report
+Added the following items in to the food and beverages compartment: cup of cola and glass of cola(thanks to russian lcm angel of love for the bug report), and biscuit, candy, cracker and pretzel(thanks to player nabila for the bug report)
+Removed shouting when falling from the options sub menu
+Fixed muting audio when the game is not in focus in the settings sub menu
+Fixed tracking mode in the settings sub menu
+maps can now have a description. You can set it for your map from the builder menu
+Added newest commands in to the help
+Fixed map loading
+Fixed bidding in auctions
+Fixed raining
+Fixed wind
+Fixed night sound playing
+Fixed voice selection
+Fixed gender selection
+Renamed packs and bottles compartment to packages and bottles compartment to include boxes
+Fixed clothes compartment thanks to russian lcm angel of love for the bug report
+Fixed the game help thanks to player abolfazl for the bug report
+Admins can now make foods and drinks
+Added axe and axe2 in to the weapons compartment thanks to russian lcm angel of love for the bug report
+advanced bone repair kit, creature protector and meteorite defuser are now in the paid items compartment
+Admins can now set drawing sounds for items
+Added a new buffer: channel messages
+Admins can now limit items to not to be auctioned, used and dropped
+Fixed automatic objects such as automovers and automatic travelpoints to be activated correctly
+Shotgun shell isn't in the weapons compartment from now on thanks to player lord.voldemort for the bug report
+Added a new character voice. Amirali f
+You can no longer collect things from the ground while sitting in your vehicle or motorcycle thanks to player bozorgmehr for the bug report
+Fixed not hearing some sounds of another player
+You can now press home and end to go to top and bottem of the players list in f5 and shift f5 menu thanks to player amirali_f for the suggestion
+Fixed stopping motorcycle horns thanks to player amir_mahdi for the bug report
+Fixed the audio player of smart phone
+Added speaking when the game is not in focus for tts's! toggleable by pressing alt f3 or in the settings sub menu
+Added pitch and volume selection for tiles
+Impruved the camera to be matched with the tile pitch and volume
+Fixed mfwc
+Added a new keyboard theme thanks to player KittyCat15 for the suggestion and sounds
+You can now toggle moving to the safe zone map after losing safe card in your map thanks to player bozorgmehr for the suggestion
+Fixed Ai creation for admins in the builder menu
+Added some new features for when making an AI for admins
+New in version 1.89
+Armor is now in the paid items compartment
+You can now rotate by one degree by pressing alt shift q or alt shift e thanks to player nikita-k for the suggestion
+Added a new compartment to the inventory: home appliances thanks to lcm angel_of_love for the suggestion
+Removed some restrictions while sleeping
+Recoded scuffing thanks to administrator mahdi00 for his suggestions
+You won't see decimal coordinates when checking your coordinate and your camera coordinate from now on thanks to administrator aidin for the bug report
+Fixed voice chat, private voice chat, team voice chat and partner voice chat
+New in version 1.88
+Now when your password changed you can see it also in the account list which is in the storage menu
+Fixed ambience mode of sound sources, musics, timed sounds and timed musics
+Now status keys won't work on the stop tracking in players tracking menu thanks to administrator aidin for the bug report
+You can no longer press alt f2 and stop tracking when nothing is being tracked
+In those options which has toggle at the beginning you'll now hear status of the option else than toggle
+You can no longer shout when falling
+You can now check your drunk status by pressing alt u thanks to player amirmahdifard for the suggestion
+New in version 1.87
+Fixed map loading
+Fixed genders
+Admins can now change pitch and volume of AI's sounds when creating an AI
+Fixed. You can now hear others sitting sounds thanks to the russian lcm Angel_of_love for the bug report
+Fixed. You can now hear other's bumping to the wall thanks to the russian lcm Angel_of_love for the bug report
+You won't hear a number of sounds when your in a vehicle or sleeping from now on 
+You can no longer jump by pressing alt space while your in a 2d map and your in using items
+New in version 1.86
+Recoded safezones
+Fixed safezone building
+Recoded raining
+Recoded wind
+Recoded night sound playing
+You can now hear the snore sound if someone is sleeping
+Added dreaming. Togglable in settings sub menu
+New in version 1.85
+Fixed some menus thanks to player nikita-k for the bug report
+Recoded social selection
+Now if you fall you'll shout thanks to russian lcm Angel_of_love for the suggestion
+Added newest commands in to the help
+Fixed going down
+Fixed. Now if someone opened a door, automover, travelpoint, or automatic travelpoint, you can hear it's opening sound thanks to russian lcm Angel_of_love for the bug report
+Admins can now toggle Ai's stepping in mines when creating an AI thanks to administrator aidin for the suggestion
+New in version 1.84
+Fixed voice chat, private voice chat, team voice chat and partner voice chat
+Admins can now make AI thanks to administrator aidin for the suggestion
+From now on you can't fall from air tiles while pressing page up
+Fixed enabling and disabling first letter navigation, multy letter navigation and letters autoactivate thanks to player nikita-k for the bug report
+Fixed map edges
+Added thermometer in to the medical items compartment thanks to russian lcm angel of love for the bug report
+Added the newest clothes suggested by russian lcm Angel_of_love in to the clothes compartment thanks to russian lcm Angel_of_love for the bug report
+New in version 1.83
+Fixed map teleporters thanks to player lord.voldemort for the bug report
+Fixed voice recorder of the smart phones
+Added newest commands in to the help
+You can now hear scuff sound of each tile in the platform list by pressing shift s
+You can now hear each voice's death sound by pressing shift d on the voice, hitting sounds by pressing shift h on the voice, and name by pressing shift n on the voice thanks to player amirali13 for the suggestion
+Fixed the delay for when starting to move with camera
+You can now check the time of being in a public, private, or a challenge map by pressing shift t
+New in version 1.82
+Fixed checking clientside message of the day in options submenu
+Recoded hazards
+Hazard is now in tiles list
+Now if you fall or land in doors, automovers, travel points, automatic travel points, hazards, teleporters, dialogs and txts they will work
+Fixed falling
+Fixed jumping
+Camera now can detect hazards
+New in version 1.81
+Fixed going up and down by pressing page up and page down
+Fixed socials
+Added a new male social
+You can now hold alt page up and page down to quickly change playing link volumes
+Fixed setting game volume
+Fixed setting volume of musics and timed musics
+Fixed map loading
+New in version 1.8
+Recoded beds
+Recoded clocks
+Recoded calendars
+Recoded ovens
+Replaced the settings menu with settings sub menu inside the game
+Now you can toggle the clientside message of the day to show the new message of the day once or always in the settings sub menu
+Fixed microphone channels. Now when you set your microphone channel to mono it won't say your microphone channel is stereo
+Fixed map loading
+Added newest commands in to the help
+Admins can now toggle disaster spawning in their map
+Camera and spyglass can no longer see items which are in other maps
+Removed game engine
+You can no longer use combos while stunned
+Recoded script keys
+Recoded aliases
+Fixed rain sound problems with vehicles and sleeping
+Fixed wind sound problems with vehicles and sleeping
+Fixed night sound problems with vehicles and sleeping
+Fixed vehicles not working in underwater
+Fixed game links
+Added challenge status for admins in builder menu
+You can now disable being pvp in your map in builder menu
+Fixed fires
+Added a new buffer: maps
+You can now hold buffer keys and go through the buffers
+You can no longer bump in to the first or last buffer more than once
+From now on while your in a form by pressing enter you'll activate the ok button and by pressing escape you'll activate the cancel button
+Changed ok button to register button in the registration form
+Fixed entering the volume and pitch peramitors for sound sources, musics, timed sounds and timed musics
+You can now choose hitting sound for forcefields thanks to administrator aidin for the suggestion
+Now in the players menu when you copy someone's name or send someone a private message the menu won't close
+PVP status in maps now has coordinates
+Removed trees
+Changed from mahdi productions to mahdi abedi
+Recoded the map system
+Added multi_letter_navigation in menus
+You can now toggle first letter navigation for menus in settings sub menu
+You can now toggle multi letter navigation for menus in settings sub menu thanks to layer nikita-k for the suggestion
+You can now toggle letters autoactivate for menus in settings sub menu thanks to administrator mahdi00 for the suggestion
+Added some new socials
+Added a new keyboard theme for input boxes
+From now on socials will show up based on your gender
+You can now select the pitch and pan of Sound sources, musics, timed sounds and timed musics else than typing them. 
+Added checkpoints to maps
+Added bone breaking. You can check it's status by pressing alt b
+You can now quickly press the arrows and walk in the game
+Fixed going up and down with camera
+Fixed the delay for when starting to move with camera
+Fixed the delay when changing the game volume
+Decreased the delay when moving in the inventory
+Decreased the delay in input boxes
+Added temperature system. You can check your temperature by pressing shift w
+You can now add a specified air temperature to your map
+Recoded menu music and menu sound selection
+Removed pausing and resuming musics and timed musics
+You can now change the musics and timed musics volume by pressing or holding shift home and shift end
+Removed the vehicles sonar
+The sonar will now work for vehicles and you can turn it on or off like the sonar itself
+Recoded being in vehicles
+Now when you pick up an item and your stil tracking it the tracking will be stopped
+Fixed pong(one of the entertainment center games)
+Fixed showdown(one of the entertainment center games)
+Impruved by audio(one of speaker test options)
+Fixed by text(one of speaker test options)
+Fixed tts chats
+If you recieve Private tts chat, team tts chat or a partner tts chat they  will be saved from now on
+Fixed voice chats
+Roll bandage is now in medical items compartment
+New in version 1.79
+Added newest commands in to the help
+Renamed packs compartment to packs and bottles compartment
+You can now stop tracking players in the f5 menu
+You can no longer toggle using bike, using motorcycles, using vehicles, using teleporters, using wand, building houses, building beehives, building stores, placing lockers, placing microwaves, placing fridges, using item grabbers and using boat in your map
+Fixed /getmyinv in the help thanks to player amirali13 for the bug report
+Fixed. Now translations will work while your in visual mode thanks to russian language channel manager Angel_of_love for the bug report
+Fixed 2d map building thanks to administrator mahdi00 for the bug report
+New in version 1.78
+Fixed bottles in packs compartment thanks to player amirali13 for the report
+Fixed mfwc thanks to administrator aidin for the report
+Impruved the jaws support
+Fixed Quoting for lcm chats
+Added item usage restriction to maps thanks to administrator aidin for the suggestion
+Fixed Quoting for partner chats
+Removed vehicles compartment thanks to player nikita-k for the reminder
+New in version 1.77
+You can now download latest library pack from the main menu
+Changed /getbackupinv to /getmyinv
+Recoded online input boxes
+You can now hear others keyboard sound changing
+Added secondary tracking mode for tiles and zones. Togglable in settings sub menu and settings menu
+Tried to fix lag
+Added famas g2 in to the weapons compartment thanks to player amirali13 for the report
+New in version 1.76
+Added energy box in to the paid items compartment
+Added newest commands in to the help thanks to player amirali13 for the report
+Added libraries updater
+Renamed youtube downloading place to download box
+Fixed buffer checking in some menus
+Chat boxes can now be opened anywhere in the game
+Now you'll need latest library pack to play
+New in version 1.75
+You can no longer press h in entertainment center games to get help
+Added newest commands to help
+You can now type /getbackupinv to get backup of your inventory
+Fixed some runtime errors
+Changed game documentation versions
+Recoded hit and death sound playing
+Fixed voice selection
+New in version 1.74
+From now on when you want to copy or paste a text in to an input box you'll be notified what the text is
+Fixed the run command line thanks to administrator aidin for the bug report
+Boats and bikes will no longer  detect txts and dialogs thanks to player amirali13 for the bug report
+Recoded script keys
+Fixed mfwc
+Added nut and berry in to the fruits compartment thanks to player amirali13 for the bug report
+You can now see buffers anywhere in the game
+New in version 1.73
+Fixed the bullets compartment
+Added arrow gun and revolvers in to the weapons compartment
+Fixed the translator thanks to russian language channel manager Angel_of_love for the bug report
+Recoded deleting maps from the bilder menu
+You can now hear other's bumping to the wall once again
+Fixed 2d map building
+Tried to fix the lag
+New in version 1.72
+Fixed auctions thanks to amirmahdifard for the bug report
+Fixed male and female spelling in the registration form
+Corrected the help menu
+Recoded aliases
+Recoded script keys
+Recoded account storage
+You can now  add and remove script keys in settings sub menu and settings menu
+New in version 1.71
+You can now specify the auction currency thanks to player amirmahdifard for the suggestion
+Fixed keyboard languages in some text boxes thanks to player amirali_f for the bug report
+Added the newest clothes suggested by player Angel_of_love in to the clothes compartment thanks to player Angel_of_love for the bug report
+Added gold scar in the weapons compartment
+Removed nak nk 1000 decimater and rocket launcher from the paid items compartment
+Added health box, instant killer missile, quick thirst fix drug, quick hunger fix snack, and xp potion in paid items compartment thanks to player Angel_of_love for the bug report
+Maps can now have minimum and maximum level and reinforcement
+New in version 1.7
+Now when nothing is in remove alias menu it will tell you that there's nothing here else than giving an error
+Now after auctioning an item you can't use it very fast thanks to player alireza203 for the bug report
+Tried to decrease lag
+Fixed walking
+Added private voice chat by pressing or holding f9 in a player in players menu
+Added team voice chat by pressing or holding 0
+Added partner voice chat by pressing or holding minus
+Now when your looking at someone you can see the player list by pressing shift f5
+Auto walking now acts normaly
+Fixed some map making features
+Fixed shooting range(one of the entertainment center games)
+Fixed minibeep(one of the entertainment center games)
+Fixed audio fishing(one of the entertainment center games)
+Fixed fire escape(one of the entertainment center games)
+Fixed dice(one of the entertainment center games)
+Fixed swimming(one of the entertainment center games)
+Fixed destroy the door(one of the entertainment center games)
+Added 6 new entertainment center games: guess num and shockshot(thanks to blastbay studios), windows attack(thanks to Felix_Grutzmacher), soundfall(thanks to Lukas Hosnedl), shut the box(thanks to the AT guys) and number challenge(thanks to x-site)
+Changed directory for files that can be played by smart phone's file players in to smart phone audio files
+Now if smart player audio files folder is empty it will let you know
+Added a microphone options for voice chats with the following options: changing microphone samplerate and changing microphone channels. You can press alt f5 to go to it
+You can now download youtube videos! you can use audio player, use it in apps list of your smart phone or in some maps
+Shift n key is now being used for knowing where tracked tile is and for making a new map you must go to the safezone menu which located at the safezone map
+Added braille support. Toggleable in options menu
+muting audio when the game is not in focus will now work everywhere in the game
+Now you can choose your youtube video format to be converted after downloading
+Now your smart phone recordings will be saved in to the smart player audio files folder
+Recoded muting speech
+You can now download youtube playlists
+Added braille typing for text boxes thanks to CAEJones. You can press f7 in a text box to toggle it
+Added keyboard language updater
+Renamed lang directory to languages
+Renamed libs directory to libraries
+Now you'll need latest keyboard language pack to play
+If you recieve Private voice chat, team voice chat or a partner voice chat they  will be saved from now on
+You can now toggle hearing or not hearing yourself and others tts and voice chats in settings menu and settings sub menu
+Now you can add a keyboard language by pressing f8 in text boxes or f10 in players menu then you can press alt shift to switch to it. Also you can remove a keyboard language by pressing shift f8 in text boxes or shift f10 in players menu
+Added a new buffer: paid store
+Recoded help menu
+You now can toggle hearing other players pm sound in settings menu or settings sub menu
+You can now toggle people hearing your pm sound in settings menu or settings sub menu
+You can now press shift U to know how much your full thanks to player amirmahdifard for the suggestion
+Added 2dsupport for maps
+You now can press shift h to open the help menu
+Removed horn from sky racers thanks to player alireza203 for the bug report
+Added two new compartments to the inventory: corrupted food and beverages and materials thanks to player flammia for the suggestion
+Renamed medical compartment to medical items compartment
+From now on you can select your game language without any client restarts
+You can now select your language in settings menu
+Recoded selecting menu sounds and music
+Speeded up game loading
+URL's, audio player, and smart player of the smart phone can now play youtube links
+You can now replay the played link in the audio player by typing /r
+Recoded data saving and loading
+Fixed saving keys and sounds status(one of the entertainment center games)
+Fixed setting your language when entering to the game for the first time
+Recoded wand
+Fixed music beeper(one of the entertainment center games) thanks to player aidin for reporting this bug
+Admins can now close everyone's clients
+Added private tts chat by holding shift and pressing f9 in a player in players menu
+Added team tts chat by holding shift and pressing 0
+Added partner tts chat by holding shift and pressing minus
+New in version 1.69
+Fixed cycle inventory
+Translator won't give errors upon not completed translates from now on
+Fixed all buffers
+Fixed voice chat
+Now after deleting an item from your inventory you can't use it vary fast thanks to player alireza203 for the bug report
+Now when nothing is in account storage it will tell you that there's nothing here else than giving an error thanks to player bozorgmehr for reporting this bug
+Now when you add your account in to the account storage it will seperate it in to a new line in account details file
+New in version 1.68
+Fixed all buffers
+Fixed item checker and item taker doors and travelpoints
+Now when you die your location will be set correctly
+Now when your password is being changed your account info will be written in to the account details file
+You can now use your items inside your car or motorcycle
+You can no longer use combos inside your vehicle
+You can no longer use your cycle inventory inside your vehicle when it's window is closed
+New in version 1.67
+Fixed notifications
+Fixed auctions
+In the players menu which can be accessed by pressing shift f5 you can now trust/untrust someone by pressing control t or control shift t on him
+In the players menu which can be accessed by pressing shift f5 you can now mute/unmute someone by pressing control m or control shift m on him
+Added repeating camera, toggleable by holding g and pressing r
+Fixed online and offline messages reading when reading online and offline messages is disabled
+Fixed death messages reading when reading death messages is disabled thanks to player Angel_of_love for reporting this bug
+New in version 1.66
+Tts chats is now limited to 256 characters
+Recoded tts chat alerts
+Removed age selection and country selection from the registeration form
+Added lcm channel
+Added new buffer. Lcm chats
+Managers won't see admin chats twice from now on
+ADDED marrage and devorce system!
+New in version 1.65
+Recoded voice chat alerts
+Added millisecond conversion in the pinging information
+Fixed voice chat
+You can now use the voice chat even if having cycle inventory is disabled
+Removed combo mode. Combo keys can now be accessed from using yourself
+Using yourself and using items won't be saved from now on
+Now all of your tts chats will be saved in to the voices folder. Toggleable in settings sub menu and settings menu
+New in version 1.64
+Now if you deactivated chats buffer you won't hear chats anymore
+Now if you deactivated misc buffer you won't hear misc messages anymore
+Now if your sleeping or in your vehicle you won't hear raining, wind, and night sounds
+Fixed going up and passing the wall
+You can now go up and down from forcefields if they are activated and loos health
+Now almost everything will be going also in to the speech buffer
+Fixed unprepared food and beverages and food and beverages compartments
+New in version 1.63
+Now even if character repeat is off you'll hear your keyboard theme in input box's thanks to manager deborah for bug report
+Fixed the spyglass
+Added two new buffers: voice chats and tts chats
+Sonar of the motor boats now won't be activated in the oceans for each surface
+Now when reconnecting to the game from the main menu the menu music will be stopped when game connects to the server
+Fixed local chats
+You now can activate/deactivate, mute/unmute, and interrupt/not interrupt all buffers in the buffer menu
+New in version 1.62
+Fixed hazards
+Fixed. Now when someone is typing stereo you'll hear it stereo if you stay on that player's position otherwise you'll hear it like none stereo typing
+Voice chats and recordings will be saved in ogg format from now on
+Now you'll hear other people's pm sound thanks to manager erfan for the suggestion
+Fixed selecting voice for the tts chat
+Fixed toggleing muting audio when game is not in focus in settings menu
+Now when quoting a message you'll be in beginning of the message else than end of it
+New in version 1.61
+Recoded robot remotes
+Fixed travelpoints and automatic travelpoints
+Fixed random playing of chat sound, local chat sound, online sound, offline sound, and pm sound
+Fixed doors and automovers
+Now if you reconnected while looking at someone looking will stop completely
+Added a buffer menu for each buffer. Press shift B to open the menu wile you are in one of the buffers
+Removed hiding game window
+New in version 1.6
+Removed wallclock and desktop calendar
+Added forcefields
+Added hazards
+Added teleporters
+Now camera and spyglass can see forcefields, hazards, and teleporters
+Now when camera see forcefields, hazards, and teleporters it will play a sound to let you know and it depends on camera restrictions in your map
+Fixed the ambience mode of sound sources, musics, timed sounds, and timed musics
+Fixed bid agreement in auctions in settings sub menu
+Fixed removing map owners
+Fixed. Now when you turn around and bump in to a wall you'll here the wall sound thanks to player Angel_of_love for the bug report
+You will now bump in to the walls more than once
+Removed builder rank, builder chat, and builder chat buffer
+Now when raining it will effect in tile lawn thanks to player amirali_f for the bug report
+Added tile abilities to the new tiles
+Game window can now be hided. You can press alt f9 to toggle it
+Admins can now enable/desable building microwaves and fridges in maps
+You now can collect weed
+Fixed spelling of restaur backup in builder menu thanks to player abolfazl for the report
+You can now look at people by pressing f7 on them thanks to manager erfan for the suggestion
+You can now stop looking at somebody by pressing alt x thanks to manager erfan for the suggestion
+You can now set status message by pressing shift x
+You can now see other's status message by pressing f8 on them
+Removed the sound updater
+All dll files are now in libs folder
+From now on all of your tts activities which is in log.txt will be saved on logs/log.txt
+Fixed input box's saving upon reconnects
+Fixed reconnecting to the game after connection has been lost
+Fixed map loading
+Added dialogs
+Added automatic dialogs
+From now on you will be automaticly reconnected to the server else than going to the main menu upon failed connections
+Removed cheat privention as it didn't let some people to play the game
+Fixed. Now when exiting from a field in builder menu it won't say canceled twice
+Recoded public maps
+Fixed going offline from the game
+Added age selection when creating an account
+Added countries to select when creating an account
+Slightly changed the AI spawning peramitors for admins
+Fixed rotating
+You can now rotate up and down! Press shift f and shift v to rotate
+You can now choose your keyboard theme by pressing f4 in each text field
+Voice chat is back
+Now you should search in cycle inventory by pressing alt v
+Tts chat is back
+File uploader of smart phone is back
+Toggleing voice chat and tts chat in builder menu is back
+Beacons are back
+Arena buffer is back
+Automatic travelpoint is back
+Added redownloading game files in misc sub menu
+Redownloading clientside message of the day is back and now it's in misc sub menu
+Restarting client is now back and it's in misc sub menu
+Runs counter is back
+Wind is back
+Night sounds are back
+Robots are back
+Testing speakers by text in speaker test sub menu is back
+Now game will ask you if you want to set your language when entering to the game for the first time
+You now can toggle pressing or holding V to voice chat in settings sub menu or settings menu
+Added an option to open mahdi productions website from the main menu
+Added an option to notify you that we are using game engine in misc sub menu
+Now alt f1 is to select a voice for tts chat while it will be used in builder menu to stop the currently listening sound source
+Recoded travelpoints
+Now travelpoints and automatic travelpoints can have loop sound, opening sound and closing sound
+Camera and spyglass can now see travelpoints and automatic travelpoints
+Added four new travelpoints and four new automatic travelpoints: password protected, item checker, item taker, and item giver for admins
+Other players can now hear your typing sounds in input boxes. To toggle it press f5 in an input box and f4 in a smart phone
+Other players will now hear your typing sounds stereo if it's enabled from your side
+Added accounts storage in connection sub menu
+Fixed removing aliases in remove aliases menu
+Activated and muted buffers will now save upon reconnects
+Fixed aliases
+You can now toggle hearing others typing sounds by pressing f6 in each input box and f5 in a smart phone
+Removed setup account in connection sub menu
+You can now add an account to the accounts storage menu
+You can now remove an account from the accounts storage menu
+Now all of your voice chats and file recordings will be saved in to the voices folder
+You can now toggle saving voice chats in settings sub menu and settings menu
+saving logs is now enabled by default
+saving voice chats is now enabled by default
+Fixed. Now when you even don't want to select your language for the first time when game loads the prosess will continue normaly
+You can no longer cheat in voice chat timer in text fields thanks to manager erfan for the bug report
+New in version 1.59
+Fixed jumping
+Fixed map loading
+Fixed travelpoint's destination to not to be out of range when building
+Fixed auction agreement in settings submenu thanks amir_mahdi for reporting it's bug
+Fixed dropping things in fire
+Fixed destroy the door(one of the entertainment center games)
+Fixed moving sounds
+New in version 1.58
+Fixed sound system
+Fixed checking for updates in main menu
+Recoded all updaters
+We now use game engine again!
+Walls no longer change when raining
+You can now enable/disable having cycle inventory in settings menu
+Fixed speed drinks thanks to manager erfan for reporting their bug
+New in version 1.57
+Added a new character voice. Matin nasr
+Now you will need latest version of changelog, language pack, readme, rules, and sounds to be able to connect to the server
+Now sound updater will make copy from sounds.dat to prevent sound lost if game crash thanks amirali13 for reporting this bug
+Fixed sound updater
+Fixed checking for updates in main menu
+Fixed fire in builder menu
+You no longer can build things less than or grader than that map's coordinates
+New in version 1.56
+Fixed restore backups for maps
+Settings in the settings submenu or settings menu that were silence after enabling/disabling will now tell you their status
+Now registration form and setup account form supports jaws, window eyes, system access, and nvda
+Fixed input box's saving upon reconnects
+From now on text input's will be saved just when you are in an input box and lost your connection to the server
+Fixed fruits and vegetables compartment
+Fixed. Now you can change game's master volume even when you enabled muting audio when the game is not in focus
+New in version 1.55
+Fixed input box's
+Now input box's saves across reconnects
+Fixed playing of some sounds
+From now on  character repeat, uppercase letters status, and keyboard clicks saves upon restarts
+Fixed entering sounds manually for when adding automovers, doors, musics, signs, sound sources, timed sounds, timed musics, and disabling rain
+Fixed searching in cycle inventory
+Now when you pass a menu that you must select a sound for building maps by pressing escape or enter while listening to the sound the sound will be stopped
+New in version 1.54
+Fixed backing up your map
+Added the ability to enter sounds manually when adding automovers, doors, musics, signs, sound sources, timed sounds, timed musics, and disabling rain
+Buffers won't be exported upon reconnects
+You can no longer sit down or stand up in the air
+From now on if you move around with out walking and your using an automover or door that automover or door will be stopped
+Now when a map is being updated while you are in that map using an automover or dooryou'll be moved to starting position of that automover or door
+You can no longer open the chat box and stop the automover or door that is moving for a sertan time
+New in version 1.53
+Fixed donation option in the main menu
+Fixed some menus
+You can now edit lines that contains space in builder menu
+Nak nk 1000 decimater is now in paid items compartment
+You can now remove lines that contains space in builder menu
+You can now restore a backup for your map thanks amirali_f82 for the suggestion
+Fixed rotating
+New in version 1.52
+Fixed. You can now check players status in players menu again
+Recoded cycle inventory
+You can now search in your cycle inventory by pressing v
+Fixed some rong spellings in changelog thanks to player abolfazl 
+Fixed bid agreement in auctions
+Fixed auction agreement
+Fixed some game links
+New in version 1.51
+Fixed buildable stores 
+Fixed musics
+Removed setting music and timed music volume for now
+Fixed jumping
+Fixed text fields
+Fixed online and offline messages
+You can now pause and resume music or timed music that's being played in your current map by pressint shift f1
+New in version 1.5
+Added two new peramitors to sound sources and timed sounds. Volume and pitch
+Added musics and ambience musics. Volume can be changed by pressing shift page up and shift page down
+Added timed ambiences
+Added timed musics
+From now on you won't hear timed sounds when you are in your vehicle or sleeping
+Now ambiences are part of sound sources, ambience musics are part of musics, and timed ambiences are part of timed sounds to have less RAM and CPU usage and less lag
+Fixed nickname changing at Civil Registry Office
+Now if your using an old client and want to create account it will inform you about the newest version
+You can now type %n to show player's name in text fields
+Added bed, clock, wallclock, calendar, Desktop calendar, and oven in to the builder menu
+Added opening hours for maps
+Now when you go to another map while tracking an item in the previous map the tracking will be stopped
+Pan, pitch, and volume of playing sounds are now controlable
+You can no longer open or delete your inventory in the air
+Fixed message of not having item for item checker and item taker doors and automovers
+Admins can now build a new map in builder menu
+Map loading is slightly faster and less laggy
+Hammer is now in the weapons compartment
+Added two new entertainment center games: keys and sounds, Music Beeper
+Fixed local chat in smart phone thanks to player nikita-k for the report
+You can now back up your current map if you are one of it's owners from the builder menu
+Fixed the account creation
+You no longer can track more than one item
+Replaced word tile with tiles when checking for the tracked item
+Added editing line for maps
+Fixed lucky dice (one of the entertainment center games) thanks to player amir_mahdi for the bug report
+Now input box's supports dash symbol
+Added auction agreement for when making an auction. Togglable in settings submenu and settings menu. thanks to manager erfan for the suggestion
+Added bid agreement in auctions. Togglable in settings submenu and settings menu. thanks to manager erfan for the suggestion
+Removed moving items in inventory
+From now on you can't jump on maps that their maximum z is zero
+Added tile tracker! press k to open menu, and shift k to know where tracked tile is
+Fixed fire starters
+Fixed trees
+improved password changing
+Fixed all game links
+You can now remove an alias in settings sub menu and settings menu
+You can now remove your map lines in builder menu
+You can now remove your map's owners in builder menu
+Changed the random pitch of chat sound, local chat sound, online sound, offline sound, and pm sound
+Fixed animal roulette (one of the entertainment center games) thanks to player amir_mahdi for the bug report
+Fixed black jack (one of the entertainment center games) thanks to player amir_mahdi for the bug report
+Fixed rock, paper, scissors (one of the entertainment center games) thanks to player amir_mahdi for the bug report
+Fixed farkle (one of the entertainment center games) thanks to player amir_mahdi for the bug report
+Recoded some locations
+Fixed the audio player of smart phone
+Fixed sending public chat in messages section of the smart phone
+Fixed online and offline messages
+Fixed. You can no longer go more than  maps maximum hight 
+Fixed item checker and item taker doors and automovers
+Fixed player positions
+Now your hand get burned when you press space in a fire thanks to manager deborah for the suggestion
+Recoded hand status when pressing key 3
+Fixed. You can no longer auction something for 0 coins
+Added spam protection for all text fields
+You no longer can use the run command line when it's empty
+You no longer can use the wand without typing nothing on it
+you no longer can use text fields when you typed nothing on them
+Added buffer mode for menus for bowth default and side scrolling menu stile. Togglable in settings submenu and settings menu
+Now side scrolling in the main menu will just let you to work with left and right arrows. Togglable in settins submenu
+Now side scrolling can be toggled in settings menu
+Changed message of the day to channel message
+Added cycle inventory
+You can now enable/desable building houses, beehives, stores, and lockers in your map
+Removed speed hack protection
+improved cheat protection
+Fixed selecting menu sounds in settings menu
+You can now select your voice in settings menu
+You can now purchase credits directly from the paid store map!
+Now when you drop your inventory your hands will be empty
+You no longer get runtime error when going to an empty inventory compartment
+Fixed some menus
+Check for updates at startup and check for clientside message of the day at startup is now  enabled by default
+Now default value will be entered for pitch and volume of sound sources, musics, timed sounds, and timed musics
+Fixed. Now when you delete items fast you won't get any runtime errors
+Fixed item deletion bugs thanks to player alireza203
+You can no longer press escape and exit from entertainment center games after you've started one of the games
+You can now search in your inventory by pressing shift s
+You can now press home and end to go to top and bottem of a sub menu
+You can now delete your map from the builder menu
+You can now hear when someone drop an item
+Fixed registration and setup account form
+Now when raining some tiles will be changed!
+improved the updater
+New in version 1.49
+Now you can choose your map's minimum x, y, and z
+Fixed buffer logging in settings sub menu
+You can now toggle behind pitch decrease in settings sub menu
+Removed advanced input box
+Recoded input boxes
+Fixed timed sounds
+Added stereo typing, togglable in settings menu and settings sub menu
+New in version 1.48
+Added new buffer: donations
+Check for updates at startup and check for clientside message of the day at startup is now  desabled by default
+Fixed game crashing
+Fixed the sound system
+Fixed kills buffer
+Fixed reconnecting to the server
+You can now hear distance sounds while your inside houses, beehives, or stores
+New in version 1.47
+Slightly changed the sound system
+Entirely removed the tts chat
+Changed map loading to be more stable
+Fixed spyglass
+Added timed texts
+Added timed sounds
+Fixed script keys
+New in version 1.46
+Now camera and spyglass can see vanishing platforms, doors, automovers, sighns, and txts
+Camera now can see items
+You can now restrict some features of spyglass and camera in your map
+Renamed password doors to password protected doors
+Now when camera see vanishing platforms, doors, automovers, and sighns it will play a sound to let you know and it depends on camera restrictions in your map
+Now spyglass can't see more than maps maximum x y, and z
+Changed the server
+New in version 1.45
+Fixed swimming (one of the entertainment center games) thanks to player agent47 for the bug report
+Added muscle_car and motorcycles to the vehicles compartment
+Finally! Now you can move items in your inventory by holding the left or right shift and pressing up arrow to move up and down arrow to move down
+Added a shortcut in inventory to transfer your paid items to the server by pressing Shift t
+From now on some commands only works when you press the needed key else than typing its command
+Renamed checkpoint to deathpoint
+Now you will be automaticly reconnected to the server else than going to the main menu after restarting the server
+New in version 1.44
+Now when your connection drops the game will automaticly try to reconnect
+removed voice chat, tts chat and file uploader of smart phone as people voted and as they makes so much lag
+Removed toggleing voice chat and tts chat in the builder menu
+Fixed online and offline messages
+Now when you press go back in settings menu it will go back to the game else than the main menu thanks admin mahdi00 for the bug report
+Finally fixed doors
+Added vanishing platforms
+New in version 1.43
+Now if you enter -1 as door or automover speed it will put you at the destination immediately
+Fixed some entertainment center games thanks to manager erfan for the bug report
+Now you can add lines in to your map in the builder menu
+Removed the forgot password option in the main menu as it didn't worked as expected
+Redesigned the menu for setting up an account 
+Modified and added some audio player commands
+Fixed voice recorder in the smart phone
+New in version 1.42
+Fixed socials thanks to player nikita-k for the report
+Fixed the account creation thanks to player alireza.m for the report
+Fixed playing logo at the settings sub menu thanks to manager erfan for the bug report
+Now you can't use your weapons inside a vehicle with closed windows thanks to player nikita-k for the bug report
+You can no longer jump while sitting thanks to player abolfazl for the bug report
+Modified the account creation
+Removed beacons for now
+New in version 1.41
+Fixed. Now key 3 in combo mode works probably thanks to player nikita-k for the report
+Fixed some rong spellings thanks to player abolfazl and manager erfan
+Fixed the advanced input box thanks to player abolfazl for the bug report
+Fixed. Now when you are looking at someone and pressing p you will know who is around that player thanks to player abolfazl for the bug report
+Fixed. Now you can turn  your motorcycle on again thanks to manager erfan for the bug report
+Fixed the registration form thanks admin mahdi00 for the report
+Fixed playing of some sounds to have less lag
+New in version 1.4
+Fixed. Now you can disconnect from the game if your connection drops and you are in a vehicle
+Fixed changelog
+Removed the arena buffer
+Recoded houses
+Fixed firing weapons
+Fixed walking to have less lag
+Fixed deleting texts in the advanced input box
+Fixed some rong spellings thanks to player abolfazl
+Fixed the local chat random sounds
+Removed file downloading of audio player
+Fixed zones to have less lag
+Now if server get changed you should get a patch to fix this issue
+Fixed Ai creation for admins in the builder menu
+From now on you can no longer be afk and press shift enter to go to other maps
+Fixed. Now in the zone tracking menu you will know the player events at the same time
+Now if your near someone you can know most things that his doing while playing showdown
+Fixed hands
+Now paid gifts and nak nk 1000decimaters are in the paid items compartments
+Redesigned some menus
+Fixed. Now arrow keys doesn't helled down automaticly in menus
+Redesigned the account creation system
+Fixed falling to have less lag
+Fixed jumping to have less lag
+Fixed wall sounds
+Fixed a bit of lag
+Fixed playing sounds to have less lag
+Fixed rage quit
+Fixed voice chat
+Changed some game texts
+Now if you are in using items mode and you haven't anything in your hands you can jump by pressing alt space
+Fixed scuffing
+Fixed sleeping
+Fixed looking
+Now you can't use some menus and telephones to stay at the air
+Added some new takable tiles
+Now for whos using auto login buffers will be exported when exiting from the game while for others it will be exported when exiting from the main menu
+New in version 1.39
+Added starting point to the builder menu
+Added checkpoint to the builder menu
+Fixed clothing
+From now on you can disconnect from the game even when you lost the connection
+From now on you can press shift n to build new map instead of finding it in the builder menu
+Now you can toggle pitch of online, offline, and pm sounds. Toggle it in the second options menu
+Finally! recoded sound updater!
+New in version 1.38
+Removed bases
+Modified the buffer list
+Fixed login in and account creation
+Finally! Fixed hands!
+Added a new feature to the camera, move Focus with Camera, or MFWC. It allows your perspective to follow the camera as you move it around. You can enable / disable it by holding the G key and pressing the key M. If you release the G key, the MFWC feature will be turned off automaticly. Toggle mfwc in your maps from the builder menu
+Fixed the changelog
+Added two new compartments to the inventory: currency and paid items
+New in version 1.37
+Muting audio while game is not in focus now works on chat boxes
+Now if you press space on the text field for doors you won't hear blank when opening it anymore
+Recoded smart phone to be more realistic
+Fixed clip copy
+Now clip copy works on all menus
+Now autologin is only for logining to the game so if anything happens else than exiting from the game you'll brawt back to the main menu
+Now if connection drops gamewill notify you else than restarting the client
+New in version 1.36
+Added three new door types: item checker door and item taker door for players and item giver door for admins
+Added four new automover types: password automover, item checker automover and item taker automover for players and item giver automover for admins
+Now doors and automovers can have texts when moving a player
+Removed stationary file uploader app from the smart phone
+Fixed file uploader in the smart phone
+Fixed voice chat
+Fixed the tts chat
+New in version 1.35
+Added trashcans to the builder menu
+Fixed random sounds
+Now doors and automovers have less lag
+Now when moving with an automover or a door and you go offline you won't fall when you come back
+Now falling and jumping have less lag
+Fixed firing machineguns
+Changed some error texts when login in
+New in version 1.34
+Now you can toggle receiving private messages by pressing shift f seven instead of shift f four
+Now you can read the MOTD line by line by pressing shift f four.
+Donating link in the main menu has been changed
+From now on numpad keys works like the number row
+Fixed. You can now press equals key to be able to type commands with out typing slash before them
+You can no longer press v to voice message, it should be held down
+Recoded houses
+New in version 1.33
+Fixed how some sounds are being loaded
+Now you can't clap and snap fastly and lag the server
+Fixed the control, shift, and alt detection thanks to player abolfazl for the report
+Fixed the second options menu
+Recoded walking and jumping to have less lag
+Fixed checking AI's to be compatible with new ai system
+Fixed. Now if you get any errors while making an account, loginning to the game, or resetting password, you'll be brawtt back to the main menu to prevent any ishoos
+New in version 1.32
+Now nak nk1000 decimater is in the weapons compartment
+Fixed admintells buffer
+Recoaded how sounds are playing to deacrease the lag
+Removed the automatic travelpoint to decrease the lag while walking
+Recoded hazard to have less lag
+Now logining to the game is a bit faster
+Deecreased the cpu usage
+New in version 1.31
+Fixed houses
+Fixed going through air by pressing page up and down
+Fixed. Now you can't login with older versions of the game
+Fixed some things about logining to the game
+Fixed some errors and problems of resetting password
+Fixed falling to have less lag
+Now you don't need to set a username and password for login to be showed in main menu
+New in version 1.3
+Now you can collect clay from tile clay2
+Now you can enable or disable losing items after diing in your map!
+Added. Now you can add your own online and offline message! type /onmsg or /offmsg or go to options menu2 to set it
+Now you can knock door of the bases! press enter on a base to do it
+Now you can toggle mouse support in the options menu
+Now you can toggle joystick support in the options menu
+Now spyglass can see hazards
+Now when checking tiles around with camera you can see hazards
+Finally! Now camera can't pass from walls!
+Now in the builder menu you can choose if camera can go over walls or not
+Fixed checking ammows
+Changed how online and offline message toggles to fix its problem with online and offline messages
+You can no longer do some works while sleeping such as checking ammos,  switching between using yourself, items, and combo mode, etc
+Fixed. Now voice recorder in the smart phone works correctly thanks to player alireza.m for the report
+Now whenever you reset settings or start the game for the first time you'll be asked to select your language
+Fixed spelling of the word disable
+Changed some of the bilder menu texts
+Security updates
+Fixed. Now you can't use your previous zone feature in where there's not any zone
+Fixed sleeping
+Now you can siron with police car pluss too!
+Now you can fire with some vehicles
+Now you can go map to map with your vehicle!
+Now you can open and close the window of your car by pressing alt w. When its opened you can fire with your weapon
+Added horn for some vehicles! hold space to do it
+Now you must fire in sky racer, police car, and police car pluss by pressing left or right alt else than pressing space
+Now you can change the altitude in the sky racer, press page up and down to do it
+From now on you can't go more than  maps maximum hight with your sky racer
+Fixed. Now you can't bowth horn and collect/use things in your car or motorcycle, you shouldn't be using items to horn
+Recoded boat
+Now if you haven't inuff energy you can't use your boat
+From now on you shouldn't be in using items and your hands should be empty to be able to voice chat
+Now you should use vehicle and motorcycle horn when you aren't in using items
+Fixed. Now you can use new map in the builder menu to build your map
+Now you won't hear the raining sound when sleeping, or you are under water
+Added new app to the smart phone, audio player! this command line program cuvvers by a folder called audio box which is located at the apps
+Fixed the cd drive controller in the apps menu of smart phone
+Added four new compartments to the inventory: vehicles, unprepared food and beverages, medical, corpses
+Added some more foods to the food and drinks compartment
+Now you can check your vehicle speed by pressing alt r
+Added houses
+Now you can knock door of the houses! press enter on a house to do it
+Added door bell to houses! press alt pluss enter on them to hear them
+antibiotic canister is now in the medical compartment
+Tranquilizer gun, rpg launcher, and rpg7 are now in the weapons compartment and its ammo is in bullets compartment
+Now you can enable and disable building houses in your map
+You can now fall in the tile air
+Now camera can detect tile air
+Fixed voice chat
+Fixed auction
+Fixed the voice menu of tts chat
+Now you can't voice chat and tts chat for everyone in your map
+Now client will check for your team again
+Fixed. Now if muting audio when the game is not in focus is enabled and when the game is not in focus you won't hear the game sounds
+Added fire in builder menu to build!
+Added. Now in your map you can toggle that a player be pvp to enter
+You no longer can set daily life to be in the start menu in options menu
+Now some of the entertainment center games gives you more coins!
+Now in the keyboard practise of bopit you'll hear what players are doing near you
+Removed muting speech as it didn't worked
+You can no longer enable and disable using bombs in your map
+Changed how items are dropped in the ground. Now you will hear the item falling sound based on the tile that you are standing on
+Added two new buffers: team chats and admintells for admins
+Fixed. Now when you muted a buffer you won't receive messages that are related to that buffer
+Renamed auction buffer to auctions
+Added sonar for cars to notify you for the walls
+Now when you are in an unknown zone it won't say unknown area
+Fixed. You can no longer run two instances of the game up!
+Now chips, packages, and bottles are in the packs compartment
+Now chip and popcorn are in the food and beverages compartment
+Finally fixed the sound updater
+New in version 1.29
+Now you can walk faster
+Now energy drinks gives you a bit more energy
+Now speed drinks gives you some more speed!
+Added new rank: language channel manager(lcm)
+Added a new character voice. Mohammadhosein Sharifi
+Added looking at someone!
+Now garbage collect will also collect garbage of the client
+New in version 1.28
+Now you can't build maps while sleeping thanks admin mahdi00 for the report
+Fixed the clientside message of the day
+Fixed. Now even if the website is down you can connect to the game
+Now when getting the sounds the updater will get copy of sounds before updating
+Added a silence wall for building maps
+Fixed sound updater
+From now on, when auto walking is disabled you just can use it to jump from tile to tile, not walking so fast, ignoring energy, and lagging the server
+New in version 1.27
+Now whenever camera goes to an item it will play a sound
+Fixed item sounds lagging the client
+Fixed automatic travelpoints
+Now if you reach to an automover it can move you automaticly without pressing arrows
+Changed the updater
+Unzip now should work correctly
+Added a new character voice. Amirali
+New in version 1.26
+Now item sounds have random pitch
+Now you can enable and disable building bases in your map thanks admin mahdi00 for the suggestion
+Now spyglass can see items!
+Now large saw and small saw can saw slightly faster
+Now you can select random jumping sounds
+You can no longer move your spyglass while sleeping thanks admin mahdi00 for the suggestion
+Now you can't use your hands while sleeping thanks admin mahdi00 for the suggestion
+New in version 1.25
+Changed the text of when pressing enter on your maps menu
+Fixed ambiences in the builder menu
+Fixed using item grabbers
+Recoaded wand. Now you can type werds to it!
+Fixed items
+Fixed login in to the game
+Fixed local chatting in smart phone
+New in version 1.24
+Now those who haven't grave key in they keyboard can typ /zones to have list of zones that they can track
+Fixed sitting when login in to the game
+Fixed. Now you can't press enter or shift enter to do something while sleeping thanks lcm flammia for the bug report
+You can no longer move your camera while sleeping thanks admin mahdi00 for the suggestion
+Fixed sound updater
+Now you can access to public maps and your maps menu from the safe zone. Search for its zones
+Changed the text of when pressing enter on public maps menu
+New in version 1.23
+Now sound updater supports downloading multiple versions!
+Now sound updater can remove unneaded sounds
+Fixed jause support
+Now you can enable and disable jause support! press alt f10 to toggle it
+Added password doors!
+Bust a balloon now gives some coins per each shot!
+Now you can add text when player presses enter on the password door!
+New in version 1.22
+Now you should hear most of entertainment center game sounds while someone is playing
+Now animal roulette, even or odd, blackjack, farkle, lucky dice and role the dice doesn't requires money to start
+Fixed 4 of diamonds in blackjack
+Fixed. Now when audio fishing finish's fish sound will be stopped thanks to player aidin for the bug report
+Fixed rock paper scissors
+Now you can't use items so fast
+Now you can't combine items to gether faster than its time
+New in version 1.21
+Now we have normal and advanced input box's. Toggle it by pressing alt f9
+Fixed the sound updater
+Grenade launchers, missile launchers, rocket launchers, daggers, bows, tiny mg, hook, iron shovel, machete, wip and chainsaw are now in weapons compartment
+Slightly lowered down the walking time to deacrease the lag
+Added the newest main menu music in sound sources menu
+Fixed item interraction when pressing alt space
+Fixed AI spawning in builder menu
+New in version 1.2
+Fixed. Now when you spawn an item with client it will be spawned correctly thanks builder aidin for reporting this bug
+Fixed. Now after login in each time game won't check for you're teamname via the client
+Now in some menus you can work by pressing tab and shift tab and activate the menu by pressing space
+Fixed automatic jumping
+Fixed. Now you are defaultly in using yourself else than combo mode
+Finally! Fixed the social menu
+Fixed. Now when exiting from casino menu and before you were in bopit keyboard practise you won't be back to the keyboard practise and will exit from the casino menu
+Fixed. Now when exiting from casino menu and before you were in memory keyboard practise you won't be back to the keyboard practise and will exit from the casino menu
+Now travelpoints no longer needs to have open and close sound deu to not working
+Fixed the bust a balloon
+Fixed the account creation
+Fixed the bopit game
+Fixed the beaconing in some menus
+Fixed animal names in animal roulette
+Changed the ai spawning in the builder menu
+Fixed login in to the game
+Added bases!
+You can no longer check higher than the map's maximum height with your camera
+Added team store! you can access to it by typing /teamstore if you are in a team
+Removed auto following for now
+Now there is go back option in each server menu
+Renamed casino to entertainment center
+Renamed the casino buffer to entertainment center
+Fixed doors
+Fixed automovers
+Now items have a little beep sound! toggle it by pressing alt f6
+Fixed the changelog updater
+Fixed the rules updater
+Fixed the readme updater
+Fixed the language updater
+Removed server list menu
+Now game will connect to the main server itself without setting it each time that server changes!
+Fixed. Now when selecting one of  using yourself, using items, or combo mode, it will be saved
+Fixed pong(one of the entertainment center games)
+Fixed showdown(one of the entertainment center games)
+Fixed shooting range(one of the entertainment center games)
+Fixed minibeep(one of the entertainment center games)
+Fixed audio fishing(one of the entertainment center games)
+Fixed fire escape(one of the entertainment center games)
+Fixed dice(one of the entertainment center games)
+Fixed swimming(one of the entertainment center games)
+Now you can't be moved or go more than maps maximom x, maximom y or maximom z
+Added new updater music
+Added. Now you can enable and disable weapon pings thanks builder aidin for the suggestion. Toggle it by pressing alt f8
+Changed the logo
+New in version 1.19
+Now changelog updater extracts the changelog.zip after downloading
+Pistols are now in weapons compartment
+Removed misc compartment from inventory
+Fixed the sound updater
+Fixed menu wrapping thanks builder aidin for reporting its bug
+Fixed bopit keyboard practice
+Fixed. Now when exiting from casino menu game won't be restarted
+New in version 1.18
+Fixed. Now game checks for admins again after login in
+Now shield is in clothes compartment
+Added. Now when changing volume of music in main menu you're tts tells you the volume thanks admin mahdi00 for the suggestion
+Changed the volume changing percentage and the volume timer for changing music volume in main menu
+Fixed. Now you can work in the menus by the first letter navigation all the time!
+Now when you are in a tree you can hear its tile
+Now when you are in a fire you can hear its tile
+New in version 1.17
+Fixed account creation
+Now when server is down and you are in the game client will be rebooted
+Added auto following! it means that now you can follow automaticly who you've tracked by pressing alt w!
+Now to be able to choose another server to log in when auto login is enabled, you'll be reconnected just when auto login is disabled
+Fixed. Now when pinging and it doesn't returns any info after reconnecting you can get ping again
+Changed the run command line key to alt A because of some problems with language changing inside input box's
+Ak48 is now in weapons compartment
+New in version 1.16
+added new casino game. Bust a balloon
+Added new sounds
+added a new rank. Manager
+Added manager channel
+Added new buffer. Manager chats
+Now  clientside message of the day don't skip itself
+Now when server is down, game reconnects itself
+New in version 1.15
+Added new buffer. Arena
+Fixed the updater
+Added. Now you can change owner of your map in the builder menu
+Fixed aliases
+Finally! added sound updater!
+Switched back to dark updater for now
+Now readme updater and rules updater don't download changelog.txt after updating
+New in version 1.14
+Added food and beverages compartment
+Added new buffer. Auction
+Added new updater
+From now on you'll be able to skip updating changelog, language pack, rules  pack, and readme pack
+Added casino with the following games: animal roulette, even or odd, blackjack, rock paper scissors, farkle, lucky dice, role the dice, bop it, memory, pong, showdown, shooting range, minibeep, audio fishing, fire escape, dice, swimming, destroy the door, random game
+Added new buffer. Casino
+Fixed jumping to haven't any lag
+New in version 1.13
+Fixed jause support thanks to player silak for reporting this bug
+Fixed speech interruption thanks to player blind lightning for reporting this bug
+Fixed. Now character repeating saves across client restarts thanks admin deborah for the report
+Fixed beaconing in the serverside menus thanks admin deborah for the report
+Fixed. Now miniguns displays in the weapons compartment thanks admin deborah for the report
+Added explosives compartment thanks deborah for the idea
+Added fruits and vegetables compartment
+New in version 1.12
+Fixed the changelog: cars replaced by vehicles, and fixed some grammatical ishoos
+Recoaded sound card menu deu to request of mahdi00
+Added a new character voice. Alireza mamani
+Fixed. Now if there's txt and wall in a one tile game will check for txt first
+Now drinking water is serverside
+Fixed. Now beaconing saves across client restarts thanks admin deborah for the report
+Recoaded input box's
+New in version 1.11
+improved the updater. Now we haven't any problems with daily life download link changing!
+Removed the website menu
+Fixed bike. Now bike goes five steps instead of four
+Removed redownloading the game from main menu
+Removed redownloading clientside message of the day from the main menu
+Removed restarting game from the main menu
+Removed runs counter
+New in version 1.1
+Fixed scuffing
+Fixed selecting chat, local chat, online, offline, and pm sound randomly
+Fixed. Now you should hold the shift and press 3 or 4 to select left and right foot
+Fixed. Now page up and page down works correctly in stairs
+Recoaded the updater
+Server list is back!
+Fixed the changelog
+Removed selecting language when entering to game for the first time
+Fixed. Now chat sound, local chat sound, pm sound, online sound and offline sound will be selected when you enter in the game for the first time
+Fixed. Now dlg won't skip when checking clientside MOTD
+Fixed. Now if you enabled playing scuffing sounds you'll here scuffing sound when standing up
+Fixed auctioning thanks  builder aidin for the report
+Now because we can log admintells, slightly edited the message when you press f7
+Recoaded bike
+Fixed the server list menu
+Fixed playing falling sound, walking sound, and scuff sound
+Fixed. Now you can't check your facing when sleeping thanks to player volgelo for the suggestion
+Fixed. Now you can't draw your fists and feets when sleepingthanks builder aidin for the suggestion
+Fixed. Now when working with camera scuff sounds won't be played
+Added shotgun to the weapons compartment
+Added. Now you can toggle menu wrapping in the options menu
+Added some new compartments to inventory
+Muting tts is back
+Added some new sounds
+Now when your connection drops game will notify everyone
+Finally! Now travelpoints have open and close sound!
+Now when your connection drops game just notifies you else than notifying you and exiting
+Now twitter will tweet when you kill someone if you set it up
+Added run command line! for example if you press alt shift r and type check health it tells you your health
+You can no longer jump higher than the map's maximum height. 
+Added a new character voice. Deborah
+Fixed some spelling problems of the changelog thanks admin deborah
+New in version 1.09
+Changed the storing data place for the game
+Added energy and Replaced it with tiredness. You can check it by pressing J
+Added three new character voices. Mojtaba, amirali amiri, amir tajik
+Now instedd of pressing k to check amount of your kills and deaths you can press f5 or shift f5 and press f6 to check the player's kills and deaths
+Now twitter won't tweet when you kill someone if you set it up
+Removed muting tts in options menu
+Removed the server list for now
+New in version 1.08
+Added an option to enable/disable checking for clientside message of the day at startup
+Recoaded runs counter
+Now you can chat, local chat, and tts chat underwater
+Added. Now you can take shower! thanks admin deborah for the idea
+Removed houses
+Fixed. You can no longer press page up and down and jump up and fall down
+Fixed. Now you cant jump while sitting
+New in version 1.07
+Finally! Updated the buffer beeping! thanks dalison
+Now if you are listening to a sound from sound sources menu and you exit from game sound will be stopped
+Finally! builders can put link of a file to be played in they map!
+Recoaded the smart player
+Added an option to enable/disable checking for updates at startup
+Fixed sleeping system
+Added scuffing. To ignor scuff sounds, press alt f7
+New in version 1.06
+Fixed selecting language when entering in the game for the first time
+Added new sounds
+Now if you are sitting and you press aro keys you hear a body moving sound
+Added input help! press insert pluss f1 to toggle it
+Finally! Added toilet!
+Added washbasin
+Recoaded twitter support
+New in version 1.05
+Now you can set the chat sound pitch and local chat sound pitch respectivly. Go to options menu2 to set it
+Finally! Added hand to hand combo system!
+Recoaded players menu when pressing shift f5
+Added new way of showing alerts
+Now if you lost clientside message of the day you can get it in the main menu
+Fixed tile names for when checking with camera
+Now you can go back from a menu to a menu by pressing bacspace too!
+New in version 1.04
+Removed game engine
+Added automatic travelpoint for builders!
+Finally! Now you can hold buffer keys and go faster between messages!
+Added left shift and right shift detection. Set it in options menu
+Added left alt and right alt detection. Set it in options menu
+From now on everything that used by left shift and left alt is now usable by right shift and right alt too. You can set it in options menu
+Now builders can make new map from builder menu!
+New in version 1.03
+Now tiredness affects on speed of using boat and bike
+Now builders can enable and disable using teleporter in they map
+By requests, now you can select your chat sound, online and offline sound, local chat sound and pm sound. Go to options menu2 to set it
+From now on fists and feet are realistic! press shift 1 and shift 2 to draw left and right fists, and alt 1 and alt 2 to draw left and right foot!
+Now you can press key 3 to know whats in your hands
+Fixed spyglass
+Changed the logo
+New in version 1.02
+Added factors, check with D. These are how dirty you are, and how wet you are
+Now you can enable or disable the keyboard clicks in the input box's! when you are in input box, press f2 to toggle the keyboard clicks
+By requests, Changed the clientside MOTD system
+Finally! added teleporters!
+Now you can knock the houses door! press enter on a house to do it
+Added mp3 file player to smart phones
+Added  OGG and WAV file player for smart phones
+New in version 1.01
+Fixed telephone
+Now builders can enable and disable using bombs in they map
+Fixed falling
+Fixed the social system thanks builder aidin for the report
+Fixed setup account thanks builder aidin for reporting this bug
+Finally! now when your connection drops game will notify you
+Added sickness!
+New in version 1.0
+Fixed character voices
+Now you cant pick up anything from the ground while you are in vehicle or motorcycle!
+Added description to inventory items! press enter inside your inventory to check it
+Fixed the changelog
+Removed wind
+Removed night sounds
+Changed the rotating keys
+Added new sounds
+Recoaded the camera
+Fixed diing
+Now when you are in unknown zone it says uncharted aria instedd saying nothing
+Added Civil Registry Office!
+Now when you are underwater you can't hear rain sounds
+Now you can pick up dirt from all dirt tiles
+Added trees!
+Now you can pick up wood from trees with your hand
+Finally! Now when you start a fire the tile that you are in it will be fire too!
+Finally! added visual mode!
+Deu to some requests, Now while raining randomly twelv sounds will be played instedd of sixteen sounds
+Added an option to add aliases in the options menu
+shift pluss F10 now toggles death messages! 
+Changed the way of rules agreement
+Removed some of the menu musics and added more than thirty new tracks
+Now you can select your menu sound in options menu
+Added tiredness!
+Finally! Added sleeping system!
+Now in your police car press alt pluss s to toggle the sign
+Now when you stand up scuff sound will be played
+Now when you create your account and login for the first time you'll be assked to set your language channel
+Now when you create your account and login for the first time you'll be assked to select your country for feucher use
+Added a website menu to the main menu
+Fixed falling in input box's
+Now when you exit from a menu menu close sound will be played
+Now when you open chatbox or exit from it nothing will be played
+Finally! Added key config thanks CAEJones for making it! but now because of its lag we can't use it much
+Finally you can use items or pick up things in staircases
+Fixed zones
+Now by pressing shift pluss z you can toggle between speaking zones
+Builder menu of players(in houses) and admins are now difrent!
+Now builders can spawn items in builder menu
+Now builders can spawn AI in builder menu
+Fixed selecting countrie and selecting language to be serverside
+Recoaded trees
+From now on builders and admins can spawn trees from the builder menu!
+Fixed. Now when you press no in resett settings confermation it will return you to the options menu
+Now when you fall it doesn't play any falling sound
+From now on you can interact with items by pressing alt and space! now its just used for clothing
+Added new buffer. Clothing
+Removed some unused options in options menu
+Now you can access the stores in each store zone, for example in clothing store you can press enter and access clothing store. This is respective and who adds the store can choose store access from the hole zone or a zone like service desk
+Redesined account creation and setupping account to be easia
+Removed password limitations for creating accounts
+Added anty spam protection for when you want to enter your e-mail while creating your account
+From now on builders can choose fishing coordinate in they map!
+Fixed a bug about spyglass
+Fixed a bug about clothing
+Now when you are sleeping and you exit from the game sleeping sound will be paused
+Fixed. Now when you hold down g and press t it won't sometimes clap and sometimes check camera tile
+Added a way for builders to get and set the map data from builder menu
+Removed. Now players can't desine they houce
+now if you are in a house you can press shift slash to chat with other players who are on that house
+From now on you can't exit from the game while you are jumping
+From now on you can voice chat and tts chat in your map and everyone who's in your map can listen to it! set it in options menu
+Added custom file uploading support!
+Added an options menu inside of the game for setting some importent things. You can access it by pressing shift pluss f11. We call it options menu2
+Now if you aren't connected to server and you are in input box and sonar is on it won't beep
+Added bank!
+Recoaded bike
+Fixed boat
+From now on tiredness affects on your walking speed
+Finally! fixed the zone tracker!
+Removed letters autoactivate in menus
+Now if you don't set any username and password login won't show in main menu
+From now on you can unload your weapons!
+Now you can check your air by pressing shift pluss a, shift pluss r used to unload your current weapon
+Now we have three unloading sounds for weapons!
+Now you can set daily life to be started with windows in options menu
+Removed one degree rotating
+Added doorbell to houses! press alt pluss enter on them to hear the bell
+Now you can press shift enter to use travelpoints
+Fixed a bug about houses. From now on you can exit from the game while you are in a house!
+Fixed a bug about checking player stats in tracking menu
+Now when you enter the game for the first time, you should select your language
+Now defaultly visual mode is off
+Added multi letter navigation in the inventory
+Now you can activate and deactivate your current buffer. Press alt pluss f3 to do it
+Now you can interrupt and disinterrupt your current buffer. Press alt pluss f4 to do it
+Now you can meut and unmeut your current buffer. Press alt pluss f5 to do it
+Finally! added smart phone!
+Removed the smart cd drive controler and opening and closeing cd drive has been moved to the smart phone
+Recoaded the inventory system!
+Added inventory compartments
+Now you can drop your inventory! press shift pluss i to do it
+Now you can walk a little faster
+Now if you drink energy drink you can walk a little faster than what it was before
+Removed the cycle inventory
+Removed the sound that plays when you have inventory
+Now builders can enable and disable tracking players in they map thanks admin mahdi00 for the suggestion
+Now if menu side scroling has enabled it affects in all menus
+Now when you enter to the game for the first time you'll be assked to configur settings in options menu
+New in version 0.99
+Now you can press shift pluss backspace to interrupt a buffer and backspace to use the inventory as cycle
+Now you can't drop your inventory because of a bug that will double your  items
+Added two new character voices. Erfan and mohammadmahdi
+Now character voices plays 3d!
+Added one new online and offline sound
+Added one new pm sound
+Added one new chatting sound
+New in version 0.98
+Fixed enabling/disabling local chats for builders
+Changed the way that logo plays
+Added new sounds
+Recoaded sonar
+Now you can go up and down from stairs with no problem
+Removed breakable walls
+Now you can fall from more than five tiles
+New in version 0.97
+Added gas masks, put one on if you are going under water! If you dont' have one on you will drown. Please make sure you have air on you, press left shift pluss R to check!
+Added air canisters, drop some on the ground, and you and people nearby will get some air.
+No more opening your inventory or moving in your cycle inventory or dropping your inventory underwater
+Now you can't chat, local chat, tts chat, or voice chat underwater. 
+No more biking underwater
+From now on, you can't select your hands underwater
+From now on you can't use your vehicle or motorcycle underwater
+New in version 0.96
+Now builders when listening to a sound in sound sources menu and all other menus that on them you should choose sound if you press space to listen to next sound the prior sound will be paused itself
+Added some new sounds for eating chips and a new updating music
+Disabled pitch deacrease for sound sources for now
+Now builders can stop sound source sound in builder menus too
+Finally! Now you can use doors and auto movers safely!
+Recoaded cycle inventory. Now you can use your main inventory as cycle, move on your items by tab and shift tab, but you just can use your weapons and bombs in cycle inventory
+Now everything that opened/used by pressing shift enter opens by pressing enter and  you can use items of inventory as cycle by pressing key backspace
+New in version 0.95
+From now on, press alt pluss z to know where you are, n will be used for item tracker
+Now when autologin is disabled you will go to main menu in some of the menus instedd of exiting the game
+Now when you exits from the game pitch of everything will be lowered
+Added option to disable or enable lower pitch when exiting from game
+Fixed. Now you should hold the left/right control to just fire the machineguns not all weapons
+Removed hard ban for now
+Now because hard ban removed, you login to game faster
+New in version 0.94
+From now on, you can hold the comma and period and go between messages in buffer!
+Added two new musics thanks to player faraz
+Added item tracker!
+The camera now plays a high pitched sound if the camera's position isn't a safe area.
+Made game engine show runtime errors.
+Now all menus supports joystick and mouce!
+Added new notify and chat sounds
+New in version 0.93
+Removed exchange office and building shop!
+Removed. Builders No longer can disable fishing in they map deu to a runtime error
+Fixed disabling using motorcycle
+Tried to control the lag
+Recoaded the input box's
+Finally! Persian speakers! from now on you can type persian in the chat box's! press left/right alt pluss left/right shift to change language to persian/english!
+Deu to some bugs, removed the capital mode for letters in input box's
+New in version 0.92
+Added some new sounds
+Now we have three falling sounds
+Added hardland sounds for some concretes
+By requests, increased walktime
+Fixed the builder menu
+Modified the changelog. Removed everything that was serverside to balance the changelog and keap it tell just client changes
+Changed the logo
+New in version 0.91
+Fixed runs counter.
+Now you can press key space to give item to someone
+Fixed the changelog
+Fixed. Now you can drop you're inventory and cycle inventory
+Removed speak position information for menus
+Now when autologin is disabled and you open your inventory in the game it won't play menu music
+Now when restarting client everything saves thanks no name for the report
+New in version 0.9
+Added hardland sounds for some concretes and rocks2 thanks builder aidin for the report
+Fixed the changelog
+Now builders if you are listening to not paused sound source or door sound you can stop it by pressing keys left alt and f1
+No more going into input boxes to stay in the air while falling!
+Recoaded the entire inventory system!
+To prevent  a bug you can't exit from game while you are in a house for now
+Now sonar is off defaultly
+Recoaded weapons
+Added the redownload the game and the restart your client options to the main menu.
+Added some new sounds
+Now you can toggle on or off level sounds by pressing keys left shift pluss f two
+Fixed character voices
+Removed hearing problems
+Removed hearing aids
+Added set buffer beeping in options menu
+Now when setting volume in options menu it returns you to options menu instedd of main menu
+Now when settings resets game exits
+Fixed the rules agreement
+Removed suckers
+slightly changed the pitch decrease for sound sources.
+Balanced behind pitch decrease for sound pool
+Fixed playing sounds while using telephone
+Fixed playing sounds while using smart player
+Fixed night sounds
+Removed inventory compartments for now
+Finally voicechat is back, and this time it works!
+Removed chat translator
+Added aliases!
+Added toggle - hold or press V to voice chat in options menu
+Added tts messages! Press left alt + slash to send one!
+Added an option to enable/disable ask to exit
+Finally! fixed! now when login in your current map won't load two times!
+Now builders can disable voicechat, tts chat and local chat in they map
+Now builders can disable building house in they map
+Now builders can disable using boat in they map
+Now builders can disable fishing in they map
+Recoaded camera
+By requests, camera can't pass walls!
+Now you can press key enter to give item to someone
+New in version 0.89
+decreased walking time to decrease the lag
+Fixed. Now you can check for you're weapon ammo's with know problem
+Now in each menu of game you can press f12 and copy last thing spoken by you're text to speech. This works on all menus
+By request admin monster, menu sounds changed for now
+Added sonar!
+Now you can't fire weapon inside you're vehicle
+Changed the beacon sound
+New in version 0.88
+Added two new menu musics
+From now on builders can enable or disable playing night sounds in they map
+From now on if you login to game and fire exists near you you'll here it
+Finally! fixed sound source menu! builders. You can work on sound sources by pressing letter of that sound source and by holding key space it'll play until you release the space key. Also it aplyed to doors, signs and automovers menu
+Fixed the changelog
+Fixed menu side scroling
+Fixed. Now when you hold down key g and press d if coordinates is disabled it won't tell you camera coordinates. Thanks builder aidin for the report
+New in version 0.87
+Finally! Fixed distance sounds
+Fixed. Now when someone dies pitch of sound sources no longer changes
+Removed jet
+Added new speaker testing sound
+By requests, from now on everything that worked by pressing left shift pluss enter works by pressing right shift pluss enter too
+From now on you can hear if someone is using door or automover
+Now we have two new welcome sounds
+New in version 0.86
+Added new serverside menu
+Added ragequit!
+Added new sounds
+From now on, twenty new lightning sounds will be played while raining. It means we have forty lightning sounds in total!
+Fixed ambiences. Now they plays correctly!
+Fixed. Now when you go to you're vehicle sounds fades in and fades out correctly
+Fixed. Now sound sources pawses and resumes correctly before and after sleeping
+New in version 0.85
+Added new sounds
+Added night sounds!
+From now on builders can enable or disable using vehicle or motorcycle in they map
+By requests, removed Additional files from dl folder
+Removed gladiators
+By requests, fixed the behind pitch decrease
+Removed admin rules from rules folder
+New in version 0.84
+Now we have nignteen chat sounds
+Now we have five local chat sounds
+Removed pvp system
+Fixed server side menus
+From now on boat can't go on some of the water types
+Added Genders! Now when you create a character, you are asked weather you'd like to be a male or female. If your character is already created, you can set your gender with /setgender 0 or 1
+Fixed runtime error  about dropping items
+New in version 0.83
+Fixed disabling bike
+Fixed tracking system. Now when in a map saying coordinates is disabled it won't tell coordinates of tracking player
+Added new sounds
+Fixed the changelog
+Now we have eighteen online and offline sounds
+Now we have fore ping sounds
+Now we have fifteen pm sounds
+New in version 0.82
+Fixed the input box's
+Fixed playing some sounds to deacreasing the lag
+Fixed private messages
+Removed scoreboard for now
+By requests, added reset settings in options menu
+Added some new compartments for filtering your inventory
+Added hazard!
+New in version 0.81
+Changed the way of playing logo
+Fixed bug about safe zone
+Fixed some critical bugs about buffers
+Fixed a bug about camera. Now you can check hights a buv 1000 with you're camera!
+Added new buffer. Zones! in this buffer you can check the zones that you're tts spoken
+Removed safe zone map
+Fixed the changelog
+New in version 0.8
+Added exit option in menu that comes up when server fales to connect
+Fixed the changelog
+Fixed sound source menu
+Now while raining randomly more than sixteen sounds will be played instedd of six sounds
+Removed. Due to some problems and abusing walls, While raining, tiles won't be wet concrete
+Fixed. Now when you connect to the game and raining or the wether is windy, the sound will be played for you too
+Now when you sit in a chair, the chair sounds plays more than the preavius update
+Now when selecting sound card it saves
+Now when selecting language it saves
+Added new sounds!
+updated the buffer class to the one used in sbp and SBYW, adding buffer beeping along with a hole host of other good things.
+Added safe zones!
+Added dark updater!
+Fixed the rules agreement
+Updated the input box's to the newer and better one, the one used in sbp
+Finally! Added a sleep system!
+Renamed pm's buffer to private messages
+Now pm's shows in private messages buffer
+Fixed checking for updates in main menu
+Tryed to fixing setting sound master volume
+Renamed notify's buffer to notifycations
+Removed buffer moving timer
+Now we have twenty too jumping sounds in the game!
+Now we have seven inventory opening and closing  sounds in the game!
+Now we have twelv inventory moving sounds in the game!
+Char repeating and capital mode saves now
+Now testing speaker menu have go back
+Added builder channel and admin channel
+Added builder chats and admin chats buffer
+Added cycle inventory for weapons!
+Now everything that opened by pressing enter opens by pressing shift enter because of cycle inventory
+Added scorebords. Thanks Ivan Soto from http://ims-productions.com
+Removed robots for now
+Removed the object locator. Maybe it'll come later with new features and crafting commands
+Added Script Keys!
+Because of cycle inventory removed the weapons catigory from the inventory
+Now you can interact between you're main inventory and cycle inventory! but please note: you can't put something from you're cycle inventory to main inventory, give, auction or drop something from cycle inventory. So please be carefull
+Now you can drop you're inventory! To drop you're inventory press left alt+i and to drop you're cycle inventory press left shift+i
+From now on, where there's something in you're cycle inventory and you are walking, a sound will be played with you're step sounds
+Security updates
+From now on, we have just one logo!
+Added enable option for seeing coordinates, camera, bike, jet, jumping, item grabber, spyglass, and wand in builder menu
+Added new buffer. Pings!
+Now when you ping it shows in pings buffer
+Added smart cd drive controler! opening and closing cd drive has been moved from smart player to the smart cd drive controler
+Added hearing problems!
+Added hearing aids!
+Added vehicles!
+From now on, you no longer get error when one of files are missing
+Fixed clientside message of the day
+Added new buffer. Speech! in this buffer you're tts speech will be logged
+From now on you can press F12 to copy the last thing spoken in daily life to the windows clipboard! 
+Motorcycle is back!
+Finally! sign and txt has been fixed!
+New in version 0.79
+Now some chairs plays another sound while sitting on them
+Added some new sounds
+Now we have forteen welcome sounds in the game!
+Added snapping!
+Added spyglass!
+Now builders, you can disable spyglass in you're maps
+Now, while holding the key g, you can press key D to know where you're camera is, and key T to replay the tile sound that you're camera is in it
+New in version 0.78
+Removed by text in speaker test menu
+Added character voices! choose one of them in options menu
+Added new sounds
+Added some new logo's!
+Now if playing logo is enabled, randomly, one of logos will be played at the startup
+Added a server list. This made it easia to change the game server without updating the client. Just go to options menu and under the server list menu, select main server if game don't connects to the server. If it don't  connects again, report to me. You can find my contact info in readme. Also! if you are opening the game for the first update after this huge update, don't forget to set the server list to main server!
+Removed cycle inventory for now
+New in version 0.77
+Because of huge amount of requests and To reducing the size of the game, removed Additional sounds. Game size decreased from 810 mb to 495 mb
+Removed musics!
+Added menu for when you can't connect to the server
+Added auto login to options menu
+Changed the game title to prevent abuzing daily life
+You can now toggle buffer interrupt when speaking. Press back to toggle the currently focused buffer between interrupt and non-interrupt.
+Added sound for while connecting to the server
+New in version 0.76
+Added energy drink!
+Changed the server
+Now twitter will tweet when you kill someone if you set it up.
+Added robots!
+Fixed disabling rain. Now you should select sound for it to play while desabling. You can select none to play nothing
+Fixed changelog
+Added a social system!
+New in version 0.75
+From now on, everything that opened by shift enter opens with enter and key shift enter is just for travelpoints
+Now you can press key equals to type command. Difrence with key slash is that when typing command on this input box, it'll put / before the command
+Now you can set playing sounds while you aren't in game window in options menu and directly in the game by holding the key left shift and pressing key f3
+Added muting speech in options menu
+From now on, updating musics plays randomly
+Added a lot of new sounds
+New in version 0.74
+Added e-mail for when you want to create account
+Added resetting password via main menu
+Added the ability to reset your password via e-mail verification. For this to work, we have added a command for setting up an email if you already have an account. Just type /setemail followed by your email. The server sends back a confirmation message to let you know everything went well.
+Added suckers! be carefull because your health or items will be sucked!
+By requests, From now on, you can collect stone
+From now on, client will restart when you select language in options menu
+Added telephone!
+New in version 0.73
+Added server stat checking: do it by holding thel left shift and pressing f6
+Added left shift pluss f4 to set receaving or not receaving private messages
+Added muting speech. Down the left shift and press f7 to set it
+Fixed changelog and all of its content. All of the changelog things seperated manualy to be realistic. Some versions devided to five versions because of some limitations and more than nine version numbers (0.64/0.73) created manualy to balance the changelog
+Removed releace dates in changelog because of limitations that it makes for adding things
+From now on, you can drop items from your inventory!
+Added txt for builders!
+New in version 0.72
+By requests, added some new things to builder menu to disable
+Added first letter navigation in some menus
+Fixed some importent bugs
+Fixed new team system
+Added changelog and rules updater
+Added some new options in options menu
+Removed fridge
+New in version 0.71
+Removed voicechat
+Added a lot of new sounds for future use
+By requests, Added some new Abilities to auto movers, doors, travelpoints, jets, and tracking menu(f5 menu)
+Changed store system
+Changed pvp system
+Changed MOTD system
+Changed walking time to be realistic
+New in version 0.7
+Added rules
+Added admin rules! admin rules added publicly to let everyone know the all of the rules. Players, you can report if you see any admin is doing rong
+From now on, you must agree to the daily life rules in order to play.
+Fixed zone tracker
+Fixed tile tracker
+Fixed auto walking
+Fixed changelog of version 0.66. I forgot to tell selecting sound card in options menu has been added
+From now on, Each dlpoint is 1000 dollar instedd of some coins, go to exchange office to exchange your dlpoints and get dollar
+From now on, you can select one of the musics to play as menu music! check the options menu for more info
+Removed tile tracker for now
+Made new system for boat
+New in version 0.69
+From now on you can collect clay
+Removed looking
+Finally! we broke the limitation of having maximum 2000000000 of each item in inventory!
+Finally voicechat has been fixed!
+Added some new sounds
+Added: press left shift pluss f5 to show all connected players and press enter to copy they name to your clipboard
+Added boat
+New in version 0.68
+Added some new sounds
+Removed making new map in builder menu
+Fixed a bug about preloading sounds
+From now on, when you aren't pvp animals can attack you and you can fire your weapons
+Added left control detection
+Fixed facing
+By requests, Added clothing!
+New in version 0.67
+Added ak47assault rifle, firework and grenade to the cycle inventory
+Added some sounds to the door moving sounds
+Fixed the checking weapon ammo's. Do it by pressing key z
+Fixed the new team system
+New in version 0.66
+Added too much new sounds!
+Added graphic support
+Added mouse and gamepad/joystick support!
+Fixed joystick/gamepad selection menu: upon pressing enter on the joystick/gamepad selection, it will announce how many joysticks are currently connected on the system.
+Added joystick/gamepad selection menu: added information about every joystick (it will tell you which axis the device has, how many buttons, sliders, point of view controls, etc.)
+Added default joystick/game pad selection to options menu
+Added select sound card in options menu!
+New in version 0.65
+Because of huge amount of requests, Added right control detection
+Fixed empty glass bug
+Because of huge amount of requests, Added nuclear bombs!
+Did some changes to experience system
+Added fridge!
+Added safe zone map! after you're death you'll be spawned there
+Did some changes to loading maps
+New in version 0.64
+Added looking
+Added a new map feature called ambiences, kind of like sources, where you can cover an area with a sound loop. The difference here is ambiences will just go silent when you are not in them, while sources kind of pan away. Syntax is amb:minx:maxx:miny:maxy:minz:maxz:sound. Also available in builder menu!
+Added gladiators! Beware of them! If you can kill one of them, you win items. Just killing to know what they are
+Fixed. You can't jump while sitting
+Changed some sounds
+Added musics!
+Added a new map feature called ambience musics, kind of like musics, where you can cover an area with a sound loop. The difference here is ambience musics will just go silent when you are not in them, while musics kind of pan away. Syntax is ambmusic:minx:maxx:miny:maxy:minz:maxz:sound. Also available in builder menu!
+New in version 0.63
+Added separate updater to the game
+By requests, Added zone and tile tracker! for zones press left alt pluss grave to open, and for the tile tracker menu press the alt pluss k
+Makes the game load all sounds(excluding ambiences and musics) into memory. Note: this may affect loading times, but CPU will greatly be improved.
+Added enabling or desabling loading sounds into memory at the options menu
+Added stop tracking to tracking menu(the menu that opens when you press f5)
+The music that used for background music in version 0.14/0.32 is back! its in musics menu for builders. Enjoy!
+Security updates
+New in version 0.62
+Fixed the changelog
+Added two new animals, chimpanzee and tigre!
+Now, F10 will toggle on or off weather you receive chat messages. 
+F11 now toggles online and offline messages! 
+Added jets! Find a jet in your inventory and press either left arrow, or right arrow to get that jet in to either your left or right hand. Then close your inventory, select it and press space on it and you will be in the jet. From then on, enter is your toggle key. Press enter to launch your jet, and when your ready to land press enter again to do this. Keep in mind you must be in nutral to land.  Up and down arrows are like your shifter, you have speeds 1 threw 3 forward and -1 threw -3 backward. Between 1 and -1 is nutral (0). Left and right arrows turn you 90 degrees each way. Spacebar fires your gun, be in the lookout for players below you! Your gun is a small thing that dropps tiny bombs on the ground. One isn't that powerful, but many? When your done in your jet, press escape. You must be landed, of course.
+By requests, added automovers for builders!
+Fixed bike
+New in version 0.61
+Now you can drink water from every water source
+You can now filter your inventory by several categories by pressing tab and left shift pluss tab in your inventory
+By requests, Added wand!
+Added disable wand option for builders in builder menu
+Added super jump and float spells for the wand
+Added making new map in builder menu
+By requests, Added auctions!
+New in version 0.6
+From now on, before downloading language pack, readme pack or client, unzip.exe will be downloaded.
+From now on, press n to check your current location
+Fixed: you can't jump up from the walls!
+Added anti-spam protection
+Changed some sounds and added new ones
+Added sign
+Fixed door sounds. Builders! From now on, you can listen to door sounds instedd of typing they name!
+Fixed The similarity between the wall and breakable walls
+Added clapping
+Added twitter support
+Renamed the smart radio to smart player and improved it! from now on you can listen to one of files in your computer or by link in smart player!
+Finally! recoaded weapons!
+recoaded hands!
+New in version 0.59
+Due to unforseen, indissoluble, and unexpected  bugs, apartment and motorcycle has been removed
+designed the updater
+New in version 0.58
+Fixed some bugs
+Added breakable walls!
+Added voicechat!
+Because of huge amount of requests, from now on: when downloading language pack or readme pack finished, changelog will be downloaded after it. Changelog has been lost deu to testing this feature, so I rewritten this version's changelog! I laffed too much about it :) You can turn on/off the beacon sound: press f9 or type /beacon in the game. Also, you can set the autologin by pressing key f8
+Added dlpacks! it contains all of things that you should have after of your death. I added it because of inventory bug
+Added turrets
+Added houses!
+New in version 0.57
+Added new sounds
+Added. Check how much ammo you have by pressing shift pluss x
+Added auto login! while you are in the game, set it by typing /autologin
+Added test speakers and options menu to the main menu. On it you can select your game volume, menu stile, and playing logo at startup
+Because of a auto login, From now on: check the game engine version in the main menu, check who's onlyne by pressing key F1, select your language by going to options menu instedd of pressing key F9, check for updates at the main menu, and send message to admins by pressing key F7 instedd of F8
+Fixed the camera
+Changed some sounds
+New in version 0.56
+Fixed huge amount of  unexpected bugs!
+Added new sounds
+Recoaded the motorcycle
+Fixed the changelog
+Finally! added language channels!
+New in version 0.55
+Fixed some bugs about inventory
+New in version 0.54
+Added cups!
+Removed the Additional sounds and added new ones
+Added cycle inventory!
+Fixed huge amount of bugs: for example, Fixed rotation and facing. From now on, you can turn degree by degree(one), five, Ninety, and one hundred and eighty degrees. Fixed some bugs about checking level and drawing sounds, and jumping time has been increased a lot. Etc
+From now on, use vending machines, lockers, and travelpoints by pressing shift pluss enter
+Added auto walking!
+Added motorcycle!
+New in version 0.53
+From now on, check your location by pressing key Z
+Fixed some bugs
+New in version 0.52
+Fixed the buying apartment bug
+Fixed the wall sounds
+Fixed the ping sounds
+New in version 0.51
+From now on, press escape to stop the smart radio
+Fixed some things in the builder menu
+Fixed the changelog
+Added some new buffers and fixed the buffer system
+Fixed huge amount of bugs
+Added dlpoints! finish quests and get them!
+New in version 0.5
+Added bike!
+From now on, you should press space to stop the smart radio instedd of escape
+Fixed sound source menu for builders! sound sources loads so much faster than what it was before!
+Added new sounds
+Added vending machines!
+Added thirst and hunger!
+Recoaded sitting to be serverside
+From now on, you can hold the space key and jump instedd of pressing it
+From now on, you can hold the comma and period and go between messages in buffer!
+From now on, you cant have cheat engine in your computer while playing daily life!
+From now on, you can't run two instances of the game up!
+Fixed moving sounds! from now on, you can here enemies and vending machine sounds!
+Removed the optional donation
+Fixed the changelog
+Fixed raining
+Added wind!
+Fixed. From now on, whenever an item haven't drawing sound, it plays default draw sound for it
+Added apartments!
+Security updates
+Added coins!
+Added exchange office and building shop!
+Added some foods and drinks!
+Added some new things to the builder menu!
+Added readme updater!
+Fixed language updater
+Added glasses! drink water with it!
+New in version 0.48
+Security updates
+New in version 0.47
+Fixed some bugs
+Added new sounds
+Added some craftable things! for example, knife, hammer, etc
+improved the smart radio! from now on, while listening to smart radio, play dl normaly! decrease and increase smart radio volume by home and end, and for the game press shift home or shift end
+Recoaded the translator!
+Added object locator! check the readme to know how to craft it. When you have it in your inventory, outside of your inventory, press v: if it plays sound, it meens an item is near you and you can press m to see it: if not, it meens nothing near you
+Updated the readme
+New in version 0.46
+Added language updater!
+Fixed the changelog
+Updated the readme
+Fixed teams
+Added new sounds
+Added smart radios! go to readme to see about them.
+Added optional donation to the game: please donate to us to keap the game free and server running!
+New in version 0.45.
+Fixed large saw timer
+Added small saw! From now on, cut woods with small saw instedd of large saw!
+Removed the coordinate limitations
+Added a builder system.
+Added doors!
+Added new sounds
+From now on, You can draw your weapons by putting them in one of your hands normaly instedd of pressing enter on them and selecting them!
+New in version 0.44
+Added some distance sounds for weapons!
+Did some fixes to the weapons
+Added camera!
+Added timebombs!
+decreased large saw timer
+Added sounds for timebombs and some other new sounds
+New in version 0.43
+Added sit down and stand up! thanks arman for the suggestion. Do it with the R key!
+Added scuffing sounds for some tiles!
+Added three new weapons! k222rifle, and p3hunting shotgun for players, and admingun for admins! also, Fixed range, dammage , and time of some of the weapons
+Fixed teams
+Fixed some bugs about inventory and items
+Recoaded pvp system
+Fixed the updater
+New in version 0.42
+Fixed the updater
+New in version 0.41
+Removed the coordinate limitations
+Updated the readme
+From now on, You can give health to your lockers with wood and metal too! use large saw to get metals when you are in metal tile
+New in version 0.4
+Fixed rotation
+Added. Check what item or locker is near you by pressing key M!
+Fixed. From now on, if you have more than two health pills, You can draw two of them in your left and right hand bowth
+Fixed some bugs about stopp moving. For example, while rebooting the server or creating locker your character stopps moving for neAdded time
+Added too much new sounds!
+Added store
+Added team system!
+From now on, You can collect some of the tiles! stay on that tile, and with empty hand, press space on it and You can take one of it!
+Added large saw for taking woods!
+Added animals and online AI!
+Added level system!
+Changed the server
+Now by pressing key A, you can check if there's any animal or enemy near you
+Added corpses!
+Added. giving items to another players by pressing key SPACE while you are inside of inventory!
+Because of a lag that happens while firing machineguns, mp5machinegun's fire time decreased a lot
+Added pvp system!
+Removed the littel message that spoked while game was loading
+Because of huge amount of requests, You can go to top and bottem of your inventory by pressing keys HOME and End while you are inside of inventory
+You can no longer check your kills by pressing K. Because it didn't worked as I wanted
+Updated the readme!
+New in version 0.37
+From now on, You can send pm to someone with this new way too. Press f5, find their name, and press f2 on name. then type your message and press enter
+New in version 0.36
+Fixed the changelog
+addded translator! press f6 to aksess to the languages menu
+Added local chattting!
+Added. Check your current location by pressing key N!
+Added. You can send admintell by /admintell command, or You can press f8 and enter your message and press key ENTER
+when you get something as a gift, now it shows in chats buffer
+Fixed some bugs
+New in version 0.35
+Fixed some bugs
+started to improve weapon system
+Added raining and thunder storms!
+Added new sounds
+Added pm system
+Added new motd system
+Because of doubts about the game is virus, the game is no longer installer. So, Added new updator! please note. whenever there is an update, your client should automaticly extract the zip file and over write everything in the current folder with the new stuff. Please let me know if this doesn't work
+New in version 0.34
+Fixed some bugs
+Added new tiles and ambiences for maps that we'll build
+New in version 0.33
+Added. You can go up and down by page up and page down!
+Added new weapon, long knife! combine two knifes to create it
+Fixed huge amount of bugs
+Added new sounds
+Because of huge amount of requests, Added tracking system
+by requests, Added builder menu for admins!
+Added server uptime! check it with f2. Also, get ping with f3
+New in version 0.32
+Removed background music
+New in version 0.31
+Fixed. Now when you combine or use something, depends on the hand that item is in it, your hand will be empty
+Added ping and turn sounds
+Fixed item drawing sounds and a bug whare you couldn't hear the weapon sounds
+Fixed the changelog
+Made walking a bit slow
+changed some sounds
+Added some new item drawing sounds
+New in version 0.3
+Auto updater is back!
+Recoaded weapon system!
+Finally! game found its gole. This game's zhonra will be life simulator plus first person shooter! so, Changed the game name from smartkiller to daily life
+Changed the logo
+From now on, use weapons from your inventory instedd of selecting them with number row!
+Added left and right hand!
+changed some sounds
+Added new sounds\
+Made the game 3 dementional with jumping and everything!
+From now on, Jump by key SPACE instedd of up aro
+Finally converted over to 3d maps!
+Added combining! mix up items to gether and create new things!
+Now you can rotate 45 degrees by pressing keys E and Q!
+Now you can check your current direction by pressing F
+Added pinging! press f2 to get ping
+From now on, Select fists by keys left alt plus f, and feet with left alt plus x
+Changed server
+New in version 0.23
+Added two new weapons, colt m9 and colt m19!
+Added shell and whiz sounds for bullets! shell sounds are sounds that plays when bullets drops and Whiz sounds are small woosh's that plays while firing machinegun and know one is near you
+Added. You can copy buffer items by pressing CONTROL C!
+Updated readme
+Added a little message when game loads
+New in version 0.22
+Added a little key to check coordinates and a little key to check who's near you. Press C to check coordinates and press p to check who's near you
+Fixed the changelog
+changed some sounds
+Added two new weapons! mp5machinegun and e235shotgun
+Added an inventory along with items.
+Game doesn't check for updates at startup. Press f7 to check it yourself
+Added health pills! eat one and get health!
+New in version 0.21
+Added buffer! chatting works now!
+Removed enemies and health boosts because they makes client lag. They'll be back when it Fixed 
+Renamed pistol to e9pistol. also, it can kill players now!
+Added kill messages! when you kill someone, it shows random message to every one. eg, mahdi killed erfan on main city!
+Fixed. You can see who's online by pressing o
+Added fists and feet
+Added a little message when checking for updates at startup
+New in version 0.2
+Released the first online version on Saturday, September 21, 2019
+Started working on the first online version on Thursday, September 12, 2019
+New in version 0.14
+changed some sounds
+Added background music to the game. Increase and decrease the volume by pressing page up and page down
+You can increace or decrease the game volume by pressing home and end!
+updated readme
+Fixed the changelog
+New in version 0.13
+Added clientside message of the day! this is because for example if I release an update and game don't check for it, i'll notify you. See readme for more info
+From now on, while downloading the game, it plays a beep percent by percent
+updated enemies! enemies randomly chooses to follow you or other enemies. They don't work if they are zero tiles infrunt of who they followed
+Changed the game name from the criminal to smartkiller!
+Changed the logo
+updated readme
+New in version 0.12
+if enemies kill each other, it don't give you kills!
+enemies can pick up and use health boosts!
+when game download finished it opens tcsetup itself
+Recoaded enemy spawning. Enemies spawns at random locations
+Fixed the changelog
+Fixed the readme
+New in version 0.11
+decreased the range of enemies guns
+Enemies can kill each other!
+Recoaded spawning enemies. Decreased the spawn timer. if there is no enemy, 10 enemies will spawn. But if there are 25 enemies, nothing will spawn
+Fixed the updater
+New in version 0.1
+Released the first version on Sunday, September 08, 2019
+Started working on the game on Tuesday, September 03, 2019

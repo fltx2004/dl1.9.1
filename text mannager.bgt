@@ -1,0 +1,28 @@
+void main()
+{
+string term=input_box("search term", "please enter the search term here");
+if(term=="")
+exit();
+string dir=input_box("directory", "please enter the directory name here");
+if(dir=="")
+exit();
+show_game_window("text mannager. By mahdi productions");
+string[] search=find_files(dir+"\\*");
+if(dir=="includes") search.insert_last("dlserver.bgt");
+alert("founded files", "a total of "+search.length()+" files have been founded");
+file f;
+string res;
+for(uint i=0; i<search.length(); i++)
+{
+string reader;
+f.open(dir+"/"+search[i], "rb");
+reader=f.read();
+string[] spliter=string_split(reader, "\r\n", false);
+for(uint i2=0; i2<spliter.length(); i2++)
+{
+if(string_contains(spliter[i2], term, 1)>-1)
+res+="on line: "+i2+", "+spliter[i2]+", in the file "+search[i]+"\r\n";
+}
+}
+clipboard_copy_text(res);
+}

@@ -1,0 +1,1230 @@
+﻿Vida diaria. Por Mahdi abedi
+¡Bienvenido a la vida diaria!
+Contenido:
+Nota: Dado que a veces las secciones están bastante separadas, buscar * lo ayudará a navegar. La búsqueda de ** y *** y **** navegará a las subsecciones.
+* 1: fundación
+*2. Introducción
+* 3: algunas características
+* 4: descarga del juego
+** 4.1: carpetas
+*** 4.1.1: carpeta de registro de cambios
+*** 4.1.2: carpeta lang
+*** 4.1.3: carpeta de registros
+*** 4.1.4: carpeta Léame
+*** 4.1.5: carpeta de reglas
+*** 4.1.6: twt (carpeta)
+** 4.2: archivos
+* 5: cosas que se encuentran a menudo en el juego
+* 6: reglas
+* 7: llaves
+** 7.1: controles de teclado
+*** 7.1.1: teclas de movimiento
+*** 7.1.2: teclas de la cámara
+*** 7.1.3: teclas de rotación:
+*** 7.1.4: llaves espía
+*** 7.1.5: Claves de inventario
+*** 7.1.6: llaves del vehículo
+*** 7.1.7: teclas del menú de seguimiento
+*** 7.1.8: teclas de chatbox
+*** 7.1.10: ayuda de entrada
+** 7.2: ratón
+** 7.3: Joystick
+* 8: comandos
+** 8.1: comandos relacionados con el jugador
+** 8.2: comandos de equipo
+** 8.3: ejecutar línea de comando
+* 9: menús
+** 9.1: teclas de menú
+*** 9.1.1: teclado
+*** 9.1.2: Joystick:
+*** 9.1.3: ratón:
+** 9.2: menú principal
+** 9.3: menú de prueba de altavoces
+** 9.4: menú de opciones:
+*** 9.4.1: menú de voz:
+*** 9.4.2: menú de idioma:
+*** 9.4.3: sonidos del menú
+*** 9.4.4: seleccionar menú de música:
+*** 9.4.5: menú de volumen del juego
+*** 9.4.6: menú del dispositivo de salida
+*** 9.4.7: menú de voz
+*** 9.4.8: menú de lista de servidores
+** 9.5: el menú que aparece al presionar enter al iniciar sesión y no tiene ninguna cuenta
+** 9.6: salir del menú
+** 9.7: un menú que aparece cuando el servidor no se conecta
+* 10: inventario
+** 10.1: En el inventario
+** 10.2. Fuera del inventario
+** 10.3: Interacción.
+** 10.4: tus artículos cuando inicias sesión por primera vez en el juego
+* 11: empezar
+** 11.1: beber agua
+** 11.2: pesca
+** 11.3: despellejarlo, destriparlo, cocinarlo
+*** 11.3.1: despellejarlo
+*** 11.3.2: destriparlo
+*** 11.3.3: cocinarlo
+**** 11.3.3.1: iniciar fuego
+**** 11.3.3.2: cocinarlo
+**** 11.3.3.3: cómelo
+** 11.4: ¿cómo dormir?
+* 12: baño
+** 12.1: inodoro
+** 12.2: lavabo
+** 12.3: ducha
+* 13: centro comercial
+** 13.1: tienda de ropa
+*** 13.1.1: gorras, sombreros, cascos, gafas
+*** 13.1.2: pantalones, camisas, chaquetas, chalecos
+*** 13.1.3: anillos, pulseras, guantes
+*** 13.1.4: sandalias, zapatos, botas
+** 13.2: tienda de armas
+*** 13.2.1: armas
+*** 13.2.2: municiones
+** 13.3: almacén de explosivos
+** 13.4: tienda de vehículos
+*** 13.4.1: vehículos
+*** 13.4.2: combustibles
+** 13.5: tienda médica
+** 13.6: tienda miscelánea
+** 13.7: tienda de comida rápida
+*13.8: tienda de fruta
+* 14: máquinas expendedoras
+15: taquillas
+* 16: vehículos
+* 17: lucha
+* 18: bancos
+* 18.1: cuentas bancarias
+* 18.2: cajero automático:
+* 18.3: acciones
+* 18.4: inversión
+* 18.5: minero de efectivo:
+* 19: casino
+** 19.1: ruleta de animales
+** 19.2: par o impar
+** 19.3: gato negro
+** 19.4: piedra, papel, tijeras
+** 19,5: tobillo
+** 19.6: dados de la suerte
+** 19.7: rol de los dados
+** 19.8: bop it
+** 19,9: memoria
+** 19.10: pong
+** 19.11: enfrentamiento
+** 19.12: campo de tiro
+** 19.13: minibeep
+** 19.14: pesca con audio
+** 19.15: escalera de incendios
+** 19.16: dados
+** 19.17: natación
+** 19.18: destruye la puerta
+** 19.19: juego aleatorio
+20: arena
+* 21: edificio
+** 21.1: Explicación coordinada
+** 21.2: elaboración de mapas
+** 21.3: menú del constructor
+* 22: créditos
+* 23: información de contacto
+* 1: fundación
+El 3 de septiembre de 2019 pensé:
+después de cuatro o cinco juegos que hice, ¿qué pasa con el juego final?
+¿final? ¿Que quiero decir?
+solo un juego que contiene todo lo que me gustaría tener en un juego
+pero como llamarlo
+después de algunas búsquedas, lo llamé el criminal
+el 08 de septiembre de 2019, lancé la primera versión
+luego, después de algunas versiones, decidí hacerlo solo
+pero en la versión 0.14,
+¿Cómo llamarlo?
+¡Cómo llamar a qué!
+ahora es único, necesito un nombre más inteligente para él
+asesino inteligente?
+¡Si! asesino inteligente!
+luego, en la versión 0.2, lo hice solo
+Ahora tenía un juego 2d onlyne, y ese nombre era, asesino inteligente
+en la versión 0.3, lo hice 3d, con manos, etc.
+¡Entonces lo llamé vida diaria para hacer realidad mis sueños!
+*2. Introducción
+Tenga en cuenta que en este juego debe explorar y encontrar la mayoría de las cosas usted mismo y este archivo Léame solo le enseñará cosas básicas.
+la vida diaria es fps y un juego de simulador de vida.
+que significa
+fps significa que incluso puedes luchar.
+y el simulador de vida significa que es similar a la vida real
+* 3: algunas características
+soporte para mouse y joystick
+beber agua de fuentes de agua y con vasos y tazas
+comer comida y dulces
+golpear a personas y animales con armas, combos, fuego, piedra, etc.
+andar en bicicleta
+viajar con barco
+combinar y hacer nuevos elementos
+diviértete con tu teléfono inteligente
+Compra y usa casilleros
+recoger hierba, barro, rocas, tierra, arcilla, grava, hielo, etc.
+sierra metal y madera
+cazar animales, despellejarlos, tripas y cocinarlos
+chat, tts chat o chat de voz con otras personas
+pescar con cañas de pescar
+utilizar tiendas y máquinas expendedoras
+¡y mucho, mucho más!
+* 4: descarga del juego
+siempre puedes descargar la vida diaria desde este enlace:
+http://mahdiabedi.com/dl.zip
+después de descargarlo, debe extraer dl.zip con winrar o lo que esté usando para extraer archivos rar / zip
+luego en la carpeta dl verá algunos archivos y carpetas:
+** 4.1: carpetas
+*** 4.1.1: carpeta de registro de cambios
+changelog.txt: contiene los cambios recientes del juego
+ver.dat: versión actual del registro de cambios (se utiliza para el actualizador del registro de cambios)
+*** 4.1.2: carpeta lang
+esta es la carpeta que es para los idiomas del juego
+cuando lo abres, puedes ver:
+english.lng: contiene el idioma inglés para el juego
+persian.lng: contiene el idioma persa para el juego
+ver.dat: versión actual del paquete de idioma (se usa para el actualizador de idioma)
+*** 4.1.3: carpeta de registros
+El registro del juego se guarda <aquí
+*** 4.1.4: carpeta Léame
+readme.txt: este es el manual / readme del juego
+ver.dat: versión léame actual (se usa para el actualizador léame)
+*** 4.1.5: carpeta de reglas
+rules.txt: contiene las reglas del juego
+ver.dat: versión de reglas actual (usos para el actualizador de reglas)
+*** 4.1.6: twt (carpeta)
+esta carpeta contiene archivos relacionados con el soporte de twitter
+** 4.2: archivos
+aliases.txt: contiene alias
+bass.dll: esto me ayuda para el reproductor inteligente y los enlaces de reproducción
+dl.exe: archivo ejecutable del juego
+nvdaControllerClient32.dll: esto es para que nvd <a lea el juego en lugar de sapi (para ventanas de 32 bits)
+nvdaControllerClient64.dll: esto es para que nvda lea el juego en lugar de sapi (para Windows de 64 bits)
+oggenc2.exe: esto es para que funcione el chat de voz
+SAAPI32.dll: esto es para que sapi lea correctamente el juego en lugar de nvda (para Windows de 32 bits)
+SAAPI64.dll: esto es para que sapi lea correctamente el juego en lugar de nvda (para Windows de 64 bits)
+scriptkeys.txt: las claves de script están aquí
+independent_updater.exe: con esto puedes actualizar el juego por separado
+Updater.exe: este es el actualizador del juego.
+* 5: cosas que se encuentran a menudo en el juego
+hay un par de entrantes que hay que aclarar. Si no comprende algunos de ellos ahora, lo hará después de leer más del archivo Léame. Estos se enumeran a continuación.
+dlg's: Son básicamente la abreviatura de en el diálogo del juego. Es como algo que aparece con un botón Aceptar, como un simple mensaje. Acepte aquí, su botón ok es enter, y puede repetir el texto en el dlg presionando cualquiera de las 4 teclas de flecha.
+pista que se puede omitir: se explican por sí mismos, son simplemente archivos de audio que se reproducen y se pueden omitir. Cuando se está reproduciendo, simplemente presione enter y se desvanecerá la pista que se está reproduciendo actualmente y que está destinada a ser omitida.
+cuadro de entrada virtual: estos son cuadros que usted escribe como entrada. Sin embargo, no son cajas de entrada normales. la tecla f2 alterna la repetición del carácter. Puede escribir como de costumbre e ingresar envíos. El escape se cancela.
+alias. Cuando inicias el juego, se crea un archivo llamado aliases.txt. En este archivo, puede realizar reemplazos de chat para las cosas que puede escribir con frecuencia. Un ejemplo le gustaría este.
+mhd = mahdi
+Esto reemplazaría cualquier instancia de mhd en su chat con mahdi. Diga que escribió / pm mhd hola. Lo reemplazaría con / pm mahdi hi, efectivamente PMIng mahdi.
+Teclas de secuencia de comandos: hacen que sea más rápido enviar chats o escribir comandos que usa con frecuencia. Se pueden definir por línea en scriptkeys.txt y se puede acceder a ellos escribiendo números cuando está en línea
+* 6: reglas
+Documento de reglas de la vida diaria creado el 03 de enero de 2020, modificado por última vez el 17 de julio de 2020 por Mahdi Abedi (propietario de mahdiabedi)
+Cada jugador debe estar de acuerdo con estas reglas. Si tiene problemas con estas reglas o si cree que hay algo que debería cambiarse, comuníquese con nosotros. Nuestra información de contacto se puede encontrar en el archivo Léame que se encuentra en la carpeta Léame.
+1. Sin spam. El envío de mensajes que bloquean los lectores de pantalla, retrasan el juego o envían repetidamente mensajes de la misma cosa se considera spam. Si lo atrapan haciendo esto, el equipo de administración le advertirá. Si vuelve a suceder lo mismo, te echan del juego. Una vez más y te banean.
+2. El respeto es la base de todo. Quienquiera que esté en el juego, ya sean jugadores normales, constructores, administradores o desarrolladores, debe ser respetado. La falta de respeto puede llevar a la limitación del canal de chat / pm, dependiendo de dónde tuvo lugar la aventura. Todo lo deciden los administradores conectados.
+3. La cortesía es el tercer pilar fundamental de nuestro juego. Sí, porque sin él no se concluye nada. Por lo tanto, no permito insultos a otros jugadores, constructores, administradores y desarrolladores.
+4. Otra cosa a distinguir son los roles de las personas que están en el juego: si un desarrollador o administrador da una directiva, como no es posible hacer todo por su propia voluntad, se requiere respetar lo que se está diciendo. Si no respeta lo que ha dicho un miembro del personal, también puede incurrir en una limitación del canal de chat, o un período de prisión, o si continúa incluso con la prohibición temporal, la prohibición permanente o la prohibición, depende de lo que sea. haciendo.
+5. Dado que el combate se agrega a nuestro juego, ABSOLUTAMENTE no está permitido desconectarse mientras estás luchando. Para los que lo hacen por primera vez una hora en prisión; segunda vez 2 días de prisión, tercera prohibición temporal de una semana, cuarta prohibición temporal de 2 semanas, quinta prohibición permanente.
+6. Si ves que hay un error en el juego, que puede simplificar la obtención de dólares, munición y más, estás obligado a informarlo al administrador a través del comando / admintell. Y si alguien ve que se está aprovechando de ciertos errores, se le prohibirá automáticamente.
+7. No hacer trampas ni piratear el juego. No editarás variables, interceptarás los datos que van y vienen a través del servidor, modificarás paquetes, descifrarás sonidos, bibliotecas de enlaces dinámicos, robarás credenciales como archivos de configuración almacenados por el juego, nombres de usuario, contraseñas, etc.Hacer esto resultará en una prohibición permanente.
+8. No se permite crear cuentas adicionales para matarlos, luego recoger los artículos con su cuenta principal o matar su cuenta para obtener artículos una y otra vez.
+9. No se permite el envío de spam mediante chats de voz.
+¡El personal de Mahdiabedi le desea una agradable estancia!
+* 7: llaves
+** 7.1: controles de teclado
+*** 7.1.1: teclas de movimiento
+presione izquierda, derecha, arriba, abajo, página arriba y página abajo para moverse (si desea mantener presionadas las teclas y moverse, debe activar la marcha automática)
+*** 7.1.2: teclas de la cámara
+mantenga presionada la tecla G y:
+presione las teclas izquierda, derecha, arriba, abajo, página arriba y página abajo para mover la cámara
+presione d para verificar el mosaico y las coordenadas actuales de la cámara (asegúrese de que las coordenadas no estén deshabilitadas en ese mapa)
+presione t para reproducir el mosaico actual de la cámara
+tecla arriba g para reiniciar la posición de la cámara
+*** 7.1.3: teclas de rotación:
+Mantenga presionado qye para girar cuarenta y cinco grados
+mantén presionada la tecla shift izquierda o derecha y mantén presionada o presiona eyq para rotar noventa grados
+mantenga presionada la tecla alt izquierda o derecha y mantenga presionada o presione eyq para rotar ciento ochenta grados
+*** 7.1.4: llaves espía
+Mantenga la tecla izquierda o derecha
+*** 7.1.5: Claves de inventario
+ flechas hacia arriba y hacia abajo: cambiar entre elementos.
+ flechas izquierda y derecha: ponga el elemento en esa mano.
+ control izquierdo + enter: verifique la descripción del artículo en el inventario si la descripción existe.
+ cualquier letra: cambia al artículo del inventario (navegación por la primera letra).
+ Eliminar: suelta un artículo en tu inventario.
+shift + delete: elimina la cantidad que escribe
+ escapar: Salir del inventario.
+*** 7.1.6: llaves del vehículo
+si está en el coche de la policía, presione el control izquierdo para disparar
+Si está en un coche de policía, mantenga presionada la tecla Alt y Mayús y presione s para habilitar / deshabilitar la sirena
+presione las teclas de flecha hacia arriba o flecha hacia abajo para subir o bajar la velocidad del vehículo
+presione las flechas izquierda o derecha para girar el automóvil hacia la izquierda y hacia la derecha
+presione la tecla enter para encender o apagar el automóvil
+*** 7.1.7: teclas del menú de seguimiento
+cuando presiona f5 o desplaza f5 y se abre un menú:
+presiona arriba y abajo para ir entre jugadores
+presione f1 para copiar el nombre del usuario
+presione f2 para enviar pm a alguien
+presione f3 para verificar el mapa actual del usuario
+presione f4 para verificar el canal de idioma de los usuarios
+presione f5 para verificar las estadísticas del usuario
+presione f6 para verificar las muertes y muertes del usuario
+presione f12 para copiar lo último que su texto a voz hablado
+en el menú f5: presione enter para rastrear al usuario seleccionado
+presione escape para salir
+*** 7.1.8: teclas de chatbox
+cuando presiona barra, barra invertida o igual:
+mantenga presionado el control izquierdo o derecho y presione c para copiar el texto actual
+Mantenga presionado el control izquierdo o derecho y presione v para pegar lo que está en su portapapeles
+presione f1 para alternar la repetición de caracteres
+presione f2 para alternar los clics del teclado
+presione la tecla de retroceso para borrar el carácter
+presione shift backspace para eliminar todos los personajes que están en el chatbox
+presiona izquierda, derecha, arriba y abajo para trabajar entre personajes
+presione Inicio y Finalizar para ir a la parte inferior y superior del chatbox
+presione enter para enviar el mensaje que escribió
+*** 7.1.9: teclas misceláneas
+presione la tecla escape para salir de su bicicleta o vehículo o juego
+mantenga presionada o presione la tecla v para chat de voz (puede configurarlo en el menú de opciones)
+mantenga presionada la tecla Alt izquierda y presione la barra inclinada para tts chat
+presione la tecla enter para usar el casillero, la máquina expendedora, el letrero, las puertas y el teléfono
+presione shift a la izquierda o shift a la derecha e ingrese la tecla para usar los puntos de viaje
+pulsa z para comprobar la munición de tu arma
+presione o hacia abajo el control izquierdo o derecho para disparar su arma (asegúrese de que el uso del control izquierdo / derecho esté habilitado en el menú de opciones)
+mantén pulsado alt y pulsa r para descargar tu arma actual
+mantenga pulsado alt y presione r para sentarse / levantarse
+presione SEMICOLON para acceder al menú social
+si es un constructor o administrador, puede mantener presionada la tecla alt izquierda y presionar b para chatear con otros constructores
+si es administrador, puede mantener presionada la tecla alt izquierda y presionar d para chatear con otros administradores
+si es constructor o administrador, puede presionar la tecla b para abrir el menú del constructor
+mantenga presionada la tecla alt y use los números para usar las teclas de secuencia de comandos
+presione shift y grave para abrir el menú de zona
+presione f1 para verificar que actualmente solo hay jugadores
+mantenga presionada la tecla shift y presione f1 para elegir el menú de voz para el chat tts
+Si es un constructor y está escuchando un sonido no pausado desde el menú del constructor, presione la tecla alt izquierda y f1 para pausarlo.
+presione f7 para enviar un mensaje a los administradores onlyne
+mantenga presionada la tecla Mayús y presione f7 para silenciar / activar su tts
+presione f9 para alternar el sonido de la baliza
+mantenga presionada la tecla shift y presione f2 para alternar el sonido de nivel superior
+presione A para verificar cerca de animales
+presione o para alternar la sonda
+presione l para verificar su nivel
+mantenga presionada la tecla shift y presione l para verificar su experiencia (xp)
+mantén presionada la tecla alt y presiona l para verificar tu experiencia requerida (xp)
+presione i para abrir su inventario
+presiona alt yi para soltar tu inventario
+presione m para comprobar lo que hay cerca de usted
+presione p para verificar quién está cerca de usted
+presione f4 para verificar el mensaje del día de su canal de idioma
+presione Mayús a la izquierda y F4 para alternar la recepción de mensajes privados
+presione f5 para abrir el menú de seguimiento
+presione shift y f5 para verificar todos los jugadores. Allí puedes copiar su nombre presionando enter
+presione las teclas shift 1 y shift 2 para usar sus puños izquierdo y derecho
+presione las teclas shift 3 y shift 4 para usar su pie izquierdo y derecho
+presione f8 para configurar el inicio de sesión automático
+mantenga presionada la tecla shift y presione f8 para verificar las estadísticas del servidor
+presione f10 para alternar la lectura de chats
+presione f11 para alternar la lectura de mensajes en línea y en línea
+presione f12 para copiar lo último que su texto a voz hablado
+presione shift y f6 para verificar los datos recibidos y enviados
+presione f6 para configurar su canal de idioma
+presione n para verificar su ubicación actual
+presione la coma y el punto para revisar el búfer actual:
+presione shift + coma o punto para saltar al principio y al final del búfer actual
+presione el corchete izquierdo y derecho. para ir al búfer anterior y siguiente
+presione shift + corchete izquierdo o corchete derecho para saltar al principio y al final de los búferes
+mantenga presionada la tecla shift izquierda y presione c para copiar el elemento de búfer
+presione la tecla de retroceso para interrumpir el búfer actual
+presiona inicio y final para configurar el volumen del juego
+presione igual para abrir el chatbox. Nota: la barra se colocará antes de su chat automáticamente
+mantenga presionada la tecla alt y presione t para ajustar
+presione t para combinar elementos. Nota. si tus manos estan vacías aplaudirás
+presione 1 para seleccionar su mano izquierda
+presione 2 para seleccionar su mano derecha
+presione 3 para verificar lo que está en sus manos
+presione w para decirle al jugador rastreado
+presione s para controlar la sed
+presione u para controlar el hambre
+presione d para comprobar su humedad y suciedad
+presione shift s para verificar su enfermedad
+mantén presionado shift y presiona a para revisar tu aire (usado para máscara de gas)
+presione c para verificar sus coordenadas (asegúrese de que las coordenadas no estén deshabilitadas en ese mapa)
+mantén presionada la tecla alt y presiona c para verificar qué estás usando
+presione x para habilitar / deshabilitar la marcha automática
+presione barra para abrir el chatbox
+presione la barra invertida para abrir el cuadro de chat para los chats locales
+presione y para alternar entre el uso de usted mismo, el uso de elementos y el modo combinado
+mantén el espacio para saltar mientras te usas a ti mismo está activado
+presione el espacio para usar elementos o, si su mano está vacía, recolecte hielo de hierba, etc., mientras que el uso de elementos está activado
+presione f2 para verificar el tiempo de actividad del servidor
+presione f3 para obtener ping
+Mantenga presionada la tecla Mayús y presione F3 para alternar la reproducción de sonidos cuando presione la pestaña Alt y salga de la ventana del juego o no
+presione f para conocer su cara
+*** 7.1.10: ayuda de entrada
+esta función le permite conocer los nombres de las teclas de su teclado
+alternarlo manteniendo presionada la tecla alt y shift y presionando f1
+** 7.2: ratón
+Si bien la mayoría de las cosas deben hacerse con el teclado, también puedes usar el mouse para hacer algunas de ellas en el juego.
+Mover hacia la izquierda o hacia la derecha: mueva el mouse horizontalmente.
+Saltar o subir / bajar una escalera: Mueva el mouse verticalmente hacia arriba o hacia abajo.
+Fuego: clic izquierdo
+Recargar; Botón derecho del ratón
+Salir: haga clic en la rueda de desplazamiento hacia adentro, también conocido como clic central.
+** 7.3: Joystick
+Si bien la mayoría de las cosas deben hacerse con el teclado, también puedes usar un joystick para realizar algunas de las tareas del juego.
+Camina hacia la izquierda o hacia la derecha: empuja y mantén la palanca en la dirección correspondiente.
+Saltar o escalar: Empuja la palanca hacia arriba.
+Bajar: Empuje el palo hacia abajo.
+Fuego: Botón A
+Recargar: Botón B
+Salir: botón C
+Verificar munición en el arma seleccionada: Mantenga presionada X y presione B.
+* 8: comandos
+Para chatear con los jugadores, presione barra. Aparecerá un cuadro de texto donde puede escribir su mensaje. Una vez que termine de escribir su mensaje, presione enter para enviar el mensaje para que todo el servidor lo vea.
+En el cuadro de chat, presione las flechas izquierda y derecha para saltar por carácter, y use las flechas arriba y abajo para revisar el mensaje. Presione Inicio y Fin para saltar al principio o al final del mensaje y Retroceso para borrar el carácter anterior.
+Escuchará lo que está escribiendo cada vez que ingrese un carácter. Puede presionar f1 para alternar entre apagado y encendido.
+Escuchará un pitido cuando ingrese una letra mayúscula. Puede presionar F2 para alternar entre pitido, mayúscula o sin diferencia.
+El cuadro de chat también admite comandos de barra, en los que escribe / comando y luego parámetros. Algunos de estos se encuentran a continuación.
+** 8.1: comandos relacionados con el jugador
+/ help: muestra la lista de comandos
+/ stats playername: muestra las estadísticas de PlayerName
+/ mutelist: muestra la lista de jugadores que ha silenciado
+/ mute playername: silencia el nombre del jugador. Significa que no puede enviarte pm
+/ unmute playername: activa el nombre del jugador. Significa que el reproductor silenciado puede enviarte pm nuevamente
+/ setemail EmailAddress: establece su correo electrónico
+/ finishquests: muestra tus misiones terminadas
+/ questlist: muestra todas las misiones disponibles
+/ teamhelp. abre un menú con todos los comandos del equipo.
+/ me msg: dice un mensaje de mí.
+/ pm mensaje de nombre de jugador: les envía un mensaje privado
+/ r mensaje: responde a la última persona que le envió un mensaje. y puedes usar la zona / responder. Además, si quieres irte, puedes usar / leavefight
+ / constructores: te dice cuántos constructores hay en el juego
+ / admins: te dice cuántos administradores hay en el juego
+ / admintell message: envía un mensaje a los administradores en línea actuales.
+/ mensaje de informe: envía un informe, utilícelo para errores o para informar a un jugador.
+/ rules: muestra las reglas del juego.
+/ cumpleaños nombre del jugador: muestra el cumpleaños del nombre del jugador
+/ events: te envía un mensaje con todos los eventos en el servidor.
+/ joinevent ID: se une a un evento en curso.
+/ leaveevent: deja el evento actual si te uniste a alguno.
+/ activeadmins: comprueba los administradores y desarrolladores conectados
+/ nicknamefind playername: encuentra el apodo del jugador
+/ casas: le dice una lista de casas actuales
+/ myhouses: muestra que son casas
+/ levelsound: establece el nivel de sonido
+/ lockers: le dice una lista de los casilleros actuales
+/ mylockers: muestra tus casilleros
+/ allowedhouses: muestra la lista de casas a las que se le permite entrar
+/ mensaje housechat: si estás en una casa, envía un chat y los jugadores que están en esa casa solo pueden verlo
+/ houseadd playername: agrega el nombre del jugador a esa casa si eres dueño de ella
+/ houseremove playername: elimina el nombre del jugador a esa casa si eres dueño de ella
+/ houseremoveall: elimina a todas las personas que pueden entrar a su casa
+/ houseallowed: trae una lista de quiénes pueden entrar a esa casa si usted es dueño de ella
+/ afk: enciende o apaga tu afk
+/ minversion: verifica la versión de inicio de sesión de minimom
+/ setgender 0: si no configuró su género, establecerá su género para correo
+/ setgender 1: si no configuró su género, lo configurará como femail
+/ monto de la oferta: oferta la cantidad de monedas que ha ingresado en la subasta si hay alguna
+/ cancelbid: cancela su oferta en la subasta
+/ cancelauction: cancela esa subasta si la hiciste
+/ subasta: te dice qué hay en la subasta actualmente
+/ changepassword nueva contraseña: cambia su contraseña (en curso)
+/ time: comprueba la hora
+/ playtime: comprueba el tiempo de juego total de todos
+/ votes: comprueba la lista de votos
+/ vote sí: dice que sí a la votación actual
+/ vote no: usted dice no a la votación actual
+/ pvp: alterna tu modo pvp
+si es un constructor, puede escribir / builderrules para conocer las reglas del constructor y / builderhelp para conocer los comandos del constructor
+si es administrador, puede escribir / adminrules para conocer las reglas de administración y / adminhelp para conocer los comandos de administración
+** 8.2: comandos de equipo
+/ teamcreate teamname teamflag: Crea un equipo.
+/ teammembers: comprueba a los miembros de su equipo.
+/ teamleave: Deja tu equipo. Tenga cuidado, si es el líder, disolverá su equipo.
+/ teamjoin password: se une a un equipo.
+/ teamkick: si eres el líder de tu equipo, expulsa de tu equipo al miembro que especifiques.
+/ teamleader: te dice el líder del equipo actual
+/ setleader new_leader: establece el jugador que elijas como el nuevo líder del equipo. haz esto si quieres dejar un equipo, pero quieres que el equipo siga vivo.
+/ getteampass: si eres el líder del equipo, te da la contraseña del equipo, por ejemplo, para que otros jugadores se unan.
+/ changeteampass new_password: si eres el líder de tu equipo, cambia la contraseña del equipo.
+/ t mensaje: transmite su mensaje a través de las comunicaciones del equipo
+/ teaminvite playername: invita a playername a tu equipo
+/ teamaccept: si lo invitó un equipo, puede escribirlo y unirse a ese equipo
+/ teams: muestra una lista de todos los equipos
+** 8.3: ejecutar línea de comando
+En esta sección, veamos una de las mejores cosas, ¡ejecute la línea de comandos!
+presione alt shift r para abrirlo, luego los siguientes comandos se pueden escribir allí para que funcionen:
+nota, todos estos comandos tienen que ser escritos en ingles para  que funcionen.
+check thirst: controla tu sed
+check hunger: controla tu hambre
+check energy: controla tu energía
+check ammo: controla cuantas balas tienes en tu arma
+reload gun: recarga tu arma
+unload gun: descarga tu arma
+build menu: para administradores y constructores, abre el menu de constructor
+online players: controla quien está en línea en este momento
+set beacon: activa o desactiva los pitidos
+check level: controla tu nivel
+check xp: controla cuanta experiencia tienesnivel
+check remaining xp: controla cuanta necesitas para llegar al proximo 
+drop my inventory: si tu inventario no está vacío, hace caer tu inventario.
+open my inventory: si tu inventario no está vacío, abre tu inventario
+whats near: controla cosa está cerca d ti
+whos near: controla quien está cerca de ti
+near items: checks controla que objetos están cerca de ti
+whats motd: te muestra el mensaje del servidor de tu canal actual
+whos in my map: muestra una lista de los jugadores que están en tu mapa
+player list: muestra la lista de jugadores actualmente conectados
+my facing: dice en que dirección estás mirando
+server stats: te dice cuáles son las estadísticas del servidor, como conexiones y desconexiones
+options menu2: abre el menú de opciones 2 que se puede abrir presionando las teclas shift f11
+select language channel: abre un menú donde puedes seleccionar el canal en el cual quieres chatear
+my location: te dice tu ubicación actual
+check sickness: controla tu enfermedad
+check factor: controla cuanto eres sucio y mojado
+* 9: menús
+** 9.1: teclas de menú
+Aquí están las pulsaciones de teclas para los métodos de entrada disponibles en los menús.
+*** 9.1.1: teclado
+desplazarse por los elementos: flechas hacia arriba o hacia abajo. (si el desplazamiento lateral está habilitado, puede desplazarse por los elementos presionando las flechas izquierda o derecha)
+Seleccione un elemento: ingrese.
+Salir del menú: escapar.
+Cambiar el volumen de la música del menú. Página arriba / abajo.
+*** 9.1.2: Joystick:
+desplazarse por los elementos: empuje el mando hacia la derecha o hacia la izquierda
+seleccionar un artículo: botón A
+salir del menú: botón B
+*** 9.1.3: ratón:
+elemento anterior o siguiente: mueva el mouse hacia la izquierda o hacia la derecha
+seleccionar un elemento: clic izquierdo
+salir del menú: clic derecho
+** 9.2: menú principal
+iniciar sesión: iniciar sesión en el juego
+solicitar una clave de restablecimiento de contraseña: solicite una clave de restablecimiento de contraseña si la perdió
+ingrese una clave de restablecimiento de contraseña: ingrese la clave de restablecimiento de contraseña que envió después de restablecerla
+prueba de altavoces: prueba tu altavoz
+opciones: opciones de juego
+Daily Life se ha jugado un total de X veces, ¡que es X veces más desde la última vez que lo ejecutó! X es el número que te dice
+volver a descargar el juego
+reinicia tu cliente
+buscar actualizaciones: verifique si hay alguna actualización disponible
+salir: sale del menú principal
+** 9.3: menú de prueba de altavoces
+por audio: se reproduce un sonido y puede cambiar su tono, panorama y volumen
+predeterminado: este es el altavoz de prueba predeterminado
+volver: sale de este menú
+** 9.4: menú de opciones:
+configurar una cuenta: aquí puede configurar su cuenta para iniciar sesión
+seleccionar voz: seleccione su voz
+seleccionar idioma: si tiene un archivo en la carpeta lang, puede cambiarlo a ese idioma
+habilitar / deshabilitar el registro de búfer: de forma predeterminada, el juego genera un archivo de registro que contiene todos los mensajes y chats enviados mientras se juega. Esta opción permite deshabilitar la función de registro si está causando problemas, etc.
+habilitar / deshabilitar el logotipo de reproducción al inicio: si lo habilita, reproducirá el logotipo del juego cuando presione enter en dl.exe
+habilitar / deshabilitar la verificación de actualizaciones al inicio: si está habilitado, buscará actualizaciones cuando ejecute el juego cada vez
+habilitar / deshabilitar la verificación del mensaje del día del lado del cliente al inicio: si está habilitado, verificará el mensaje del día del lado del cliente cuando ejecute el juego cada vez
+autorizar / desautorizar la vida diaria para usar su cuenta de Twitter: si está autorizado, puede configurar su cuenta de Twitter y dejar que el juego se publique si alguien lo mata / es asesinado
+Habilitar / deshabilitar el modo visual: si está habilitado, cuando su texto a voz dice algo en el juego y los menús, se mostrará en su monitor
+Agregar alias: cuando inicias el juego, se crea un archivo llamado aliases.txt. En este archivo, puede realizar reemplazos de chat para las cosas que puede escribir con frecuencia. Un ejemplo se vería así: mhd = mahdi. También puede agregar la palabra aquí también
+habilitar / deshabilitar el chat de voz: si está habilitado, puede usar el chat de voz
+mantenga presionado / presione v para el chat de voz: puede establecer la retención o presionar v para el chat de voz
+activar / desactivar el chat de voz estacionario: si está activado, cuando se chatea por voz, todos en su mapa escucharán lo que dice
+activar / desactivar el chat tts estacionario: si está activado, cuando tts chatee, todos en su mapa oirán lo que diga
+Comenzar / no comenzar la vida diaria con Windows: la vida diaria puede cargarse por sus ventanas
+Seleccionar sonidos de menú: esta opción le ayuda a configurar los sonidos de menú que le gustan
+seleccionar música de menú: puede seleccionar qué música se reproduce en el menú principal
+establecer el volumen del juego: puede configurar el volumen de los juegos
+Cambiar estilo de menú a desplazamiento lateral / predeterminado: Decide en el menú, presione la flecha izquierda y derecha para desplazarse por el menú, o la flecha hacia arriba y hacia abajo.
+habilitar / deshabilitar la interrupción del habla: puede configurar la interrupción de su tts
+habilitar / deshabilitar los pitidos del búfer: puede establecer que cuando se mueva en los búferes se reproduzca un pitido o no
+habilitar / deshabilitar el ajuste del menú: puede configurar el ajuste del menú desde aquí
+habilitar / deshabilitar la detección del control izquierdo: si está habilitado, puede disparar con el control izquierdo
+habilitar / deshabilitar la detección de control derecho: si está habilitado, puede disparar con su control derecho
+habilitar / deshabilitar la detección de desplazamiento a la izquierda: si está habilitado, puedes usar tu desplazamiento a la izquierda en el juego
+habilitar / deshabilitar la detección de cambio a la derecha: si está habilitado, puede usar su cambio a la derecha en el juego
+habilitar / deshabilitar la detección de alt izquierdo: si está habilitado, puedes usar tu alt izquierdo en el juego
+habilitar / deshabilitar la detección de alt derecho: si está habilitado, puedes usar tu alt derecho en el juego
+activar / desactivar preguntar para salir: si está activado, te preguntará si quieres salir del juego o no. Si está desactivado, saldrá del juego cuando presione escapar.
+habilitar / deshabilitar silenciar el audio cuando el juego no está enfocado: alterna el silenciamiento del audio cuando el juego no está enfocado
+establecer dispositivo de salida: Esto establece el dispositivo de sonido que se reproducirán todos los sonidos. Al hacer clic en esta opción, obtendrá un menú de dispositivos. Cuando seleccione uno, obtendrá un dlg que le indica que el cliente debe reiniciarse para reflejar los cambios. Presione enter, y luego el juego se cerrará y se abrirá solo y estará en el menú principal
+seleccionar modo de voz: puede configurar qué voz usar: sapi o nvda / Jaws
+silenciar / reactivar el habla: su tts se silenciará si la función de silenciar está habilitada
+habilitar / deshabilitar el inicio de sesión automático: si está habilitado, iniciará sesión directamente en el juego
+habilitar / deshabilitar volumen inferior al salir del juego
+lista de servidores: puedes configurar un servidor de juegos y conectarte a uno que te guste, ¡pero ten en cuenta! deberías tener una cuenta en ese servidor si no tienes una
+restablecer la configuración: restablece la configuración
+volver: sale del menú
+*** 9.4.1: menú de voz:
+voces actuales: mahdi, gholamreza ghasemi, mohammadmahdi, erfan, mojtaba, amirali amiri, amir tayik, deborah
+cada voz tiene su propio sonido de golpe y sonido de muerte
+Si desea que su voz esté en esta lista, envíe cinco sonidos de golpe, un sonido de muerte y una voz para que diga su nombre.
+*** 9.4.2: menú de idioma:
+inglés: selecciona el idioma inglés
+persa: selecciona el idioma persa
+*** 9.4.3: sonidos del menú
+Sonido de clic de menú: un sonido cuando se sube y baja en un menú
+Sonido de cierre de menú: un sonido que se reproduce al presionar escape de un menú.
+Sonido del borde del menú: sonido que se reproduce al llegar a la barra del menú.
+menú enter sound: este sonido se reproduce al presionar enter en una opción de los menús
+Sonido de menú abierto: este sonido se reproduce cuando se abre un menú.
+Sonido de ajuste de menú: este sonido se reproduce cuando se ajusta el menú.
+*** 9.4.4: seleccionar menú de música:
+hay 58 pistas de menú entre las que puede elegir
+volver sale del menú
+*** 9.4.5: menú de volumen del juego
+100%: sonido hyest: normal
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0% sonido más bajo
+volver: sale del menú
+*** 9.4.6: menú del dispositivo de salida
+puede configurar su dispositivo de salida aquí
+driver sonido primery
+Altavoces
+y lo que esté instalado en su computadora se muestra aquí
+volver: sale del menú
+*** 9.4.7: menú de voz
+audo: tus tts (nvda / jaws)
+sapi: sapi5
+*** 9.4.8: menú de lista de servidores
+jm-hosting.ir: presione enter para configurar su lista de servidores en el servidor de jm hosting (nuestro servidor principal por ahora)
+** 9.5: el menú que aparece al presionar enter al iniciar sesión y no tiene ninguna cuenta
+configurar una cuenta: aquí puede configurar su cuenta si creó una. Requisitos: nombre de usuario, contraseña
+crear una cuenta: puede crear una cuenta si no la tiene. Requisitos: nombre de usuario, contraseña, dirección de correo electrónico, luego habrá un menú para configurar su género
+** 9.6: salir del menú
+cada vez que presione escape, irá a un menú que le preguntará si desea salir o no si la opción para salir está habilitada. Elementos de este menú:
+si. Si presiona enter, saldrá
+No. Si presionas enter volverá al juego
+** 9.7: un menú que aparece cuando el servidor no se conecta
+volver a conectar. Se vuelve a conectar al juego
+habilitar / deshabilitar el inicio de sesión automático: si está habilitado, iniciará sesión directamente en el juego
+lista de servidores: puedes configurar un servidor de juegos y conectarte a uno que te guste, ¡pero ten en cuenta! deberías haber creado una cuenta en ese servidor si no tienes una
+salir: cierra el juego
+* 10: inventario
+** 10.1: En el inventario
+Una vez que esté en el inventario, puede usar las flechas hacia arriba y hacia abajo para desplazarse por los elementos arrojados. Escucharás item. Tienes x. El artículo de Ware es el artículo que tiene, como cuchillo, fire_starter, etc. yx es el número de artículos que tiene, como 9nn_ammo. Tiene 35. Una vez que haya seleccionado un elemento que desea usar, debe presionar la flecha izquierda o la flecha derecha para colocar ese elemento en su mano izquierda o derecha. O, para colocar un artículo en su inventario, presione la tecla Suprimir en ese artículo. Si presiona Intro, obtendrá una descripción del artículo y, por lo tanto, puede obtener más detalles sobre ese artículo a veces. Al presionar escapar, sale del inventario.
+** 10.2. Fuera del inventario
+Una vez que haya hecho lo que necesita en el inventario, presione escape para salir. Luego, si obtuvo un artículo que desea usar, presione la tecla 1 para su mano izquierda y la tecla 2 para su mano derecha. Por ejemplo, si pone un cuchillo en su mano izquierda y una rama en su mano derecha, presionaría 1 para acceder al cuchillo y 2 para acceder a la rama. Una vez que tenga el elemento que desea usar, presione la barra espaciadora para usar ese elemento. Tenga en cuenta que este elemento debe estar en su mano, presionando 1 o 2, similar a las armas en la mayoría de los juegos de estilo fps. Toque dos veces 1 o también para volver a poner ese artículo en su bolso y volver a que esa mano esté vacía. Por lo general, así es como recoges las cosas, con la mano vacía. Otra cosa que querrás saber hacer es interactuar con los elementos.
+** 10.3: Interacción.
+Para interactuar, presione t. Lo que hace es que una mano interactúe con la otra. Por ejemplo, las manos demasiado vacías, te hacen aplaudir. Una madera en una mano y una madera en la otra, harán long_wood. Etc. Simplemente coloque el primer artículo en su mano izquierda, el segundo en su mano derecha, ¡y estará listo para comenzar!
+** 10.4: tus artículos cuando inicias sesión por primera vez en el juego
+1 colt_m9: arma
+1 escopeta e235: arma
+35 9mm_ammo: munición para pistolas
+30 shotgun_shell: munición para escopetas
+50 monedas: moneda del juego
+1smart_phone: tu teléfono
+1 small_saw: sierra para madera
+1 sierra grande: sierra para metales
+1 caña de pescar: pescar con esta caña
+10 fire_starter: enciende el fuego para cocinar cosas
+50 madera: dale salud a tu casa, tira al fuego para darle salud
+10 metal: metal para hacer algunas cosas
+* 11: empezar
+Después de crear su cuenta, está en un mapa de 1000 x 1000 con una gran cantidad de fuentes de agua y ríos que lo llamamos área principal
+escriba / newbie para salir del novato
+ve a la superficie del agua (en algún lugar como un río si lo encuentras)
+luego dibuja tu caña de pescar y presiona la barra espaciadora hasta que obtengas un pez, te notificará con un sonido y luego beberás agua de esa fuente de agua si presionas otra vez la barra espaciadora
+** 11.3: despellejarlo, destriparlo, cocinarlo
+*** 11.3.1: despellejarlo
+primero suelta tu tabla de cortar
+luego siéntese y saque un cuchillo a una de sus manos, luego dibuje un pez o un animal muerto
+podría ser un jabalí muerto, etc.
+luego presione t varias veces para despellejarlo y luego le dará pelado (animal)
+por ejemplo, carne de jabalí sin piel, etc.
+pero para el pescado, le dará pescado destripado, por lo que 11.2.2 no funciona en pescado
+Pero ten cuidado, el cuchillo puede dañar tu cuerpo y puedes perder salud.
+*** 11.3.2: destrúyelo
+primero suelta tu tabla de cortar
+luego siéntese y saque un cuchillo a una de sus manos, luego dibuje (animal) desollado
+podría ser jabalí desollado, etc.
+luego presione t varias veces para destriparlo y luego le dará destripado (animal)
+por ejemplo, carne de jabalí eviscerada, etc.
+Pero ten cuidado, el cuchillo puede dañar tu cuerpo y puedes perder salud.
+*** 11.3.3: cocinarlo
+**** 11.3.3.1: iniciar fuego
+asegúrese de no estar sobre una alfombra o madera o se quemará y perderá la salud
+usa tu iniciador de fuego y presiona la barra espaciadora para encender el fuego
+luego suelta maderas de tu inventario para darle salud
+**** 11.3.3.2: cocinarlo
+presione espacio en eviscerado (animal), luego se cocinará cuando presione el espacio
+pero ten cuidado, el fuego puede lastimarte la mano y puedes perder salud
+**** 11.3.3.3: cómelo
+presione espacio en el (animal) cocido y luego se lo comerá
+** 11.4: ¿cómo dormir?
+vaya a 101699 0 en el área principal para encontrar el centro comercial y presione shift enter para ir allí
+luego presione shift grave para encontrar la puerta de la tienda miscelánea, encuéntrela, ábrala presionando enter y avance algunos pasos
+ahora, presione enter en la tienda para encontrar la hamaca, presione enter, escriba la cantidad de hamacas que necesita y luego presione enter para comprar
+una vez que compró su hamaca, vaya a donde le gustaría dormir
+presione alt r para sentarse, luego presione la barra espaciadora para dormir
+ten en cuenta que dormir es bueno para tu energía
+feliz durmiendo!
+* 12: baño
+Las puertas del baño se abren principalmente presionando shift enter
+** 12.1: inodoro
+si das algunos pasos a la derecha de la puerta en cada baño, hay un inodoro
+presione alt r para sentarse, luego presione enter para hacer sus cosas en el inodoro si está lleno
+luego presione alt r para ponerse de pie, luego presione enter para tomar un sifón
+** 12.2: lavabo
+presione enter en el lavabo que está en el lado derecho del mapa para que lo limpie.
+** 12.3: ducha
+puedes ir directamente a la derecha para darte una ducha
+presione enter para que se duche y su suciedad disminuya después de un cierto tiempo
+* 13: centro comercial
+estos son los artículos actuales en el centro comercial. Explicare los que necesitan
+los precios son modificables y se pueden cambiar en un tiempo
+** 13.1: tienda de ropa
+*** 13.1.1: gorras, sombreros, cascos, gafas
+gorra. Cuesta 42 monedas.
+sombrero panaml. Cuesta 53 monedas.
+casco de policía. Cuesta 67 monedas.
+Gafas de sol. Cuesta 47 monedas.
+*** 13.1.2: pantalones, camisas, chaquetas, chalecos
+chaqueta de cuero. Cuesta 64 monedas.
+chaleco de camuflaje. Cuesta 61 monedas.
+chaleco de goma. Cuesta 57 monedas.
+chaleco militar. Cuesta 73 monedas.
+camisa de punto. Cuesta 42 monedas.
+pantalones de camuflaje. Cuesta 56 monedas.
+pantalones legging. Cuesta 62 monedas.
+pantalones sociales. Cuesta 55 monedas.
+pantalones vaqueros. Cuesta 49 monedas.
+*** 13.1.3: anillos, pulseras, guantes
+abrazadera. Cuesta 71 monedas.
+guantes. Cuesta 48 monedas.
+reloj. Cuesta 30 monedas.
+anillo. Cuesta 45 monedas.
+pulsera. Cuesta 59 monedas.
+pulsera de bronce. Cuesta 51 monedas.
+pulsera de plata. Cuesta 72 monedas.
+Brazalete dorado. Cuesta 87 monedas.
+*** 13.1.4: sandalias, zapatos, botas
+sandalia. Cuesta 76 monedas.
+tenis Nike. Cuesta 72 monedas.
+zapatos escarpin. Cuesta 65 monedas.
+zapatos sociales. Cuesta 81 monedas.
+botas militares. Cuesta 83 monedas.
+** 13.2: tienda de armas
+Los tipos de armas actuales son los siguientes:
+assault_rifles: puedes mantener el control para que disparen, las balas son mejores que las ametralladoras, buen alcance y daño. Tipo de munición, 7,62 mm_ammo
+arcos: buen alcance y daño. Munición, aro
+potros: son buenos para peleas cercanas, tienen buen daño y el precio de la bala está bien. Tipo de munición, 9 mm_ammo
+ametralladoras: son rápidas y puedes mantener el control para dispararlas. Las balas son las más baratas que puedes ver. Bueno para peleas cerradas, no tiene buen daño. Tipo de munición, 5.56 mm_ammo
+pistolas: son como potros. Bueno para peleas cuerpo a cuerpo, buen daño, el precio de la bala es bueno. Tipo de munición, 9 mm_ammo
+rifles: principalmente como francotiradores, pero el alcance es menor que el de los francotiradores. Tipo de munición, 7,62 mm_ammo o 12,7 mm_ammo
+escopetas: no buen alcance, pero daños impresionantes. Las balas son caras que las otras armas. Tipo de munición, shotgun_shell
+francotiradores: tienen un gran alcance y un gran daño, pero las balas son caras que las demás. Tipo de munición, 12,7 mm_ammo
+rifles de francotirador: gran alcance, gran daño, balas caras. Tipo de munición, 12,7 mm_ammo
+*** 13.2.1: armas
+daga. Cuesta 125 monedas
+d23dagger. Cuesta 142 monedas
+gancho. Cuesta 110 monedas
+pala_de_hierro. Cuesta 78 monedas
+machete. Cuesta 80 monedas
+daga_pequeña. Cuesta 85 monedas
+espada. Cuesta 123 monedas
+wip. Cuesta 196 monedas
+ak9automatic_machinegun. Cuesta 820 monedas
+a90sniper_rifle. Cuesta 3200 monedas
+ak47assault_rifle. Cuesta 1130 monedas
+ak48. Cuesta 1230 monedas
+ar15machinegun. Cuesta 620 monedas
+b96machinegun. Cuesta 860 monedas
+barett_m1500sniper_rifle. Cuesta 3383 monedas
+blz5machinegun. Cuesta 980 monedas
+browning_m2heavy_machinegun. Cuesta 2890 monedas
+motosierra. Cuesta 460 monedas
+colt_m9. Cuesta 635 monedas
+colt_m19. Cuesta 699 monedas
+ballesta. Cuesta 483 monedas
+crt15shotgun. Cuesta 890 monedas
+e9pistol. Cuesta 668 monedas
+e20shotgun. Cuesta 970 monedas
+e235shotgun. Cuesta 830 monedas
+fn20pistol. Cuesta 633 monedas
+fnm_pistol. Cuesta 600 monedas
+pistola g36. Cuesta 631 monedas
+gouse_pistol. Cuesta 601 monedas
+hk_machinegun. Cuesta 916 monedas
+k222rifle. Cuesta 3100 monedas
+kalashnikov_rifle. Cuesta 3790 monedas
+lr12pistol. Cuesta 599 monedas
+m9pistol. Cuesta 616 monedas
+m10machinegun. Cuesta 880 monedas
+m16machinegun. Cuesta 1320 monedas
+m28mini_machinegun. Cuesta 1070 monedas
+m90machinegun. Cuesta 1110 monedas
+m125assault_rifle. Cuesta 3190 monedas
+m152minigun. Cuesta 2899 monedas
+m155minigun. Cuesta 2920 monedas
+m234minigun. Cuesta 2956 monedas
+m560sniper_rifle. Cuesta 3303 monedas
+mb3shotgun. Cuesta 956 monedas
+mb5shotgun. Cuesta 980 monedas
+mb93machinegun. Cuesta 927 monedas
+mg4machinegun. Cuesta 970 monedas
+lanzador de misiles. Cuesta 5864 monedas
+mj420machinegun. Cuesta 964 monedas
+mk_long_machinegun. Cuesta 1030 monedas
+mk52assault_rifle. Cuesta 3130 monedas
+mk215machinegun. Cuesta 903 monedas
+mkv43machinegun. Cuesta 1013 monedas
+ml7rifle. Cuesta 1945 monedas
+ml15rifle. Cuesta 1997 monedas
+mlk290rifle. Cuesta 1743 monedas
+mlr_assault_rifle. Cuesta 1654 monedas
+mp5machinegun. Cuesta 840 monedas
+mp12machinegun. Cuesta 833 monedas
+msb530shotgun. Cuesta 1923 monedas
+p3escopeta_caza. Cuesta 3660 monedas
+pcs_handgun. Cuesta 920 monedas
+escopeta pst500. Cuesta 3135 monedas
+qt_machinegun. Cuesta 1090 monedas
+rpg_launcher. Cuesta 5065 monedas
+rpg7. Cuesta 5045 monedas
+ruga22revolver. Cuesta 990 monedas
+s55assault_rifle. Cuesta 3113 monedas
+s110assault_rifle. Cuesta 3011 monedas
+sfx12machinegun. Cuesta 1395 monedas
+sp3heavy_machinegun. Cuesta 3895 monedas
+sp5shotgun. Cuesta 1540 monedas
+sp10shotgun. Cuesta 1074 monedas
+stp15rifle. Cuesta 1365 monedas
+stp420long_barreled_rifle. Cuesta 1765 monedas
+str301machinegun. Cuesta 980 monedas
+tac50rifle. Cuesta 1030 monedas
+tiny_mg. Cuesta 950 monedas
+tsp_grenade_launcher. Cuesta 5080 monedas
+ump45machinegun. Cuesta 670 monedas
+uzi_machinegun. Cuesta 540 monedas
+*** 13.2.2: municiones
+Munición de 5,56 mm. Cuesta 5 monedas.
+Munición de 7,62 mm. Cuesta 7 monedas.
+Munición de 9 mm. Cuesta 9 monedas.
+Munición de 12,7 mm. Cuesta 12 monedas.
+flecha. Cuesta 3 monedas.
+batería. Cuesta 10 monedas
+misil. Cuesta 30 monedas
+cohete. Cuesta 25 monedas
+cartucho de escopeta. Cuesta 11 monedas.
+** 13.3: almacén de explosivos
+bomba de tiempo. Cuesta 365 monedas. Una bomba que tiene temporizador y cuando llegue a 0 explotará
+granada. Cuesta 193 monedas. Esta es una granada. Dispara, luego ve rápidamente atrás o ¡también disminuirá tu salud!
+torreta. Cuesta 496 monedas. Cuando lo coloques, cuando alguien se acerque 20 fichas, le disparará hasta que el cartucho de la torreta o el charj de la torreta acaben
+cartucho_torreta. Cuesta 52 monedas. Este es el cartucho de la torreta
+turret_battery. Cuesta 41 monedas. Esta es la batería de la torreta que puede darle charj
+bomba nuclear. Cuesta 8975 monedas. Esta bomba descarga a todos en cada mapa
+mía. Cuesta 140 monedas. Cuando vayas a este pequeño dispositivo explotará y disminuirá tu salud
+coctel molotov. Cuesta 102 monedas. ¡Tíralo para quemar a tus aponentes!
+casa antigua. Cuesta 150 monedas. Coloque este pequeño dispositivo y use su control remoto para disminuir una gran cantidad de salud de quienes están cerca de él
+claymore_remote. Cuesta 380 monedas. Esto es remoto para Claymores
+dardo_veneno. Cuesta 43 monedas. Lanza este dardo para envenenar a tu objetivo
+invisibility_shield. Cuesta 56 monedas. Usa este escudo para ser invisible durante treinta segundos.
+max_bomb. Cuesta 140 monedas. ¡Pon algunas de estas bombas para ver grandes sonidos de auge rápido y salud decreciente!
+lanzador_bombas. Cuesta 330 monedas. Lanza pequeñas bombas a tu objetivo más cercano para disminuir su salud.
+bomba_pequeña. Cuesta 80 monedas. Munición para los lanzadores de bombas
+estrella_veneno. Cuesta 59 monedas. ¡Tira esta cosita para envenenar a alguien o despertar a alguien con veneno!
+stun_dart. Cuesta 47 monedas. Lanza este dardo para aturdir a alguien por unos segundos
+bullet_bomb. Cuesta 160 monedas. ¡Coloca esta bomba y dispara con una pistola para que explote!
+bullet_bomb_locater. Cuesta 345 monedas. Con este localizador, compruebe dónde están sus bombas de bala
+impact_bomb. Cuesta 155 monedas. ¡Coloca esta bomba y dispara con una pistola para que explote!
+Impact_bomb_locater. Cuesta 335 monedas. Con este localizador, compruebe dónde están sus bombas de impacto
+throwing_star. Cuesta 63 monedas. ¡Lanza esta cosa para aplastar a tu aponente!
+pipe_bomb. Cuesta 175 monedas. ¡Lanza esta bomba a la cabeza de tu aponente para que explote con un gran sonido!
+
+small_nuclear_bomb. Cuesta 4560 monedas. ¡Explota un mapa con esta bomba fácilmente!
+bidón_gás. Cuesta 135 monedas. Coloque esto para lanzar gas a quienes estén cerca
+stp429. Cuesta 470 monedas. Lanza este misil al objetivo más cercano y verás su muerte.
+bote_antibiótico. Cuesta 118 monedas. Ayuda a tu compañero de equipo a recuperarse con esto
+bola de fuego. Cuesta 135 monedas. Tíralo a tu aponente y mira como arde
+bomba de fuego. Cuesta 148 monedas. Tira esta bomba a tu aponente y mira como arde
+sound_grenade. Cuesta 165 monedas. ¡Toca un sonido fuerte para tu apelante y confúndelo con esta pequeña granada!
+mass_bomb. Cuesta 260 monedas. ¡Coloca esta bomba y espera a que explote! pero ten cuidado. ¡Simplemente corra cuando lo haya colocado porque tal vez también disminuya su salud!
+bomba_suicida. Cuesta 547 monedas. ¡Mata a tu aponente con esta bomba y usa su fuerte sonido para notificar a todos los que están en tu mapa!
+botella_bomba. Cuesta 195 monedas. ¡Ponga algunos de estos y escuche un muy buen sonido distante además de la disminución de la salud de sus aponentes!
+bomba. Cuesta 178 monedas. Esto es como bombas de tiempo. Cuando el temporizador llegue a 0, explotará
+Granada de aturdimiento. Cuesta 132 monedas. ¡Aturde a tu enemigo con esta granada y mátalo!
+concussive_grenade. Cuesta 182 monedas. ¡Dispara a ti y a tu aponente al aire y cae y muere!
+bomba pegajosa. Cuesta 183 monedas. Esto funciona como una bomba de tubería. Tíralo y mira morir a tu aponente
+pequeño_proyecto. Cuesta 146 monedas. Dispara este proyectil para golpear al jugador más cercano
+proyecto_pequeño_venenado. Cuesta 152 monedas. Dispara este proyectil para golpear y envenenar al jugador más cercano.
+tasing_small_projectile. Cuesta 163 monedas. Dispara este proyectil para golpear y golpear al jugador más cercano.
+tasing_poisoned_small_projectile. Cuesta 193 monedas. Dispara este proyectil para golpear, envenenar y aturdir al jugador más cercano.
+dinamita. Cuesta 210 monedas. ¡Colócalo y contrólalo con su controlador y mata a tu enemigo!
+dinamita_detonater. Cuesta 392 monedas. Este es el controlador de dinamita
+security_bomb. Cuesta 235 monedas. ¡Pon esta bomba y mata a tus aponentes!
+barricade_bomb. Cuesta 263 monedas. ¡Pon esta bomba y mata a tus aponentes!
+censor_bomb. Cuesta 247 monedas. ¡Pon esta bomba y mata a tus aponentes!
+trampa. Cuesta 50 monedas. Esto es una trampa. ¿Te ayuda a aturdir a tu persona y tal vez a los animales?
+dlpack. Cuesta 950 monedas. Puedes ver una gran cantidad de elementos en el interior.
+tenga en cuenta: esta tienda no está disponible en este momento debido a algunos problemas inesperados
+** 13.4: tienda de vehículos
+para conocer más información sobre vehículos, por favor vaya a la sección de vehículos
+*** 13.4.1: vehículos
+motocicleta genérica. Cuesta 1630 monedas.
+dogan slx. Cuesta 2889 monedas.
+vado. Cuesta 2730 monedas.
+coche de policía. Cuesta 3090 monedas.
+*** 13.4.2: combustibles
+galón de combustible de 5 litros. Cuesta 300 monedas.
+galón de combustible de 10 litros. Cuesta 620 monedas.
+galón de combustible de 20 litros. Cuesta 893 monedas.
+galón de combustible de 50 litros. Cuesta 1070 monedas.
+** 13.5: tienda médica
+píldora de la salud. Cuesta 25 monedas. Este piloto es principalmente para jugadores pvp para obtener salud rápidamente
+paquete de gelatina. Cuesta 45 monedas. Este paquete de gelatina es para subir tu salud de una pequeña cantidad
+antibiótico. Cuesta 20 monedas. Esto te ayuda a disminuir tu enfermedad.
+sanador automático. Cuesta 62 monedas. Este pequeño dispositivo te da algo de salud por segundo
+** 13.6: tienda miscelánea
+hamaca. Cuesta 50 monedas.
+bicicleta. Cuesta 35 monedas.
+armario. Cuesta 80 monedas. Puedes poner tus artículos en él
+caja azul. Cuesta 55 monedas. ¡Hackea un casillero y obtén su código con esta herramienta!
+locker_security_booster. Cuesta 15 monedas. Asegure su casillero usando algunos de estos elementos para ralentizar el proceso de piratería
+toalla. Cuesta 15 monedas.
+taza. Cuesta 15 monedas.
+sierra_pequeña. Cuesta 23 monedas. Vi la mayoría de los bosques con él
+sierra_grande. Cuesta 37 monedas. Sierra metales y algunas maderas duras con él.
+botella de pegamento. Cuesta 35 monedas.
+teléfono_inteligente. Cuesta 210 monedas.
+varita mágica. Cuesta 650 monedas.
+mana. Cuesta 21 monedas. Munición para la varita
+paquete_vacío. Cuesta 10 monedas.
+iniciador de fuego. Cuesta 15 monedas. ¡Comienza a disparar con estas cosas fácilmente!
+vela. Cuesta 15 monedas.
+caña de pescar. Cuesta 30 monedas.
+herramienta de reparacion. Cuesta 15 monedas. Reparar taquillas fácilmente
+máscara de gas. Cuesta 250 monedas. Compra esto para respirar bajo el agua
+air_canister. Cuesta 15 monedas. Debe usar esto para respirar bajo el agua con máscara de gas. Cuando respiras bajo el agua, pierdes algo de esto.
+antídoto. Cuesta 25 monedas. ¡Aumenta el daño de tus armas durante unos minutos con esta poción majestuosa!
+cuchara. Cuesta 30 monedas.
+tenedor. Cuesta 35 monedas. ¡Abre botellas de cerveza con este artículo!
+martillo. Cuesta 45 monedas.
+cuerda. Cuesta 15 monedas.
+partido. Cuesta 10 monedas.
+cajita de cerillas. Cuesta 60 monedas.
+dlpack. Cuesta 950 monedas. Puedes ver una gran cantidad de elementos en el interior.
+** 13.7: tienda de comida rápida
+Pancho. Cuesta 15 monedas.
+llamada de socorro. Cuesta 3 monedas.
+pastel. Cuesta 10 monedas.
+* 14: máquinas expendedoras
+estos son en sí mismos explicativos, pero aquí vamos
+Primero, abriremos nuestro inventario presionando I
+luego, buscamos monedas presionando c, y llevándolas a una de nuestras manos mediante aros izquierdo o derecho
+Una vez hecho esto, cerremos el inventario presionando la tecla escape
+ahora encuentra maquina expendedora. Por ejemplo, vaya a la zona segura a las siguientes coordenadas: 0, 82, 0
+presiona 1 o 2 para seleccionar tus monedas y presiona la barra espaciadora mientras estás usando elementos
+escriba la cantidad de monedas y presione enter para poner monedas en la máquina
+ahora presione enter en la máquina. dice:
+Presione la barra espaciadora para comprar algo y obtener el menú. Presione C para ver cuántas monedas hay en la máquina. Presione r para devolver el dinero dentro de la máquina. Presione escape para cancelar
+presione espacio para obtener el menú:
+1: melón por 13 monedas.
+2: galleta por 7 monedas.
+3: caramelos por 2 monedas.
+4: galleta por 4 monedas.
+5: pretzel por 4 monedas.
+6: botella de cerveza por 25 monedas.
+7: energy_drink por 35 monedas.
+8: fichas por 26 monedas.
+9: popcorn_pack por 21 monedas.
+por ejemplo ponemos 26 monedas adentro. Para comprar fichas, presionamos 8
+espera unos segundos, ¡sí! artículo caído! ¡Encuéntrelo presionando la tecla M, y tomelo presionando enter!
+15: taquillas
+Los casilleros se pueden encontrar en el centro comercial. Ve y compra tu casillero para comenzar esta sección
+Tengo mi casillero en la mano. Cuando presiono la barra espaciadora, dice:
+tu código de taquilla es 5890. Puedes cambiarlo si lo deseas en el menú de taquilla
+¡Armario colocado! presionemos enter en él
+Ingrese el código de seguridad
+ingresemos nuestro código: 5, 8, 9, 0
+¿Que te gustaría hacer? Pulsa G para sacar algo del casillero o S para guardar algo. Presione c para cambiar el código de la taquilla (requiere permiso del propietario)
+Esto en sí mismo explica lo que está pasando
+ahora tienes tu propio casillero, y puedes ponerle artículos, sacarle artículos o cambiar el código.
+* 16: vehículos
+no disponible en este momento
+* 17: lucha
+Con P puede comprobar quién está cerca de usted, como se explicó anteriormente. cuando estás cerca de alguien, si está directamente frente a ti, puedes disparar. Con f verificas tu orientación y, si está detrás de ti, debes presionar e hasta que veas que el jugador está frente a ti y allí puedes usar el arma preferida.
+Es importante recordarte que para luchar debes estar en modo PVP que puedes habilitar escribiendo / pvp. cuando lo desactive debe esperar un minuto y hará la cuenta atrás. en cambio, puedes matar animales incluso si no eres pvp.
+Algunas estrategias:
+nunca, digo que nunca saltes cuando alguien te está disparando. Es mejor si corres rápido, porque podrías tener demoras para reaccionar y morir.
+Otro consejo, en lugar de caminar recto frente al oponente, usa el enfrentamiento. es mas rapido. si ve que no funciona, siga caminando.
+* 18: bancos
+Los bancos, en la vida real, son estos lugares donde puede almacenar su dinero por razones de seguridad. ¿Qué tal DL? Aquí tienen las mismas funciones ... ¡pero tenemos algo más!
+Al depositar una cierta cantidad en su cuenta bancaria, mensualmente recibirá algunas ganancias (la cantidad que tiene * 2).
+* 18.1: cuentas bancarias
+Primero vaya a las coordenadas 12, 30, 0, donde se encuentra la mesa de servicio, luego presione enter y se creará su cuenta.
+* 18.2: cajero automático:
+El cajero automático es donde puede verificar sus fondos, depositar y retirar dinero de su cuenta bancaria.
+se ubica en 18, 32, 0. Presione enter para abrir el menú
+* 18.3: acciones
+que son las acciones cuando una empresa necesita dinero para la gestión interna, pedirá a personas externas que entreguen una determinada cantidad, y la empresa entregará a cambio algunas acciones, dependiendo del costo de las mismas y de la cantidad de dinero invertido.
+en dl también, puede comprar acciones e invertir algo de dinero para obtener ganancias débilmente
+* 18.4: inversión
+Obtenga monedas en una mano, cuando esté en el mostrador de servicio. presione la barra espaciadora y escriba la cantidad de monedas que desea invertir.
+* 18.5: minero de efectivo:
+en el noreste del banco hay una pequeña habitación. ingrese allí y en 50 50 0 hay un minero de efectivo. cada vez que presione enter, ganará 0.5 monedas en su cuenta bancaria.
+* 19: casino
+El casino es un lugar con 19 juegos que cada uno tiene su propia descripción.
+puedes presionar h en la mayoría de los juegos para obtener ayuda
+Mi objetivo es que, en esta parte, recopile la mayor cantidad posible de minijuegos de código abierto y juegue en la vida diaria.
+bop it, memoria, pong, campo de tiro, minibip, pesca con audio, salida de incendios, dado, nadando, destruir la puerta
+ahora vamos a explicar cada juego
+** 19.1: ruleta de animales
+¡Bienvenido al juego de animales! apuesta, gira la ruleta y cuenta con suerte!
+Para establecer la cantidad de monedas que desea apostar, presione 1, ingrese la cantidad e ingrese. Para elegir el animal para jugar, presione 2, elija el animal con las flechas y presione enter
+** 19.2: par o impar
+Para elegir la cantidad de monedas que desea apostar, presione 1, ingrese la cantidad y confirme con enter. Presione 2 para elegir par o impar, luego presione enter para hacer fortuna y ver el resultado
+** 19.3: gato negro
+para establecer la cantidad de monedas a apostar, presione 1. Para saber la cantidad de puntos que usted y la computadora tienen, presione 2. Para detenerse con los puntos que tiene, presione la flecha hacia abajo. Para comprar una tarjeta, presione la barra espaciadora. Para reiniciar el juego cuando alguien gane, presione Entrar. Para salir, use ESCAPE
+** 19.4: piedra, papel, tijeras
+Elija 1 para piedra, 2 para papel, 3 para tijeras o escape para salir. Espacio para definir la cantidad que apostará que debe ser superior a 0 monedas
+** 19,5: tobillo
+simplemente presione enter para comenzar. Usted y la computadora deben tirar los dados hasta que uno de ustedes llegue a la casilla cincuenta y gane
+** 19.6: dados de la suerte
+Para establecer la cantidad de monedas que desea apostar, presione 1, ingrese la cantidad y presione enter
+tira los dados para ver si es el número que debería ser
+tienes tres oportunidades si pierdes
+** 19.7: rol de los dados
+Presione 1 para apostar. Pulsa enter para jugar los dados. Presione c para verificar las puntuaciones. Presione escape a leev
+cada uno de ustedes y la computadora deben tirar los dados diez veces y ver quién es el número más
+** 19.8: bop it
+Este es un juego en el que debes hacer lo que dice, digamos que si escuchas "bop it", presionarías una tecla determinada.
+bop es la flecha hacia abajo, tira de la flecha hacia la izquierda, giro hacia la derecha, giro es Enter, movimiento hacia arriba, clavo es espacio. ¡Buena suerte!
+** 19,9: memoria
+simplemente presionas la tecla para la que se usa ese sonido en particular, y luego sigue agregando. básicamente repites la secuencia hasta que te equivocas. luego la computadora dice tu puntaje y serás recompensado con algunas monedas deu a secuencias que hayas hecho
+** 19.10: pong
+Así es como funciona.
+Estás en una cuadrícula 2d, estás en un extremo y tu oponente está en el otro.
+Su objetivo es golpear la pelota de un lado a otro con algunos giros.
+La pelota se puede mover hacia la izquierda y hacia la derecha.
+presione las flechas izquierda y derecha para moverse hacia la izquierda y hacia la derecha. escuchará sonidos de pasos para indicar esto. si está en los bordes izquierdo o derecho, escuchará otro sonido.
+Para sacar o recibir la pelota, presione la flecha hacia arriba.
+cuando la pelota le devuelve el golpe, la oye con un golpe y la pelota comienza a sonar más fuerte. acérquese con la izquierda y la derecha, y presione la flecha hacia arriba para recibir la pelota.
+la pelota regresa para que la reciba el oponente y así sucesivamente.
+** 19.11: enfrentamiento
+simplemente como pong, pero recibirá algunos cambios y será más similar al juego de enfrentamiento real
+Así es como funciona.
+Estás en una cuadrícula 2d, estás en un extremo y tu oponente está en el otro.
+Su objetivo es golpear la pelota de un lado a otro con algunos giros.
+La pelota se puede mover hacia la izquierda y hacia la derecha.
+presione las flechas izquierda y derecha para moverse hacia la izquierda y hacia la derecha. oirá sonidos de pasos para indicar esto. si está en los bordes izquierdo o derecho, escuchará otro sonido.
+Para sacar o recibir la pelota, presione la flecha hacia arriba.
+cuando la pelota le devuelve el golpe, la oye con un golpe y la pelota comienza a sonar más fuerte. acérquese con la izquierda y la derecha, y presione la flecha hacia arriba para recibir la pelota.
+la pelota regresa para que la reciba el oponente y así sucesivamente.
+** 19.12: campo de tiro
+Esperas a que el objeto llegue al centro, luego presionas la barra espaciadora cuando crees que está allí, y si lo está, ¡obtienes algunas monedas extra! ¡Juega hasta que sea demasiado rápido para ti! presione l para comprobar sus vidas
+** 19.13: minibeep
+Camine hacia la izquierda o hacia la derecha, luego, cuando el pitido esté en el centro, presione el espacio. Pero, si el tono del pitido es demasiado bajo, aterriza y le quita algo de salud. Presione b para verificar su salud. Si tu salud llega a 0, estás tostado
+** 19.14: pesca con audio
+Básicamente, similar al campo de tiro. Esperas hasta que el pez esté nadando en el centro, luego presiona el espacio. Oyes un sonido y el pez deja de nadar. Pulsa las teclas de control izquierda o derecha para atraparlo. Luego pasas al siguiente pez y se vuelve más rápido. Juega hasta que mueras
+** 19.15: escalera de incendios
+¡Básicamente tienes que huir de los incendios entrantes! Se mueven hacia ti y si no corres lo suficientemente rápido, ¡te golpearán y te matarán! Una vez que vence un fuego, se restablece a 0 y se vuelve más rápido. Presione a la izquierda para moverse a la izquierda, a la derecha para moverse a la derecha, c para verificar su posición y escapar para salir
+** 19.16: dados
+Este es básicamente un juego aleatorio. Completamente. Presiona la barra espaciadora para tirar los dados y sucederá algo aleatorio y perderá o ganará dinero con ese resultado. Presione s para verificar su puntaje, M para verificar su dinero, P para verificar su posición, I para verificar sus casas y C para verificar sus computadoras
+** 19.17: natación
+Básicamente, presionas la flecha hacia arriba para nadar hacia adelante y la flecha hacia abajo para nadar hacia atrás. A medida que avanza, escuchará la llamada de instrucciones.
+** 19.18: destruye la puerta
+Básicamente, atraviesa el nivel, izquierda y derecha, matando las puertas. Cada vez que se mata una puerta, aparece otra en otro lugar. Encuentra y mata a ese. Una vez que estén todos muertos, que es después de 20 puertas, ganas. Presione D para verificar su número y cuántas puertas quedan
+** 19.19: juego aleatorio
+presione enter y vea qué juego vendrá al azar para que juegue
+20: arena
+La arena es un lugar al que los jugadores pueden desafiar allí.
+Si arena está habilitada, se le notificará y podrá unirse de las siguientes formas y participar allí:
+si escribes / arena, estarás en la sala de espera y después de dos minutos, comenzará la pelea y estarás en la arena para luchar con otros
+después de que solo quede un jugador, ganará una cierta cantidad de monedas y se moverá al mapa en el que estaba
+si escribe / espectador, se le unirá como espectador a la sala de espectadores
+después de dos minutos, estarás en la arena como espectador
+significa, sabes que uno puede golpearte y no puedes golpear a nadie
+Puedes caminar, pero no suena ningún paso para no destruir el enfoque de los luchadores.
+en cualquier momento puedes presionar shift enter para salir de la arena y omitir verla
+Arena no es responsable de mover a los espectadores después de terminar las peleas, por lo que deben presionar shift enter themselv's para salir
+Si mueres en la arena, no perderás tus artículos, y tú, como luchador, no escuchas el faro de los espectadores.
+escribiendo / arenalength sabrá cuántos jugadores hay en la arena
+Las monedas que ganaste dependen de tu nivel y la longitud de los jugadores que están en la arena.
+Tener muchos niveles y número de competidores ¡Especifica el dinero que ganarás!
+* 21: edificio
+en la vida diaria, puedes crear mapas e ir a mapas de tus amigos si es público. Vamos a ver cómo funciona:
+** 21.1: Explicación coordinada
+minx: Significa mínimo x.
+maxx: significa máximo x.
+miny: Significa y mínimo.
+maxy: Significa y máxima.
+minz: Significa z mínimo.
+Maxz: significa z máximo.
+X es movimiento a izquierda y derecha.
+Y es un movimiento hacia adelante y hacia atrás.
+Z es movimiento hacia arriba y hacia abajo.
+** 21.2: elaboración de mapas
+/ newmap mapname, max x, max y, max z, platform
+nombre del mapa es el nombre de su mapa, como prueba
+max x es el movimiento máximo a la derecha. Como 500
+max y es el máximo movimiento hacia adelante. Como 200
+max z es el movimiento máximo hacia arriba, como 100
+plataforma es el servicio que le gustaría caminar sobre ella, como hierba, grava, hormigón
+por ejemplo:
+/ newmap test 100100100 césped
+luego, después de presionar enter, se moverá a su nuevo mapa
+** 21.3: menú del constructor
+tenga en cuenta: si ve algo en el menú del constructor que no se explica aquí o incluso no puede ver su nombre aquí, significa que la función es para constructores y administradores
+ahora presione by deje que se abra un menú
+adentro, usted ve los siguientes objetos, y presionando enter en cada uno y llenando los formularios y configurando cada variable, ¡puede diseñar exitosamente su mapa!
+baldosa: una plataforma como barro, arena, hierba, cemento
+zona: las zonas se utilizan para ubicar diferentes arias como habitación, baño, ciudad, parque
+fuente de sonido: estos son inviernos que pueden ayudar a que su mapa tenga un sonido en las coordenadas que usted diga. Las fuentes de sonido son: calma, coche, habitación, río.
+ambiente: son como fuentes de sonido, pero el rango es el comienzo x hasta el final x, comenzando y hasta el final y, y comenzando z hasta el final z. Significa que no puede escucharlo si no está en el rango
+Automover: estos mueve al jugador desde el destino inicial hasta el destino final, bueno para hacer autos o puertas automáticas
+puerta: estos son explicativos
+zona segura: mientras estás en zona segura, no puedes disparar ni ser golpeado por nada
+travelpoint: esta función puede mover a los jugadores de un mapa a otro
+Punto de viaje automático: esta característica automáticamente cuando el jugador llega a ella lo moverá de un mapa a otro.
+signo: estos pequeños dings se pueden utilizar para obtener información, como la descripción de un centro comercial
+txt: cuando pise estas cosas, mostrará un mensaje cuando presione cualquier aro. Se usa principalmente para decir que no puedes ir sin un bote :)
+árbol: ¡totalmente explicativo! no es
+url: al poner un enlace aquí, todos en tu mapa siempre escuchan el enlace cuando están en tu mapa
+debajo de la URL, verá un montón de cosas para habilitar y deshabilitar. Estos pueden ayudarlo a habilitar o deshabilitar diferentes cosas, como usar bombas, ver coordenadas, trabajar con la cámara, etc.
+cambiar propietario: esta función le permitirá cambiar el propietario de su mapa
+hacer público el mapa: significa que cuando el mapa es público, cualquiera que escriba / pbmaps puede acceder a él
+nuevo mapa: esto hará un nuevo mapa
+obtener datos de mapa: obtendrá datos de un mapa, como / rawmap
+poner datos de mapa: pondrá datos de un mapa cuando lo tenga en su portapapeles, funciona como / rawdata
+Las cosas discapacitadas para los jugadores son las siguientes. Estos se pueden habilitar mediante el reconocimiento de administrador para su mapa:
+coordenada de pesca, máquina expendedora, AI (inteligencia artificial), artículo, inodoro, lavabo, ducha
+** 13.7: frutería
+manzana. Cuesta 3 monedas.
+sandía. Cuesta 3 monedas.
+naranja. Cuesta 3 monedas.
+Pera. Cuesta 3 monedas.
+Cereza. Cuesta 3 monedas.
+fresa. Cuesta 3 monedas.
+nectarina. Cuesta 3 monedas.
+uva. Cuesta 3 monedas.
+mango. Cuesta 3 monedas.
+arándano. Cuesta 3 monedas.
+granada. Cuesta 3 monedas.
+carambola. Cuesta 3 monedas.
+ciruela. Cuesta 3 monedas.
+plátano. Cuesta 3 monedas.
+frambuesa. Cuesta 3 monedas.
+mandarín. Cuesta 3 monedas.
+yaca. Cuesta 3 monedas.
+papaya. Cuesta 3 monedas.
+kiwi. Cuesta 3 monedas.
+piña. Cuesta 3 monedas.
+Lima. Cuesta 3 monedas.
+limón. Cuesta 3 monedas.
+albaricoque. Cuesta 3 monedas.
+pomelo. Cuesta 3 monedas.
+melón. Cuesta 3 monedas.
+Coco. Cuesta 3 monedas.
+aguacate. Cuesta 3 monedas.
+melocotón. Cuesta 3 monedas.
+almendra_verde. Cuesta 3 monedas.
+Tamarindo. Cuesta 3 monedas.
+cornalina_cherry. Cuesta 3 monedas.
+ruibarbo. Cuesta 3 monedas.
+caqui. Cuesta 3 monedas.
+higo. Cuesta 3 monedas.
+Cereza agria. Cuesta 3 monedas.
+uvas agrias. Cuesta 3 monedas.
+sitron. Cuesta 3 monedas.
+naranja agria. Cuesta 3 monedas.
+maíz. Cuesta 3 monedas.
+seta. Cuesta 3 monedas.
+brócoli. Cuesta 3 monedas.
+Pepino. Cuesta 3 monedas.
+pimiento rojo. Cuesta 3 monedas.
+tomate. Cuesta 3 monedas.
+sueco. Cuesta 3 monedas.
+Zanahoria. Cuesta 3 monedas.
+brote_de_bruselas. Cuesta 3 monedas.
+calabaza. Cuesta 3 monedas.
+repollo. Cuesta 3 monedas.
+patata. Cuesta 3 monedas.
+berenjena. Cuesta 3 monedas.
+batata. Cuesta 3 monedas.
+nabo. Cuesta 3 monedas.
+calabacín. Cuesta 3 monedas.
+Chile verde. Cuesta 3 monedas.
+cebolla. Cuesta 3 monedas.
+lechuga. Cuesta 3 monedas.
+rábano. Cuesta 3 monedas.
+guisante. Cuesta 3 monedas.
+espárragos. Cuesta 3 monedas.
+selery. Cuesta 3 monedas.
+pimiento verde. Cuesta 3 monedas.
+judías verdes. Cuesta 3 monedas.
+Espinacas. Cuesta 3 monedas.
+raíz de remolacha. Cuesta 3 monedas.
+chiles_rojos. Cuesta 3 monedas.
+frijol. Cuesta 3 monedas.
+cilantro Cuesta 3 monedas.
+alcachofa. Cuesta 3 monedas.
+Romero. Cuesta 3 monedas.
+hojas de laurel. Cuesta 3 monedas.
+hojas de menta. Cuesta 3 monedas.
+albahaca. Cuesta 3 monedas.
+Clavo. Cuesta 3 monedas.
+aceituna. Cuesta 3 monedas.
+chalote. Cuesta 3 monedas.
+cúrcuma. Cuesta 3 monedas.
+ajo. Cuesta 3 monedas.
+jengibre. Cuesta 3 monedas.
+Cebollas de primavera. Cuesta 3 monedas.
+La hierba de limón. Cuesta 3 monedas.
+cebollín. Cuesta 3 monedas.
+** 13.8: tienda de comida rápida
+Pancho. Cuesta 15 monedas.
+llamada de socorro. Cuesta 3 monedas.
+pastel. Cuesta 10 monedas.
+hamburguesa. Cuesta 11 monedas.
+hamburguesa con queso. Cuesta 11 monedas.
+sándwich de pollo. Cuesta 11 monedas.
+cremoso_hielo. Cuesta 11 monedas.
+helado de vainilla. Cuesta 11 monedas.
+caramel_ice_cream. Cuesta 11 monedas.
+zalamero. Cuesta 11 monedas.
+te helado. Cuesta 11 monedas.
+limonada. Cuesta 11 monedas.
+lime_cordial. Cuesta 11 monedas.
+malteada. Cuesta 11 monedas.
+orange_squash. Cuesta 11 monedas.
+squash. Cuesta 11 monedas.
+cacao. Cuesta 11 monedas.
+café. Cuesta 11 monedas.
+café negro. Cuesta 11 monedas.
+café descafeinado. Cuesta 11 monedas.
+té de frutas. Cuesta 11 monedas.
+té verde. Cuesta 11 monedas.
+té de hierbas. Cuesta 11 monedas.
+chocolate caliente. Cuesta 11 monedas.
+té. Cuesta 11 monedas.
+zumo de frutas. Cuesta 11 monedas.
+jugo de uva. Cuesta 11 monedas.
+zumo de naranja. Cuesta 11 monedas.
+jugo de ananas. Cuesta 11 monedas.
+******************** este archivo Léame está en proceso ********************
+* 22: créditos
+deborah aquilino y erfan abedi: ¡gracias por apoyarme todo el tiempo!
+- Mason Armstrong: Gracias por sus juegos de código abierto
+- Sam Tupy: Gracias por el paquete rotativo, la herramienta speed_stop_sound y el contenedor bgt de audio camlorn
+- Andray Louis: Gracias por los FreakyFwoofShorts.
+- jm-hosting.ir: gracias por alojar el juego y ftp
+- CAEJones: gracias por la configuración clave
+- "Achaidh Cheide" Kevin MacLeod (incompetech.com)
+Y por último, pero no menos importante, ¡un gran agradecimiento a los jugadores que nos apoyan!
+* 23: información de contacto:
+- Email:
+mahdiabedi922@gmail.com
+tecgame2020@gmail.com
+- Skype: live: mahdiabedi922: también puedes multarme con este e-mail en skype: mahdiabedi922@gmail.com
+twitter: @ mahdiabedi82
+telegram: @ mahdiabedi82
+sitio web: http://www.mahdiabedi.com
+canal de youtube: https://www.youtube.com/channel/UC5HfcAnQomwaU4h1HMhevYw
+*contactos administración española:
+Deborah, administradora responsable por reportes de bugs, mapas ecc:
+correo electronico: d.l.aquilino@gmail.com
+facebook: www.facebook.com/DebbyAquilino
+(copyright) (copyright) 2019-2021. mahdi abedi, All rights reserved

@@ -1,0 +1,30 @@
+A T Guys Software License
+==================
+
+Except where otherwise noted, all of the documentation and software included
+in this package is copyrighted by A T Guys, LLC, 2010. All rights reserved.
+
+This software is provided "as-is," without any express or implied warranty.
+In no event shall the author be held liable for any damages arising from the
+use of this software.
+
+Permission is granted to anyone to use this software for any noncommercial purpose,
+provided that the following conditions are met:
+
+1. All redistributions of source code files must retain all copyright
+   notices that are currently in place, and this list of conditions without
+   modification.
+
+2. All redistributions in binary form must retain all occurrences of the
+   above copyright notice and web site addresses that are currently in
+   place (for example, in the About boxes).
+
+3. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. 
+
+4. You may not profit from the distribution of this software, other than nominal fees charged as a part of a file repository, etc. Please contact the author at http://www.atguys.com
+
+
+A T Guys
+Your assistive technology experts
+http://www.atguys.com

@@ -1,0 +1,21 @@
+string output;
+string txt;
+void main() {
+file f;
+f.open("dl.bgt","rb");
+txt=f.read();
+f.close();
+string[] data=string_split(txt,"\r\n",false);
+for(uint i=0; i<data.length(); i++)
+{
+if(string_contains(data[i],"if(key_pressed(",1)>-1 or string_contains(data[i],"if (key_pressed(",1)>-1 or string_contains(data[i],"if( key_pressed(",1)>-1 or string_contains(data[i],"if(key_down(",1)>-1 or string_contains(data[i],"if (key_down(",1)>-1 or string_contains(data[i],"if( key_down(",1)>-1 or string_contains(data[i],"if(key_up(",1)>-1 or string_contains(data[i],"if (key_up(",1)>-1 or string_contains(data[i],"if( key_up(",1)>-1 or string_contains(data[i],"if(key_released(",1)>-1 or string_contains(data[i],"if (key_released(",1)>-1 or string_contains(data[i],"if( key_released(",1)>-1)
+{
+output+="On line: "+i+": "+data[i]+"\r\n";
+}
+}
+file f2;
+f2.open("keys.log","wb");
+f2.write(output);
+f2.close();
+alert("done","ok done");
+}

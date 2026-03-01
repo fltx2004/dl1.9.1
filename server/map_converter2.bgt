@@ -1,0 +1,51 @@
+#include"includes/hip.bgt"
+void main()
+{
+string[] lines=string_split(clipboard_read_text(),"//",false);
+for(uint i=0; i<lines.length; i++)
+{
+string[] parsed=string_split(lines[i],":",false);
+if(parsed[0]=="tile")
+{
+if(parsed.length()==10)
+{
+int minx=string_to_number(parsed[1]);
+int maxx=string_to_number(parsed[2]);
+int miny=string_to_number(parsed[3]);
+int maxy=string_to_number(parsed[4]);
+int minz=string_to_number(parsed[5]);
+int maxz=string_to_number(parsed[6]);
+string tile=parsed[7];
+int volume=string_to_number(parsed[8]);
+int pitch=string_to_number(parsed[9]);
+string output;
+output="tile:"+minx+":"+maxx+":"+miny+":"+maxy+":"+minz+":"+maxz+":"+0+":"+100+":"+tile;
+lines[i]=output;
+}
+else if(parsed.length()==11)
+{
+int minx=string_to_number(parsed[1]);
+int maxx=string_to_number(parsed[2]);
+int miny=string_to_number(parsed[3]);
+int maxy=string_to_number(parsed[4]);
+int minz=string_to_number(parsed[5]);
+int maxz=string_to_number(parsed[6]);
+string tile=parsed[7];
+int volume=string_to_number(parsed[8]);
+int pitch=string_to_number(parsed[9]);
+string trackme=parsed[10];
+string output;
+output="tile:"+minx+":"+maxx+":"+miny+":"+maxy+":"+minz+":"+maxz+":"+0+":"+100+":"+tile+":"+trackme;
+lines[i]=output;
+}
+}
+}
+string output;
+for(uint i=0; i<lines.length; i++)
+{
+output+=lines[i]+"//";
+}
+clipboard_copy_text(output);
+alert("success","");
+exit();
+}

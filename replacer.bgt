@@ -1,0 +1,6 @@
+void main()
+{
+string key=clipboard_read_text();
+key=string_replace(key, ";","\r\n", true);
+clipboard_copy_text(key);
+}

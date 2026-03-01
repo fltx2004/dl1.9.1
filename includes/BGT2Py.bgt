@@ -1,0 +1,88 @@
+
+void main() {
+	string fin=input_box("Filename", "Enter the name of the file to convert. Use asterisk (*) to convert all *.bgt files in a directory.", "*.bgt");
+	if(string_right(fin, 1)=="*") fin = fin + ".bgt";
+	string[] files=find_files(fin);
+	file f;
+	string txt;
+	//string[] lines;
+	for(uint i=0; i<files.length(); i++) {
+		f.open(files[i], "r");
+		txt=f.read();
+		f.close();
+		//lines=string_split(txt, "\n", true);
+		port(files[i], txt);
+	}
+	alert("Done", "Done. " + files.length() + " files were converted.");
+}
+
+void port(string fn, string txt) {
+	
+	
+	string[] goods={"#", "\"\"\"", "\"\"\"", "\tdef ", "None", "=True", "=False", "elif", "", "\r"};
+	string[] bads={"//", "/*", "*/", "\tvoid ", "null", "=true", "=false", "else if", "\t", ";\r"};
+	clipboard_copy_text("String_replace for " + fn);
+	for(uint i=0; i<bads.length(); i++) txt=string_replace(txt, bads[i], goods[i], true);
+	string[] lines=string_split(txt, "\n", true);
+	uint l=lines.length();
+	uint indent=0;
+	string ret="";
+	string types="void uint ulong float double string vector dictionary dictionary@ sound sound@ shape@ rect@ string[] uint[] ulong[] float[] double[] uint8 uint8[] uint16 uint16[] uint32 uint32[] bool bool[] ETechnique@ TTechnique@ EChar@ EChar@[] estage@ Sidescroller@ Fighter@ FighterTeam@ FiniteStateFighter@ Fighter@[] FiniteStateFighter@[] GUMap@ GUChar@ GUChar@[] Technique3D@ convex@ circle@ game@ Game@ ECTAS@ joystick@[] joystick joystick@ ";
+	for(uint i=0; i<l; i++) {
+		clipboard_copy_text("line " + i + " of " + fn);
+		if(string_left(lines[i], 4)=="#inc") {
+			ret += string_replace(string_replace(lines[i], "#include \"", "from ", true), ".bgt\"", " import *", true) + "\n";
+			continue; //?
+		}// Include to import.
+		// Beware strings. We want to omit anything between quotation marks.
+		//string pre="";
+		for(uint j=0; j<indent; j++) ret += "\t"; // This would be easier in python.
+		
+		// BGT arrays Vs Python lists:
+		if(string_contains(lines[i], "[]", 1)>=0 and string_contains(lines[i], "{", 1)>3 and string_contains(lines[i], "}", 1)>4) {
+			lines[i]=string_replace(string_replace(lines[i], "{", "[", false), "}", "]", false);
+			// Remove the type declaration?
+			lines[i]=string_trim_left(lines[i], string_contains(lines[i], "[]", 1)+3);
+		}// Lists.
+		if(string_contains(lines[i], "{", 1)>=0) {
+			indent++;
+			lines[i]=string_replace(lines[i], "{", ":", true);
+			
+		}
+		if(indent>0 and string_contains(lines[i], "}", 1)>=0) {
+			indent--;
+			lines[i]=string_replace(lines[i], "}", "#", false);
+		}
+		string fw=string_left(lines[i], string_contains(lines[i], " ", 1));
+		if(fw!="") {
+			if(string_contains(types, fw + " ", 1)>=0) {
+				lines[i]=string_trim_left(lines[i], fw.length()+1);
+				if(string_right(lines[i], 1)==":") lines[i] = "def " + lines[i];
+			}
+		}
+		while(string_contains(lines[i], "@(", 1)>=0) {
+			int index=string_contains(lines[i], "@(", 1)+2;
+			int l=1;
+			for(uint j=index; j<lines[i].length(); j++) {
+				if(lines[i][j]=="(") l++;
+				else if(lines[i][j]==")") l--;
+				if(l==0) {
+					lines[i]=string_left(lines[i], j) + string_trim_left(lines[i], j+1);
+					j=lines[i].length();
+				}
+			}
+			lines[i]=string_replace(lines[i], "@(", "", false);
+		}
+		lines[i]=string_replace(string_replace(string_replace(lines[i], "@", "", true), "!=None", " is not None", true), "==None", " is None", true);
+		if(string_right(lines[i], 1)==";") lines[i]=string_trim_right(lines[i], 1);
+		ret += lines[i] + "\n";
+	}
+	
+	string fn2=string_replace(fn, ".bgt", ".py", true);
+	if(fn==fn2) fn2 += ".py";
+	if(file_exists(fn2)) fn2=string_replace(fn2, ".py", "(1).py", false);
+	file fout;
+	fout.open(fn2, "w");
+	fout.write(ret);
+	fout.close();
+}
