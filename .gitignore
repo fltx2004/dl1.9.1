@@ -9,6 +9,7 @@ packs
 smart phone audio files
 sounds
 upsounds
+data.dat
 voices
 web
 
@@ -42,3 +43,5 @@ server/compchars.log
 server/prefs/server_state.dat
 server/prefs/server_state.dat
 server/tkserver.zip
+server/serverdata.dat
+
