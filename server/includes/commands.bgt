@@ -965,9 +965,9 @@ else if(parsed[0]=="/teamcreate" and parsed.length()>2)
 int i=is_in_team(p.name);
 if(i<0)
 {
-if(string_len(parsed[1])<2 or string_len(parsed[1])>5)
+if(string_len(parsed[1])<2 or string_len(parsed[1])>20)
 {
-send_reliable(e.peer_id," your team name must be more than 1 and less than 6 characters",2);
+send_reliable(e.peer_id," your team name must be more than 1 and less than 20 characters",2);
 return;
 }
 if(string_contains(parsed[1],"[cncel]",1)>-1)
