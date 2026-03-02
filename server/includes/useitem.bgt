@@ -2208,11 +2208,8 @@ p.inv_add_item("ball", -1);
 }
 else if(parsed[1]=="turret")
 {
-send_packet(6,"play turretplace.ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
-send_reliable(p, "stopmoving", 0);
-p.turrettimer.restart();
-p.turretspawning=true;
-p.inv_add_item("turret",-1);
+send_reliable(p, "Turret has been removed", 2);
+p.inv_add_item("turret",-1000000000);
 }
 else if(parsed[1]=="turret_cartridge")
 {
@@ -2377,16 +2374,6 @@ else
 p.snaretimer.restart();
 spawn_snare(p.x,p.y,p.z,maps[get_map_index(p.map)],p);
 p.inv_add_item("snare",-1);
-}
-else if(parsed[1]=="wand")
-{
-server_menu m;
-m.intro="what's the magic going on your head today?";
-m.initial_packet="usewand";
-m.add("shield unwealder. Costs 35 mana. Range: 25 feet","shield_unwealder");
-m.add("life drain. Costs 55 mana. Range: 15 feet","life_drain");
-m.add("fore to death. Costs 5 mana","fore_to_death");
-m.send(p.peer_id);
 }
 else if(parsed[1]=="censor_bomb" and p.cbombplacing==false)
 {

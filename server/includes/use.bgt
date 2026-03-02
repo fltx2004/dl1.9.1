@@ -5358,12 +5358,8 @@ send_reliable(p, "hempty "+parsed[2], 0);
 }
 else if(parsed[1]=="turret")
 {
-send_packet(6,"play turretplace.ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
-send_reliable(p, "stopmoving", 0);
-p.turrettimer.restart();
-p.turretspawning=true;
-p.inv_add_item("turret",-1);
-send_reliable(p, "hempty "+parsed[2], 0);
+send_reliable(p, "Turret has been removed", 2);
+p.inv_add_item("turret",-1000000000);
 }
 else if(parsed[1]=="turret_cartridge")
 {

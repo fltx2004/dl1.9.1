@@ -487,16 +487,6 @@ spawn_nuclear_bomb(random(min.x,max.x),random(min.y,max.y),0,maps[get_map_index(
 }
 send_reliable(p,"done",2);
 }
-else if(parsed[0]=="/turretsweeper" and p.is_admin())
-{
-vector min=get_min_values(p.map);
-vector max=get_max_values(p.map);
-for(uint i=0; i<250; i++)
-{
-spawn_turret(random(min.x,max.x),random(min.y,max.y),0,maps[get_map_index(p.map)],p);
-}
-send_reliable(p,"done",2);
-}
 else if(parsed[0]=="/minesweeper" and p.is_admin())
 {
 vector min=get_min_values(p.map);
