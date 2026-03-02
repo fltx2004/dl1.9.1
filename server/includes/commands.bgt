@@ -995,7 +995,7 @@ send_reliable(p,"This team already exists",2);
 return;
 }
 send_packet(6,"play teamcreate"+random(1,2)+".ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
-create_team(parsed[1],parsed[2],p.name);
+create_team(parsed[1],p.name,parsed[2]);
 p.teamname=parsed[1];
 write_to(p.name,"team.usr",p.teamname);
 int ts=get_team_index(parsed[1]);
