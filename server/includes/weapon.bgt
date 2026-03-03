@@ -1772,7 +1772,7 @@ hitsound=weapons[i].type+"hit"+random(1,weapons[i].hitsounds);
 send_packet(6,"play "+hitsound+".ogg "+ais[x].x+" "+ais[x].y+" "+ais[x].z, ais[x].x,ais[x].y,ais[x].z,maps[get_map_index(ais[x].map.name)]);
 }
 }
-ais[x].health-=weapons[i].damage;
+ais[x].health-=weapons[i].owner.extra_damage*weapons[i].damage;
 ais[x].hitby=weapons[i].owner.name;
 if (ais[x].painsound!="") send_packet(6,"play "+ais[x].painsound+" "+ais[x].x+" "+ais[x].y+" "+ais[x].z, ais[x].x,ais[x].y,ais[x].z,maps[get_map_index(ais[x].map.name)]);
 if (ais[x].maddable==true and ais[x].mad==false) ais[x].mad=true;

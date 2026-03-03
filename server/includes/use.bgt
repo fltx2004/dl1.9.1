@@ -5086,6 +5086,26 @@ else
 send_reliable(p, "you can't use this", 2);
 }
 }
+else if(parsed[1]=="power_of_anger")
+{
+if(p.extra_damage>=5)
+{
+send_reliable(p, "You are already in a state of anger and do not need to use it again", 2);
+return;
+}
+if(p.reinforcement<50)
+{
+send_reliable(p, "This item requires reinforcement 50", 2);
+return;
+}
+p.poweranger=true;
+p.extra_damage=5;
+p.extra_damagetimer.restart();
+p.inv_add_item("Power of Anger",-1);
+send_reliable(p, "hempty "+parsed[2], 0);
+send_packet(6,"play power_of_anger.ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
+send_reliable(p, "You're starting to get angry now", 2);
+}
 else if(parsed[1]=="health_box")
 {
 if(p.prison==true and p.pvp==0)
