@@ -44,4 +44,5 @@ server/prefs/server_state.dat
 server/prefs/server_state.dat
 server/tkserver.zip
 server/serverdata.dat
-
+dl.exe
+server/dlserver.exe
