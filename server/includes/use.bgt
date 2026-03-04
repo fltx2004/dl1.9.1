@@ -5101,7 +5101,7 @@ return;
 p.poweranger=true;
 p.extra_damage=5;
 p.extra_damagetimer.restart();
-p.inv_add_item("Power of Anger",-1);
+p.inv_add_item("power_of_anger",-1);
 send_reliable(p, "hempty "+parsed[2], 0);
 send_packet(6,"play power_of_anger.ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
 send_reliable(p, "You're starting to get angry now", 2);
