@@ -1343,7 +1343,6 @@ return;
 if(inv.exists("safe_card"))
 {
 send_packet(6,"play death_free.ogg "+x+" "+y+" "+z, x,y,z,maps[get_map_index(map)]);
-send_dpacketn(6,name,"distsound death_free "+x+" "+y+" "+z+" "+map,maps[get_map_index(map)]);
 health=maxhealth;
 hurtlevel=0;
 hurttimer.restart();
