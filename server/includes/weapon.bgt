@@ -1279,27 +1279,7 @@ weapons[i].distance++;
 weapons[i].damage-=10;
 if(weapons[i].distance > weapons[i].range)
 {
-if(string_contains(weapons[i].type,"machinegun",1)!=-1||string_contains(weapons[i].type,"tiny_mg",1)!=-1)
-{
-send_packet(6,"play 5.56mm_ammo"+random(1,3)+".ogg "+weapons[i].x+" "+weapons[i].y+" "+weapons[i].z, weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)]);
-}
-else if(string_contains(weapons[i].type,"rifle",1)!=-1)
-{
-send_packet(6,"play 7.62mm_ammo"+random(1,2)+".ogg "+weapons[i].x+" "+weapons[i].y+" "+weapons[i].z, weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)]);
-}
-else if(string_contains(weapons[i].type,"colt",1)!=-1||string_contains(weapons[i].type,"pistol",1)!=-1||string_contains(weapons[i].type,"tranquilizer_gun",1)!=-1)
-{
-send_packet(6,"play 9mm_ammo"+random(1,2)+".ogg "+weapons[i].x+" "+weapons[i].y+" "+weapons[i].z, weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)]);
-}
-else if(string_contains(weapons[i].type,"sniper",1)!=-1||string_contains(weapons[i].type,"nak_nk1000_decimater",1)!=-1||string_contains(weapons[i].type,"sniper_rifle",1)!=-1)
-{
-send_packet(6,"play 12.7mm_ammo"+random(1,2)+".ogg "+weapons[i].x+" "+weapons[i].y+" "+weapons[i].z, weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)]);
-}
-else if(string_contains(weapons[i].type,"shotgun",1)!=-1)
-{
-send_packet(6,"play shotgun_shell"+random(1,7)+".ogg "+weapons[i].x+" "+weapons[i].y+" "+weapons[i].z, weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)]);
-}
-else if(weapons[i].type=="stone")
+if(weapons[i].type=="stone")
 {
 if(starter_exist_on(weapons[i].x,weapons[i].y,weapons[i].z,maps[get_map_index(weapons[i].map.name)])==true)
 {
