@@ -699,8 +699,8 @@ else if(type=="small_dagger")
 {
 speed=5;
 range=1;
-damage=random(10000,10000);
-spread=2;
+damage=random(7000,8500);
+spread=1;
 hitsound=true;
 hitsounds=3;
 }

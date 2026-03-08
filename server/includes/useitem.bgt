@@ -744,7 +744,7 @@ if(parsed[1]!=p.weapon_name)
 p.weapon_name=parsed[1];
 if(p.weapon_ammos>0)
 p.inv_add_item(p.weapon_ammo_type, p.weapon_ammos);
-p.firetimer=125;
+p.firetimer=750;
 p.weapon_ammos=0;
 p.weapon_ammo_type="";
 p.weapon_copasity=0;

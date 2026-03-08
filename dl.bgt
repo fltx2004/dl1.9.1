@@ -13930,7 +13930,7 @@ if(s==ptravelpoints[i].password)
 {
 if(ptravelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(ptravelpoints[i].ds2,false,0,0,0,100);
 if(ptravelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+ptravelpoints[i].ds2,0);
-send_reliable(peer_id,"ptravelto "+ptravelpoints[i].nx+" "+ptravelpoints[i].ny+" "+ptravelpoints[i].nz+" "+ptravelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+ptravelpoints[i].nx+" "+ptravelpoints[i].ny+" "+ptravelpoints[i].nz+" "+ptravelpoints[i].nmap,0);
 if(ptravelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+ptravelpoints[i].ds3,7);
 if(ptravelpoints[i].ds3!="silence") p.play_stationary(ptravelpoints[i].ds3,false,0,0,0,100);
 }
@@ -13956,7 +13956,7 @@ if(s>ictravelpoints[i].amount)
 {
 if(ictravelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(ictravelpoints[i].ds2,false,0,0,0,100);
 if(ictravelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+ictravelpoints[i].ds2,0);
-send_reliable(peer_id,"ictravelto "+ictravelpoints[i].nx+" "+ictravelpoints[i].ny+" "+ictravelpoints[i].nz+" "+ictravelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+ictravelpoints[i].nx+" "+ictravelpoints[i].ny+" "+ictravelpoints[i].nz+" "+ictravelpoints[i].nmap,0);
 if(ictravelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+ictravelpoints[i].ds3,7);
 if(ictravelpoints[i].ds3!="silence") p.play_stationary(ictravelpoints[i].ds3,false,0,0,0,100);
 }
@@ -13983,7 +13983,7 @@ if(s>ittravelpoints[i].amount)
 if(ittravelpoints[i].text!=" ") speak(ittravelpoints[i].text);
 if(ittravelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(ittravelpoints[i].ds2,false,0,0,0,100);
 if(ittravelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+ittravelpoints[i].ds2,0);
-send_reliable(peer_id,"ittravelto "+ittravelpoints[i].nx+" "+ittravelpoints[i].ny+" "+ittravelpoints[i].nz+" "+ittravelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+ittravelpoints[i].nx+" "+ittravelpoints[i].ny+" "+ittravelpoints[i].nz+" "+ittravelpoints[i].nmap,0);
 if(ittravelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+ittravelpoints[i].ds3,7);
 if(ittravelpoints[i].ds3!="silence") p.play_stationary(ittravelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14005,7 +14005,7 @@ if(me.x>=igtravelpoints[i].mindx and me.x<=igtravelpoints[i].maxdx and me.y>=igt
 if(igtravelpoints[i].text!=" ") speak(igtravelpoints[i].text);
 if(igtravelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(igtravelpoints[i].ds2,false,0,0,0,100);
 if(igtravelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+igtravelpoints[i].ds2,0);
-send_reliable(peer_id,"igtravelto "+igtravelpoints[i].nx+" "+igtravelpoints[i].ny+" "+igtravelpoints[i].nz+" "+igtravelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+igtravelpoints[i].nx+" "+igtravelpoints[i].ny+" "+igtravelpoints[i].nz+" "+igtravelpoints[i].nmap,0);
 send_reliable(peer_id,"travelpointgive "+igtravelpoints[i].item+" "+igtravelpoints[i].amount,0);
 if(igtravelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+igtravelpoints[i].ds3,7);
 if(igtravelpoints[i].ds3!="silence") p.play_stationary(igtravelpoints[i].ds3,false,0,0,0,100);
@@ -14037,7 +14037,7 @@ if(s==pautomatic_travelpoints[i].password)
 {
 if(pautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(pautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(pautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+pautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ptravelto "+pautomatic_travelpoints[i].nx+" "+pautomatic_travelpoints[i].ny+" "+pautomatic_travelpoints[i].nz+" "+pautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+pautomatic_travelpoints[i].nx+" "+pautomatic_travelpoints[i].ny+" "+pautomatic_travelpoints[i].nz+" "+pautomatic_travelpoints[i].nmap,0);
 if(pautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+pautomatic_travelpoints[i].ds3,7);
 if(pautomatic_travelpoints[i].ds3!="silence") p.play_stationary(pautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14061,7 +14061,7 @@ if(inv_item_number(icautomatic_travelpoints[i].item)>=icautomatic_travelpoints[i
 if(icautomatic_travelpoints[i].text!=" ") speak(icautomatic_travelpoints[i].text);
 if(icautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(icautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(icautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+icautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ictravelto "+icautomatic_travelpoints[i].nx+" "+icautomatic_travelpoints[i].ny+" "+icautomatic_travelpoints[i].nz+" "+icautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+icautomatic_travelpoints[i].nx+" "+icautomatic_travelpoints[i].ny+" "+icautomatic_travelpoints[i].nz+" "+icautomatic_travelpoints[i].nmap,0);
 if(icautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+icautomatic_travelpoints[i].ds3,7);
 if(icautomatic_travelpoints[i].ds3!="silence") p.play_stationary(icautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14080,7 +14080,7 @@ if(inv_item_number(itautomatic_travelpoints[i].item)>=itautomatic_travelpoints[i
 if(itautomatic_travelpoints[i].text!=" ") speak(itautomatic_travelpoints[i].text);
 if(itautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(itautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(itautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+itautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ittravelto "+itautomatic_travelpoints[i].nx+" "+itautomatic_travelpoints[i].ny+" "+itautomatic_travelpoints[i].nz+" "+itautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+itautomatic_travelpoints[i].nx+" "+itautomatic_travelpoints[i].ny+" "+itautomatic_travelpoints[i].nz+" "+itautomatic_travelpoints[i].nmap,0);
 if(itautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+itautomatic_travelpoints[i].ds3,7);
 if(itautomatic_travelpoints[i].ds3!="silence") p.play_stationary(itautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14097,7 +14097,7 @@ if(me.x>=igautomatic_travelpoints[i].mindx and me.x<=igautomatic_travelpoints[i]
 if(igautomatic_travelpoints[i].text!=" ") speak(igautomatic_travelpoints[i].text);
 if(igautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(igautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(igautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+igautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"igtravelto "+igautomatic_travelpoints[i].nx+" "+igautomatic_travelpoints[i].ny+" "+igautomatic_travelpoints[i].nz+" "+igautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+igautomatic_travelpoints[i].nx+" "+igautomatic_travelpoints[i].ny+" "+igautomatic_travelpoints[i].nz+" "+igautomatic_travelpoints[i].nmap,0);
 send_reliable(peer_id,"automatic_travelpointgive "+igautomatic_travelpoints[i].item+" "+igautomatic_travelpoints[i].amount,0);
 if(igautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+igautomatic_travelpoints[i].ds3,7);
 if(igautomatic_travelpoints[i].ds3!="silence") p.play_stationary(igautomatic_travelpoints[i].ds3,false,0,0,0,100);
@@ -14272,7 +14272,7 @@ if(s==pautomatic_travelpoints[i].password)
 {
 if(pautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(pautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(pautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+pautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ptravelto "+pautomatic_travelpoints[i].nx+" "+pautomatic_travelpoints[i].ny+" "+pautomatic_travelpoints[i].nz+" "+pautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+pautomatic_travelpoints[i].nx+" "+pautomatic_travelpoints[i].ny+" "+pautomatic_travelpoints[i].nz+" "+pautomatic_travelpoints[i].nmap,0);
 if(pautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+pautomatic_travelpoints[i].ds3,7);
 if(pautomatic_travelpoints[i].ds3!="silence") p.play_stationary(pautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14296,7 +14296,7 @@ if(inv_item_number(icautomatic_travelpoints[i].item)>=icautomatic_travelpoints[i
 if(icautomatic_travelpoints[i].text!=" ") speak(icautomatic_travelpoints[i].text);
 if(icautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(icautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(icautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+icautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ictravelto "+icautomatic_travelpoints[i].nx+" "+icautomatic_travelpoints[i].ny+" "+icautomatic_travelpoints[i].nz+" "+icautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+icautomatic_travelpoints[i].nx+" "+icautomatic_travelpoints[i].ny+" "+icautomatic_travelpoints[i].nz+" "+icautomatic_travelpoints[i].nmap,0);
 if(icautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+icautomatic_travelpoints[i].ds3,7);
 if(icautomatic_travelpoints[i].ds3!="silence") p.play_stationary(icautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14315,7 +14315,7 @@ if(inv_item_number(itautomatic_travelpoints[i].item)>=itautomatic_travelpoints[i
 if(itautomatic_travelpoints[i].text!=" ") speak(itautomatic_travelpoints[i].text);
 if(itautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(itautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(itautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+itautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"ittravelto "+itautomatic_travelpoints[i].nx+" "+itautomatic_travelpoints[i].ny+" "+itautomatic_travelpoints[i].nz+" "+itautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+itautomatic_travelpoints[i].nx+" "+itautomatic_travelpoints[i].ny+" "+itautomatic_travelpoints[i].nz+" "+itautomatic_travelpoints[i].nmap,0);
 if(itautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+itautomatic_travelpoints[i].ds3,7);
 if(itautomatic_travelpoints[i].ds3!="silence") p.play_stationary(itautomatic_travelpoints[i].ds3,false,0,0,0,100);
 }
@@ -14332,7 +14332,7 @@ if(me.x>=igautomatic_travelpoints[i].mindx and me.x<=igautomatic_travelpoints[i]
 if(igautomatic_travelpoints[i].text!=" ") speak(igautomatic_travelpoints[i].text);
 if(igautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) p.play_stationary(igautomatic_travelpoints[i].ds2,false,0,0,0,100);
 if(igautomatic_travelpoints[i].ds2!="silence" and sleepmode!=0) send_reliable(peer_id,"draw "+igautomatic_travelpoints[i].ds2,0);
-send_reliable(peer_id,"igtravelto "+igautomatic_travelpoints[i].nx+" "+igautomatic_travelpoints[i].ny+" "+igautomatic_travelpoints[i].nz+" "+igautomatic_travelpoints[i].nmap,0);
+send_reliable(peer_id,"travelto "+igautomatic_travelpoints[i].nx+" "+igautomatic_travelpoints[i].ny+" "+igautomatic_travelpoints[i].nz+" "+igautomatic_travelpoints[i].nmap,0);
 send_reliable(peer_id,"automatic_travelpointgive "+igautomatic_travelpoints[i].item+" "+igautomatic_travelpoints[i].amount,0);
 if(igautomatic_travelpoints[i].ds3!="silence" and sleepmode!=0) send_reliable(0,"draw "+igautomatic_travelpoints[i].ds3,7);
 if(igautomatic_travelpoints[i].ds3!="silence") p.play_stationary(igautomatic_travelpoints[i].ds3,false,0,0,0,100);
