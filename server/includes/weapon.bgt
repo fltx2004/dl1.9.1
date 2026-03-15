@@ -2,6 +2,7 @@ weapon@[] weapons(0);
 class weapon
 {
 double x, y, z;
+double pdamage;
 int hitsounds, stuntime, dir, ddir, speed, range, distance, damage, spread;
 string type;
 bool wall=false, hitsound=false, stunning;
@@ -21,9 +22,10 @@ type=wtype;
 if(type=="light_punch")
 {
 speed=5;
-range=5;
+range=2;
+pdamage=0.04;
 damage=random(200,400);
-spread=5;
+spread=2;
 wall=false;
 hitsound=true;
 hitsounds=3;
@@ -31,9 +33,10 @@ hitsounds=3;
 else if(type=="punch")
 {
 speed=5;
-range=5;
+range=3;
+pdamage=0.06;
 damage=random(600,800);
-spread=5;
+spread=3;
 wall=false;
 hitsound=true;
 hitsounds=3;
@@ -42,8 +45,9 @@ else if(type=="heavy_punch")
 {
 speed=5;
 range=5;
+pdamage=0.09;
 damage=random(800,1000);
-spread=5;
+spread=3;
 wall=false;
 hitsound=true;
 hitsounds=3;
@@ -51,9 +55,10 @@ hitsounds=3;
 else if(type=="light_kick")
 {
 speed=5;
-range=7;
+range=3;
+pdamage=0.05;
 damage=random(200,450);
-spread=5;
+spread=2;
 wall=false;
 hitsound=true;
 hitsounds=3;
@@ -61,7 +66,8 @@ hitsounds=3;
 else if(type=="kick")
 {
 speed=5;
-range=7;
+range=4;
+pdamage=0.07;
 damage=random(400,650);
 spread=5;
 wall=false;
@@ -71,7 +77,8 @@ hitsounds=3;
 else if(type=="heavy_kick")
 {
 speed=5;
-range=7;
+range=5;
+pdamage=0.11;
 damage=random(700,1000);
 spread=5;
 wall=false;
@@ -103,7 +110,8 @@ hitsounds=3;
 else if(type=="slam")
 {
 speed=5;
-range=10;
+range=4;
+pdamage=0.15;
 damage=random(200,500);
 spread=5;
 wall=false;
@@ -113,9 +121,10 @@ hitsounds=3;
 else if(type=="fists")
 {
 speed=5;
-range=7;
+range=3;
+pdamage=0.05;
 damage=random(200,700);
-spread=5;
+spread=3;
 wall=false;
 hitsound=true;
 hitsounds=34;
@@ -123,7 +132,8 @@ hitsounds=34;
 else if(type=="feet")
 {
 speed=5;
-range=7;
+range=4;
+pdamage=0.06;
 damage=random(300,900);
 spread=5;
 wall=false;
@@ -133,15 +143,18 @@ hitsounds=13;
 else if(type=="axe")
 {
 speed=5;
-range=8;
+range=4;
+pdamage=0.20;
 damage=random(1000,2000);
+spread=3;
 wall=true;
 hitsound=true;
 }
 else if(type=="axe2")
 {
 speed=5;
-range=9;
+range=5;
+pdamage=0.18;
 damage=random(2000,3000);
 wall=true;
 hitsound=true;
@@ -149,7 +162,8 @@ hitsound=true;
 else if(type=="knife")
 {
 speed=5;
-range=5;
+range=3;
+pdamage=0.15;
 damage=random(100,2000);
 wall=false;
 hitsound=true;
@@ -158,7 +172,8 @@ hitsounds=4;
 else if(type=="spear")
 {
 speed=5;
-range=10;
+range=6;
+pdamage=0.20;
 damage=random(1000,1500);
 wall=false;
 hitsound=true;
@@ -166,7 +181,8 @@ hitsound=true;
 else if(type=="hammer")
 {
 speed=5;
-range=8;
+range=5;
+pdamage=0.15;
 damage=random(3000,4500);
 wall=false;
 hitsound=true;
@@ -174,7 +190,8 @@ hitsound=true;
 else if(type=="long_knife")
 {
 speed=5;
-range=9;
+range=5;
+pdamage=0.25;
 damage=random(2000,4000);
 wall=false;
 hitsound=true;
@@ -184,8 +201,9 @@ else if(type=="a90sniper_rifle")
 {
 speed=5;
 range=100;
+pdamage=0.50;
 damage=random(2000,8000);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
@@ -193,26 +211,29 @@ else if(type=="ak47assault_rifle")
 {
 speed=5;
 range=40;
+pdamage=0.10;
 damage=random(800,1000);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
 else if(type=="ak48")
 {
 speed=5;
-range=55;
+range=35;
+pdamage=0.12;
 damage=random(1000,1500);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
 else if(type=="arrow_gun")
 {
 speed=5;
-range=35;
+range=25;
+pdamage=0.15;
 damage=random(1000,2000);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
@@ -220,6 +241,7 @@ else if(type=="bow")
 {
 speed=5;
 range=30;
+pdamage=0.20;
 damage=random(3000,5000);
 wall=false;
 hitsound=true;
@@ -228,6 +250,7 @@ else if(type=="long_bow")
 {
 speed=5;
 range=35;
+pdamage=0.22;
 damage=random(2000,5000);
 wall=false;
 hitsound=true;
@@ -235,9 +258,10 @@ hitsound=true;
 else if(type=="blue_assault_rifle")
 {
 speed=5;
-range=135;
+range=35;
+pdamage=0.20;
 damage=random(1500,3500);
-spread=5;
+spread=3;
 wall=true;
 hitsound=false;
 }
@@ -245,26 +269,29 @@ else if(type=="blue_bolt_action_sniper")
 {
 speed=5;
 range=115;
+pdamage=0.574;
 damage=random(2000,60000);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
 else if(type=="blue_burst_assault_rifle")
 	{
 speed=5;
-range=101;
+range=40;
+pdamage=0.22;
 damage=random(3000,4000);
-spread=5;
+spread=1;
 wall=true;
 hitsound=false;
 }
 else if(type=="blue_heavy_assault_rifle")
 {
 speed=5;
-range=90;
+range=40;
+pdamage=0.23;
 damage=random(1500,3500);
-spread=5;
+spread=2;
 wall=true;
 hitsound=false;
 }
@@ -280,27 +307,30 @@ hitsound=false;
 else if(type=="blue_hunting_rifle")
 {
 speed=5;
-range=105;
+range=50;
+pdamage=0.30;
 damage=random(1500,4000);
-spread=5;
+spread=3;
 wall=true;
 hitsound=false;
 }
 else if(type=="blue_infintry_rifle")
 {
 speed=5;
-range=125;
+range=45;
+pdamage=0.35;
 damage=random(1500,3500);
-spread=5;
+spread=3;
 wall=true;
 hitsound=false;
 }
 else if(type=="blue_tacticle_shotgun")
 {
 speed=5;
-range=20;
+range=19;
+pdamage=1;
 damage=random(4000,10000);
-spread=6;
+spread=5;
 wall=true;
 hitsound=false;
 }
@@ -308,6 +338,7 @@ else if(type=="drum_shotgun")
 {
 speed=5;
 range=15;
+pdamage=1;
 damage=random(8000,10000);
 spread=6;
 wall=true;
@@ -316,9 +347,10 @@ hitsound=false;
 else if(type=="gold_burst_assault_rifle")
 	{
 speed=5;
-range=103;
+range=45;
+pdamage=0.40;
 damage=random(3000,4000);
-spread=5;
+spread=3;
 wall=true;
 hitsound=false;
 }
@@ -326,6 +358,7 @@ else if(type=="gold__drum_gun")
 	{
 speed=5;
 range=45;
+pdamage=0.42;
 damage=random(4000,8000);
 spread=3;
 wall=true;
@@ -334,7 +367,8 @@ hitsound=false;
 else if(type=="gold_heavy_assault_rifle")
 	{
 speed=5;
-range=145;
+range=45;
+pdamage=0.33;
 damage=random(1500,3500);
 spread=5;
 wall=true;
@@ -344,6 +378,7 @@ else if(type=="gold_scar")
 	{
 speed=5;
 range=42;
+pdamage=0.36;
 damage=random(3000,4300);
 spread=5;
 wall=true;
@@ -353,8 +388,9 @@ else if(type=="gold_tacticle_shotgun")
 	{
 speed=5;
 range=12;
+pdamage=1.15;
 damage=random(7000,14000);
-spread=7;
+spread=4;
 wall=true;
 hitsound=false;
 }
@@ -362,15 +398,17 @@ else if(type=="heavy_sniper")
 	{
 speed=5;
 range=160;
+pdamage=0.70;
 damage=random(7000,12000);
-spread=3;
+spread=2;
 wall=true;
 hitsound=false;
 }
 else if(type=="colt_m9")
 {
 speed=5;
-range=35;
+range=20;
+pdamage=0.15;
 damage=random(1000,2000);
 spread=5;
 wall=true;
@@ -379,7 +417,8 @@ hitsound=false;
 else if(type=="colt_m19")
 {
 speed=5;
-range=42;
+range=32;
+pdamage=0.18;
 damage=random(2000,3000);
 spread=5;
 wall=true;
@@ -389,6 +428,7 @@ else if(type=="e9pistol")
 {
 speed=5;
 range=30;
+pdamage=0.14;
 damage=random(2000,2500);
 spread=5;
 wall=true;
@@ -397,7 +437,8 @@ hitsound=false;
 else if(type=="e20shotgun")
 {
 speed=5;
-range=7;
+range=13;
+pdamage=1.10;
 damage=random(7000,14000);
 spread=5;
 wall=true;
@@ -406,7 +447,8 @@ hitsound=false;
 else if(type=="e235shotgun")
 {
 speed=5;
-range=20;
+range=18;
+pdamage=0.90;
 damage=random(1000,4000);
 spread=5;
 wall=true;
@@ -415,7 +457,8 @@ hitsound=false;
 else if(type=="mb3shotgun")
 {
 speed=5;
-range=8;
+range=9;
+pdamage=1.30;
 damage=random(7000,14000);
 spread=4;
 wall=true;
@@ -425,8 +468,9 @@ else if(type=="mb5shotgun")
 {
 speed=5;
 range=10;
+pdamage=1.20;
 damage=random(5000,14000);
-spread=6;
+spread=4;
 wall=true;
 hitsound=false;
 }
@@ -434,6 +478,7 @@ else if(type=="mpt_special_shotgun")
 {
 speed=5;
 range=18;
+pdamage=1;
 damage=random(2000,5000);
 spread=5;
 wall=true;
@@ -443,6 +488,7 @@ else if(type=="mp5machinegun")
 {
 speed=5;
 range=28;
+pdamage=0.15;
 damage=random(1000,2000);
 spread=2;
 wall=true;
@@ -461,6 +507,7 @@ else if(type=="famas_g2")
 {
 speed=5;
 range=40;
+pdamage=0.14;
 damage=random(1000,3000);
 spread=3;
 wall=true;
@@ -470,8 +517,9 @@ else if(type=="k222rifle")
 {
 speed=5;
 range=70;
+pdamage=0.38;
 damage=random(5000,5000);
-spread=5;
+spread=3;
 wall=true;
 hitsound=false;
 }
@@ -479,6 +527,7 @@ else if(type=="p3hunting_shotgun")
 {
 speed=5;
 range=9;
+pdamage=1.30;
 damage=random(8000,12000);
 spread=4;
 wall=true;
@@ -488,6 +537,7 @@ else if(type=="tiny_mg")
 {
 speed=5;
 range=25;
+pdamage=0.14;
 damage=random(1000,1500);
 spread=2;
 wall=true;
@@ -496,7 +546,8 @@ hitsound=false;
 else if(type=="wip")
 {
 speed=5;
-range=8;
+range=5;
+pdamage=0.12;
 damage=random(3000,4000);
 spread=5;
 hitsound=true;
@@ -504,36 +555,40 @@ hitsound=true;
 else if(type=="sword")
 {
 speed=5;
-range=5;
+range=4;
+pdamage=0.30;
 damage=random(5205,9255);
-spread=5;
+spread=3;
 hitsound=true;
 hitsounds=6;
 }
 else if(type=="long_sword")
 {
 speed=5;
-range=7;
+range=6;
+pdamage=0.24;
 damage=random(2000,3000);
-spread=5;
+spread=3;
 hitsound=true;
 hitsounds=3;
 }
 else if(type=="short_sword")
 {
 speed=5;
-range=6;
+range=4;
+pdamage=0.28;
 damage=random(3000,4000);
-spread=5;
+spread=3;
 hitsound=true;
 hitsounds=3;
 }
 else if(type=="blake_sword")
 {
 speed=5;
-range=5;
-damage=random(3000,4000);
-spread=5;
+range=4;
+pdamage=0.30;
+damage=random(8000,9000);
+spread=3;
 hitsound=true;
 hitsounds=4;
 }
@@ -541,8 +596,9 @@ else if(type=="iron_shovel")
 {
 speed=5;
 range=6;
+pdamage=0.20;
 damage=random(400,8000);
-spread=5;
+spread=3;
 hitsound=true;
 hitsounds=3;
 stunning=true;
@@ -552,6 +608,7 @@ else if(type=="b96machinegun")
 {
 speed=5;
 range=35;
+pdamage=0.12;
 damage=random(1000,2000);
 spread=2;
 }
@@ -559,27 +616,31 @@ else if(type=="ump45machinegun")
 {
 speed=5;
 range=20;
+pdamage=0.18;
 damage=random(2000,2000);
-spread=5;
+spread=2;
 }
 else if(type=="tac50rifle")
 {
 speed=5;
 range=2000;
+pdamage=0.75;
 damage=random(8000,10000);
-spread=5;
+spread=2;
 }
 else if(type=="uzi_machinegun")
 {
 speed=5;
 range=23;
+pdamage=0.12;
 damage=random(1000,2400);
-spread=5;
+spread=3;
 }
 else if(type=="kalashnikov_rifle")
 {
 speed=5;
-range=300;
+range=50;
+pdamage=0.42;
 damage=random(500,11000);
 spread=2;
 }
@@ -587,45 +648,51 @@ else if(type=="hook")
 {
 speed=5;
 range=7;
+pdamage=0.05;
 damage=random(600,800);
-spread=5;
+spread=3;
 }
 else if(type=="sp3heavy_machinegun")
 {
 speed=5;
-range=15;
+range=35;
+pdamage=0.17;
 damage=random(3000,4000);
-spread=5;
+spread=3;
 }
 else if(type=="ak9automatic_machinegun")
 {
 speed=5;
 range=50;
+pdamage=0.30;
 damage=random(1500,5000);
-spread=5;
+spread=3;
 wall=false;
 hitsound=true;
 }
 else if(type=="m28mini_machinegun")
 {
 speed=5;
-range=40;
+range=24;
+pdamage=0.16;
 damage=random(300,4000);
-spread=5;
+spread=2;
 }
 else if(type=="m234minigun")
 {
 speed=5;
-range=100;
-damage=random(800,14000);
+range=40;
+pdamage=0.20;
+damage=random(8000,14000);
 spread=5;
 }
 else if(type=="missile_launcher")
 {
 speed=5;
 range=200;
-damage=random(10000,15000);
-spread=5;
+pdamage=0.90;
+damage=random(100000,150000);
+spread=2;
 }
 else if(type=="tsp_grenade_launcher")
 {
@@ -639,35 +706,40 @@ hitsounds=3;
 else if(type=="stp15rifle")
 {
 speed=5;
-range=100;
+range=70;
+pdamage=0.43;
 damage=random(1500,5000);
-spread=5;
+spread=3;
 }
 else if(type=="mb93machinegun")
 {
 speed=5;
-range=85;
+range=25;
+pdamage=0.16;
 damage=random(1000,1500);
-spread=5;
+spread=1;
 }
 else if(type=="sfx12machinegun")
 {
 speed=5;
-range=40;
+range=20;
+pdamage=0.18;
 damage=random(1000,2000);
-spread=5;
+spread=2;
 }
 else if(type=="qt_machinegun")
 {
 speed=5;
 range=30;
+pdamage=0.13;
 damage=random(1000,2400);
-spread=5;
+spread=1;
 }
 else if(type=="dagger")
 {
 speed=5;
 range=1;
+pdamage=0.45;
 damage=random(10000,10000);
 spread=1;
 hitsound=true;
@@ -675,30 +747,34 @@ hitsound=true;
 else if(type=="d23machete")
 {
 speed=5;
-range=8;
+range=5;
+pdamage=0.20;
 damage=random(2000,4000);
-spread=5;
+spread=2;
 hitsound=true;
 hitsounds=3;
 }
 else if(type=="m90machinegun")
 {
 speed=5;
-range=50;
+range=20;
+pdamage=0.20;
 damage=random(3000,4000);
-spread=5;
+spread=2;
 }
 else if(type=="pst500shotgun")
 {
 speed=5;
 range=20;
+pdamage=1;
 damage=random(700,5000);
-spread=5;
+spread=4;
 }
 else if(type=="small_dagger")
 {
 speed=5;
 range=1;
+pdamage=0.52;
 damage=random(7000,8500);
 spread=1;
 hitsound=true;
@@ -708,15 +784,17 @@ else if(type=="stp106_long_barreled_pistol")
 {
 speed=5;
 range=40;
+pdamage=0.20;
 damage=random(2000,3000);
-spread=5;
+spread=3;
 }
 else if(type=="mkv43machinegun")
 {
 speed=5;
 range=30;
+pdamage=0.13;
 damage=random(1000,2200);
-spread=5;
+spread=4;
 }
 else if(type=="rpg_launcher")
 {
@@ -743,7 +821,8 @@ else if(type=="nak_nk1000_decimater")
 {
 speed=5;
 range=50;
-damage=random(3000,4000);
+pdamage=0.23;
+damage=random(8000,9000);
 spread=3;
 hitsound=true;
 hitsounds=3;
@@ -765,14 +844,16 @@ spread=5;
 else if(type=="ar15machinegun")
 {
 speed=5;
-range=35;
+range=25;
+pdamage=0.16;
 damage=random(1500,3000);
-spread=5;
+spread=4;
 }
 else if(type=="crossbow")
 {
 speed=5;
 range=30;
+pdamage=0.20;
 damage=random(1300,5000);
 spread=5;
 hitsound=true;
@@ -781,21 +862,24 @@ hitsounds=2;
 else if(type=="mj420machinegun")
 {
 speed=5;
-range=50;
+range=30;
+pdamage=0.10;
 damage=random(1000,2000);
-spread=5;
+spread=3;
 }
 else if(type=="pcs_handgun")
 {
 speed=5;
-range=30;
+range=25;
+pdamage=0.25;
 damage=random(2000,3000);
-spread=5;
+spread=4;
 }
 else if(type=="ruga22revolver")
 {
 speed=5;
 range=25;
+pdamage=0.28;
 damage=random(3000,4000);
 spread=5;
 }
@@ -803,13 +887,15 @@ else if(type=="mlr_assault_rifle")
 {
 speed=5;
 range=90;
+pdamage=0.47;
 damage=random(3000,4000);
 spread=5;
 }
 else if(type=="chainsaw")
 {
 speed=5;
-range=5;
+range=3;
+pdamage=0.70;
 damage=random(1155,15000);
 spread=2;
 hitsound=true;
@@ -817,7 +903,8 @@ hitsound=true;
 else if(type=="machete")
 {
 speed=5;
-range=8;
+range=5;
+pdamage=0.40;
 damage=random(2000,4000);
 spread=3;
 hitsound=true;
@@ -834,48 +921,55 @@ else if(type=="barett_m1500sniper_rifle")
 {
 speed=5;
 range=150;
+pdamage=0.90;
 damage=random(20000,36000);
 spread=2;
 }
 else if(type=="m16machinegun")
 {
 speed=5;
-range=40;
+range=30;
+pdamage=0.13;
 damage=random(100,2400);
-spread=5;
+spread=4;
 }
 else if(type=="msb530shotgun")
 {
 speed=5;
 range=8;
+pdamage=1.5;
 damage=random(7000,14000);
 spread=5;
 }
 else if(type=="browning_m2heavy_machinegun")
 {
 speed=5;
-range=65;
-damage=random(3000,4000);
+range=35;
+pdamage=0.22;
+damage=random(8000,9000);
 spread=2;
 }
 else if(type=="fn2000pistol")
 {
 speed=5;
-range=40;
+range=20;
+pdamage=0.17;
 damage=random(2000,3500);
 spread=5;
 }
 else if(type=="fnm_pistol")
 {
 speed=5;
-range=35;
+range=25;
+pdamage=0.28;
 damage=random(2000,3000);
 spread=5;
 }
 else if(type=="mlk290rifle")
 {
 speed=5;
-range=160;
+range=60;
+pdamage=0.52;
 damage=random(5000,01000);
 spread=3;
 }
@@ -883,6 +977,7 @@ else if(type=="g36pistol")
 {
 speed=5;
 range=30;
+pdamage=0.20;
 damage=random(2000,3500);
 spread=5;
 }
@@ -890,6 +985,7 @@ else if(type=="gouse_pistol")
 {
 speed=5;
 range=20;
+pdamage=0.47;
 damage=random(4000,5000);
 spread=2;
 }
@@ -897,62 +993,71 @@ else if(type=="lr12pistol")
 {
 speed=5;
 range=35;
+pdamage=0.23;
 damage=random(2600,2700);
-spread=5;
+spread=3;
 }
 else if(type=="m9pistol")
 {
 speed=5;
 range=25;
+pdamage=0.21;
 damage=random(530,4000);
 spread=5;
 }
 else if(type=="m125assault_rifle")
 {
 speed=5;
-range=125;
+range=70;
+pdamage=0.30;
 damage=random(1500,5000);
-spread=5;
+spread=3;
 }
 else if(type=="m152minigun")
 {
 speed=5;
-range=60;
-damage=random(950,1450);
-spread=5;
+range=40;
+pdamage=0.20;
+damage=random(6000,7000);
+spread=1;
 }
 else if(type=="m560sniper_rifle")
 {
 speed=5;
 range=160;
+pdamage=0.82;
 damage=random(10000,30000);
 spread=2;
 }
 else if(type=="mg4machinegun")
 {
 speed=5;
-range=60;
+range=35;
+pdamage=0.18;
 damage=random(1000,1600);
-spread=5;
+spread=2;
 }
 else if(type=="mk_long_machinegun")
 {
 speed=5;
 range=40;
+pdamage=0.09;
 damage=random(700,2000);
-spread=5;
+spread=3;
 }
 else if(type=="mk52assault_rifle")
 {
 speed=5;
-range=140;
+range=70;
+pdamage=0.45;
 damage=random(1500,8000);
-spread=5;
+spread=3;
 }
 else if(type=="mk215machinegun")
 {
 speed=5;
 range=50;
+pdamage=0.43;
 damage=random(200,2500);
 spread=4;
 }
@@ -960,6 +1065,7 @@ else if(type=="ml7rifle")
 {
 speed=5;
 range=150;
+pdamage=0.53;
 damage=random(7000,15000);
 spread=3;
 }
@@ -967,6 +1073,7 @@ else if(type=="ml15rifle")
 {
 speed=5;
 range=200;
+pdamage=0.50;
 damage=random(5000,14000);
 spread=3;
 }
@@ -974,13 +1081,15 @@ else if(type=="s55assault_rifle")
 {
 speed=5;
 range=120;
+pdamage=0.43;
 damage=random(5000,7000);
-spread=5;
+spread=3;
 }
 else if(type=="sp5shotgun")
 {
 speed=5;
 range=13;
+pdamage=1.15;
 damage=random(7000,8000);
 spread=5;
 }
@@ -988,6 +1097,7 @@ else if(type=="sp150shotgun")
 {
 speed=5;
 range=20;
+pdamage=1.03;
 damage=random(5000,6000);
 spread=5;
 }
@@ -995,41 +1105,47 @@ else if(type=="blz5machinegun")
 {
 speed=5;
 range=30;
+pdamage=0.15;
 damage=random(1500,2000);
-spread=5;
+spread=1;
 }
 else if(type=="hk_machinegun")
 {
 speed=5;
 range=25;
+pdamage=0.17;
 damage=random(1000,2000);
-spread=5;
+spread=2;
 }
 else if(type=="m10machinegun")
 {
 speed=5;
 range=45;
+pdamage=0.18;
 damage=random(1000,2500);
-spread=4;
+spread=1;
 }
 else if(type=="mp12machinegun")
 {
 speed=5;
 range=20;
+pdamage=0.17;
 damage=random(3000,4000);
 spread=1;
 }
 else if(type=="m155minigun")
 {
 speed=5;
-range=70;
-damage=random(1050,1600);
-spread=5;
+range=40;
+pdamage=0.20;
+damage=random(1050,16000);
+spread=1;
 }
 else if(type=="s110assault_rifle")
 {
 speed=5;
 range=70;
+pdamage=0.49;
 damage=random(6000,35000);
 spread=3;
 }
@@ -1037,8 +1153,9 @@ else if(type=="str301machinegun")
 {
 speed=5;
 range=40;
+pdamage=0.14;
 damage=random(1500,2000);
-spread=5;
+spread=3;
 }
 else if(type=="grenade")
 {
@@ -1092,8 +1209,9 @@ else if(type=="poison_dagger")
 {
 speed=15;
 range=3;
+pdamage=0.20;
 damage=random(50,90);
-spread=5;
+spread=2;
 }
 else if(type=="stp429")
 {
@@ -1159,6 +1277,7 @@ else if(type=="gas_bottle")
 {
 speed=5;
 range=30;
+pdamage=0.05;
 damage=random(50,190);
 spread=5;
 wall=true;
@@ -1168,6 +1287,7 @@ else if(type=="wood")
 {
 speed=5;
 range=25;
+pdamage=0.01;
 damage=random(30,40);
 spread=5;
 wall=true;
@@ -1177,6 +1297,7 @@ else if(type=="glass")
 {
 speed=5;
 range=40;
+pdamage=0.01;
 damage=random(40,80);
 spread=5;
 wall=true;
@@ -1214,6 +1335,7 @@ else if(type=="empty_bottle")
 {
 speed=5;
 range=15;
+pdamage=0.02;
 damage=random(100,400);
 spread=5;
 wall=true;
@@ -1666,7 +1788,7 @@ hitsound=weapons[i].type+"hit"+random(1,weapons[i].hitsounds);
 }
 send_packet(6,"play "+hitsound+".ogg "+players[x].x+" "+players[x].y+" "+players[x].z, players[x].x,players[x].y,players[x].z,maps[get_map_index(players[x].map)]);
 }
-players[x].health-=weapons[i].damage;
+players[x].health-=weapons[i].pdamage*players[x].maxhealth;
 send_packet(6,"play v"+string_to_number(players[x].voice)+"hit"+random(1,5)+".ogg "+players[x].x+" "+players[x].y+" "+players[x].z,players[x].x,players[x].y,players[x].z,maps[get_map_index(players[x].map)]);
 players[x].statchangetimer.restart();
 }

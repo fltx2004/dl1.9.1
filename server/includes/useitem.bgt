@@ -2178,11 +2178,15 @@ else if(parsed[1]=="grenade")
 {
 if(p.safe==false and is_safe(p.x,p.y,p.z,maps[get_map_index(p.map)])==false and p.afk==false)
 {
+if (p.throwtimer.elapsed>=1000)
+{
 send_packet(6,"play grenadethrow.ogg "+p.x+" "+p.y+" "+p.z, p.x,p.y,p.z,maps[get_map_index(p.map)]);
 string wname=parsed[1];
 spawn_weapon(p.x, p.y, p.z, p.facing, p.ffacing, wname, p, maps[get_map_index(p.map)]);
 p.grenadetimer.restart();
+p.throwtimer.restart();
 p.inv_add_item("grenade", -1);
+}
 }
 }
 if(p.pvp==1 and is_safe(p.x,p.y,p.z,maps[get_map_index(p.map)])==false and p.safe==false)

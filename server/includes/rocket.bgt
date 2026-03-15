@@ -36,16 +36,22 @@ send_packet(6,"play rockethit.ogg "+players[i2].x+" "+players[i2].y+" "+players[
 if(players[i2].shielded==1)
 {
 send_packet(6,"play shieldhit"+random(1,10)+".ogg "+players[i2].x+" "+players[i2].y+" "+players[i2].z, players[i2].x,players[i2].y,players[i2].z,maps[get_map_index(players[i2].map)]);
-players[i2].shieldshots-=random(60,90);
+players[i2].shieldshots-=200;
+players[i2].health-=players[i2].maxhealth;
+send_packet(6,"play v"+string_to_number(players[i2].voice)+"hit"+random(1,5)+".ogg "+players[i2].x+" "+players[i2].y+" "+players[i2].z,players[i2].x,players[i2].y,players[i2].z,maps[get_map_index(players[i2].map)]);
+players[i2].hitby=owner.name+"'s rocket";
 }
 else if(players[i2].steel_shielded==1)
 {
 send_packet(6,"play shieldhit"+random(1,10)+".ogg "+players[i2].x+" "+players[i2].y+" "+players[i2].z, players[i2].x,players[i2].y,players[i2].z,maps[get_map_index(players[i2].map)]);
-players[i2].steel_shieldshots-=random(30,50);
+players[i2].steel_shieldshots-=random(100,150);
+players[i2].health-=players[i2].maxhealth*0.9;
+send_packet(6,"play v"+string_to_number(players[i2].voice)+"hit"+random(1,5)+".ogg "+players[i2].x+" "+players[i2].y+" "+players[i2].z,players[i2].x,players[i2].y,players[i2].z,maps[get_map_index(players[i2].map)]);
+players[i2].hitby=owner.name+"'s rocket";
 }
 else
 {
-players[i2].health-=random(7000, 13000);
+players[i2].health-=players[i2].maxhealth;
 send_packet(6,"play v"+string_to_number(players[i2].voice)+"hit"+random(1,5)+".ogg "+players[i2].x+" "+players[i2].y+" "+players[i2].z,players[i2].x,players[i2].y,players[i2].z,maps[get_map_index(players[i2].map)]);
 players[i2].hitby=owner.name+"'s rocket";
 }

@@ -245,6 +245,7 @@ int sitting=0;
 int pmreceiving=1;
 double level;
 double reinforcement;
+double lastReinforcement = -1.0;
 double xpmaster;
 double xp=0;
 double xprequired=120;
@@ -264,7 +265,7 @@ int persisttime=60000;
 int smartphonecharge=100;
 int smartphonechargetime=300000;
 int smartphoneon=0;
-timer persisttimer, falltimer, activitytimer, spamtimer, playtimer, gettimer, healtimer, timeouttimer, chattimer, maptraveltimer, strtimer, usetimer, statchangetimer, tmchuva, tgripe, stunagaintimer, unstuntrytimer, stunthrowtimer, stuntimer, tvarinha, atpacifistatempo, waitingtimer, tlptimer, eattimer, foodtimer, healthtimer, energytimer, thirsttimer, hungertimer, factortimer, thack, turrettimer, buildtimer, grenadetimer, rltm, firetime, boattimer, tminvs, airwarntimer, airlifetimer, airtimer, burntimer, tasertimer, poisontimer, invisibilitytimer, itemgrabtimer, emergency_itemgrabtimer, tsvida, tsitem, tsugando, speedboosttime, drunkacttimer, drinktimer, drunktimer, whiledrunktimer, coolofftimer, sleeptimer, sitsleeptimer, snaretimer, hurttimer, ffiretimer, gastimer, nuclearbombtimer, watertimer, cbombtimer, tppeixe, tenter, nicktimer, afksecondtimer, safetimer, supersafetimer, idle, tcaverna, newbtimer, tmaquina, biketimer, warptimer, pvptimer, cigarrettetimer, liquidstimer, foodeattimer, invchecktimer, ktimer, tutimer, ewtimer, missiletimer, icptimer, stptimer, smartphonechargetimer, shieldtimer, cheatertimer, lockerplacetimer, fridgeplacetimer, beacontimer, xppotiontimer, finishchallengemaptimer, bonehealtimer, temperaturetime, coldtimer, invincibility_timer, extra_damagetimer;
+timer persisttimer, falltimer, activitytimer, spamtimer, playtimer, gettimer, healtimer, timeouttimer, chattimer, maptraveltimer, strtimer, usetimer, statchangetimer, tmchuva, tgripe, stunagaintimer, unstuntrytimer, stunthrowtimer, stuntimer, tvarinha, atpacifistatempo, waitingtimer, tlptimer, eattimer, foodtimer, healthtimer, energytimer, thirsttimer, hungertimer, factortimer, thack, turrettimer, buildtimer, grenadetimer, rltm, firetime, boattimer, tminvs, airwarntimer, airlifetimer, airtimer, burntimer, tasertimer, poisontimer, invisibilitytimer, itemgrabtimer, emergency_itemgrabtimer, tsvida, tsitem, tsugando, speedboosttime, drunkacttimer, drinktimer, drunktimer, whiledrunktimer, coolofftimer, sleeptimer, sitsleeptimer, snaretimer, hurttimer, ffiretimer, gastimer, nuclearbombtimer, watertimer, cbombtimer, tppeixe, tenter, nicktimer, afksecondtimer, safetimer, supersafetimer, idle, tcaverna, newbtimer, tmaquina, biketimer, warptimer, pvptimer, cigarrettetimer, liquidstimer, foodeattimer, invchecktimer, ktimer, tutimer, ewtimer, missiletimer, icptimer, stptimer, smartphonechargetimer, shieldtimer, cheatertimer, lockerplacetimer, fridgeplacetimer, beacontimer, xppotiontimer, finishchallengemaptimer, bonehealtimer, temperaturetime, coldtimer, invincibility_timer, extra_damagetimer, throwtimer;
 int temperaturelevel=25;
 string temperature;
 string firesound, reloadsound, distsound, emptysound;
@@ -356,6 +357,11 @@ if(hidden>0) is_dead=true;
 }
 void loop(int i)
 	{
+if (reinforcement != lastReinforcement) 
+{
+maxhealth = reinforcement * 200 + 10000;
+lastReinforcement = reinforcement;
+}
 if (xp>=xprequired)
 {
 double quantity=0;
