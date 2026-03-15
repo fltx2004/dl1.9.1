@@ -460,17 +460,17 @@ spawn_pautomatic_travelpoint(string_to_number(parsed[1]),string_to_number(parsed
 else if(parsed[0]=="icautomatic_travelpoint" and parsed.length()>=17)
 {
 if(string_to_number(parsed[1])<min.x or string_to_number(parsed[1])>max.x or string_to_number(parsed[2])<min.x or string_to_number(parsed[2])>max.x or string_to_number(parsed[3])<min.y or string_to_number(parsed[3])>max.y or string_to_number(parsed[4])<min.y or string_to_number(parsed[4])>max.y or string_to_number(parsed[5])<min.z or string_to_number(parsed[5])>max.z or string_to_number(parsed[6])<min.z or string_to_number(parsed[6])>max.z) continue;
-spawn_icautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],string_to_number(parsed[12]),string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
+spawn_icautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],parsed[12],string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
 }
 else if(parsed[0]=="itautomatic_travelpoint" and parsed.length()>=17)
 {
 if(string_to_number(parsed[1])<min.x or string_to_number(parsed[1])>max.x or string_to_number(parsed[2])<min.x or string_to_number(parsed[2])>max.x or string_to_number(parsed[3])<min.y or string_to_number(parsed[3])>max.y or string_to_number(parsed[4])<min.y or string_to_number(parsed[4])>max.y or string_to_number(parsed[5])<min.z or string_to_number(parsed[5])>max.z or string_to_number(parsed[6])<min.z or string_to_number(parsed[6])>max.z) continue;
-spawn_itautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],string_to_number(parsed[12]),string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
+spawn_itautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],parsed[12],string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
 }
 else if(parsed[0]=="igautomatic_travelpoint" and parsed.length()>=17)
 {
 if(string_to_number(parsed[1])<min.x or string_to_number(parsed[1])>max.x or string_to_number(parsed[2])<min.x or string_to_number(parsed[2])>max.x or string_to_number(parsed[3])<min.y or string_to_number(parsed[3])>max.y or string_to_number(parsed[4])<min.y or string_to_number(parsed[4])>max.y or string_to_number(parsed[5])<min.z or string_to_number(parsed[5])>max.z or string_to_number(parsed[6])<min.z or string_to_number(parsed[6])>max.z) continue;
-spawn_igautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],string_to_number(parsed[12]),string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
+spawn_igautomatic_travelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],parsed[12],string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
 }
 else if(parsed[0]=="travelpoint" and parsed.length()>=15)
 {
@@ -490,12 +490,12 @@ spawn_ictravelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), st
 else if(parsed[0]=="ittravelpoint" and parsed.length()>=17)
 {
 if(string_to_number(parsed[1])<min.x or string_to_number(parsed[1])>max.x or string_to_number(parsed[2])<min.x or string_to_number(parsed[2])>max.x or string_to_number(parsed[3])<min.y or string_to_number(parsed[3])>max.y or string_to_number(parsed[4])<min.y or string_to_number(parsed[4])>max.y or string_to_number(parsed[5])<min.z or string_to_number(parsed[5])>max.z or string_to_number(parsed[6])<min.z or string_to_number(parsed[6])>max.z) continue;
-spawn_ittravelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],string_to_number(parsed[12]),string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
+spawn_ittravelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],parsed[12],string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
 }
 else if(parsed[0]=="igtravelpoint" and parsed.length()>=17)
 {
 if(string_to_number(parsed[1])<min.x or string_to_number(parsed[1])>max.x or string_to_number(parsed[2])<min.x or string_to_number(parsed[2])>max.x or string_to_number(parsed[3])<min.y or string_to_number(parsed[3])>max.y or string_to_number(parsed[4])<min.y or string_to_number(parsed[4])>max.y or string_to_number(parsed[5])<min.z or string_to_number(parsed[5])>max.z or string_to_number(parsed[6])<min.z or string_to_number(parsed[6])>max.z) continue;
-spawn_igtravelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],string_to_number(parsed[12]),string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
+spawn_igtravelpoint(string_to_number(parsed[1]), string_to_number(parsed[2]), string_to_number(parsed[3]), string_to_number(parsed[4]), string_to_number(parsed[5]), string_to_number(parsed[6]), parsed[7], string_to_number(parsed[8]),string_to_number(parsed[9]),string_to_number(parsed[10]),parsed[11],parsed[12],string_to_number(parsed[13]),parsed[14],parsed[15],parsed[16]);
 }
 else if(parsed[0]=="checkpoint" and parsed.length()>=3)
 {
