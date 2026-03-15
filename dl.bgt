@@ -13844,7 +13844,7 @@ send_reliable(peer_id,"iamdmoving "+icdoors[i].ds2,0);
 }
 else
 {
-speak("not inuff "+icdoors[i].item+", you need "+icdoors[i].amount+" "+icdoors[i].item+"");
+speak("not enough "+icdoors[i].item+", you need "+icdoors[i].amount+" "+icdoors[i].item+"");
 }
 }
 }
